@@ -95,6 +95,15 @@ Route::prefix('admin')->group(function(){
     // Subscribes
     Route::get('/subscribes', 'Admin\SubscribeController@index')->name('admin.subscribes.index');
     Route::get('/subscribe-downloads', 'Admin\SubscribeController@download')->name('admin.subscribes.download');
+
+    // News & Blogs
+    Route::get('/blog', 'Admin\BlogController@index')->name('admin.blog.index');
+    Route::get('/blog/create', 'Admin\BlogController@create')->name('admin.blog.create');
+    Route::post('/blog/store', 'Admin\BlogController@store')->name('admin.blog.store');
+    Route::get('/blog/edit/{id}', 'Admin\BlogController@edit')->name('admin.blog.edit');
+    Route::post('/blog/update', 'Admin\BlogController@update')->name('admin.blog.update');
+    Route::post('/blog/delete', 'Admin\BlogController@destroy')->name('admin.blog.destroy');
 });
 
 Route::get('/datatable/contact-message', 'Admin\ContactMessageController@getIndex')->name('datatables.contact-message');
+Route::get('/datatable/blogs', 'Admin\BlogController@getIndex')->name('datatables.blog');

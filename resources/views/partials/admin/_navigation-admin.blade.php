@@ -20,26 +20,37 @@
                         </div>
                     </div>
                     <div class="clearfix"></div>
-                    <div class="collapse multi-collapse" id="userSettingsCollapse">
-                        <div class="list-group mt-3 shadow">
-                            <a href="#" class="list-group-item list-group-item-action ">
-                                <i class="mr-2 icon-umbrella text-blue"></i>Profile
-                            </a>
-                            <a href="#" class="list-group-item list-group-item-action">
-                                <i class="mr-2 icon-cogs text-yellow"></i>Settings
-                            </a>
-                            <a href="#" class="list-group-item list-group-item-action">
-                                <i class="mr-2 icon-security text-purple"></i>Change Password
-                            </a>
-                        </div>
-                    </div>
+{{--                    <div class="collapse multi-collapse" id="userSettingsCollapse">--}}
+{{--                        <div class="list-group mt-3 shadow">--}}
+{{--                            <a href="#" class="list-group-item list-group-item-action ">--}}
+{{--                                <i class="mr-2 icon-umbrella text-blue"></i>Profile--}}
+{{--                            </a>--}}
+{{--                            <a href="#" class="list-group-item list-group-item-action">--}}
+{{--                                <i class="mr-2 icon-cogs text-yellow"></i>Settings--}}
+{{--                            </a>--}}
+{{--                            <a href="#" class="list-group-item list-group-item-action">--}}
+{{--                                <i class="mr-2 icon-security text-purple"></i>Change Password--}}
+{{--                            </a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
                 </div>
             </div>
             <ul class="sidebar-menu">
-                <li class="treeview">
-                    <a href="{{ route('admin.contact-messages.index') }}">
-                        <i class="fa fa-file-text"></i>&nbsp;&nbsp;&nbsp;Contact Us
+{{--                <li>--}}
+{{--                    <a href="{{ route('admin.contact-messages.index') }}">--}}
+{{--                        <i class="fa fa-file-text"></i>&nbsp;&nbsp;&nbsp;Contact Us--}}
+{{--                    </a>--}}
+{{--                </li>--}}
+                <li class="treeview"><a href="#">
+                        <i class="icon icon-newspaper purple-text s-18"></i> <span>News & Blog</span> <i
+                                class="icon icon-angle-left s-18 pull-right"></i>
                     </a>
+                    <ul class="treeview-menu">
+                        <li><a href="{{ route('admin.blog.index') }}"><i class="icon icon-list"></i>Daftar News</a>
+                        </li>
+                        <li><a href="{{ route('admin.blog.create') }}"><i class="icon icon-plus"></i>Buat News Baru</a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </section>

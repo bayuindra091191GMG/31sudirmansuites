@@ -2,7 +2,7 @@
 
 /**
  * Created by Reliese Model.
- * Date: Sat, 06 Apr 2019 12:57:23 +0000.
+ * Date: Sat, 06 Apr 2019 12:57:16 +0000.
  */
 
 namespace App\Models;
@@ -10,28 +10,22 @@ namespace App\Models;
 use Reliese\Database\Eloquent\Model as Eloquent;
 
 /**
- * Class Status
+ * Class Category
  * 
  * @property int $id
- * @property string $description
+ * @property string $name
  * 
- * @property \Illuminate\Database\Eloquent\Collection $admin_users
  * @property \Illuminate\Database\Eloquent\Collection $blogs
  *
  * @package App\Models
  */
-class Status extends Eloquent
+class Category extends Eloquent
 {
 	public $timestamps = false;
 
 	protected $fillable = [
-		'description'
+		'name'
 	];
-
-	public function admin_users()
-	{
-		return $this->hasMany(\App\Models\AdminUser::class);
-	}
 
 	public function blogs()
 	{
