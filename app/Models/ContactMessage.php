@@ -15,7 +15,8 @@ use Reliese\Database\Eloquent\Model as Eloquent;
  * @property int $id
  * @property string $name
  * @property string $email
- * @property string $subject
+ * @property string $phone
+ * @property string $address
  * @property string $message
  * @property \Carbon\Carbon $created_at
  *
@@ -27,7 +28,8 @@ class ContactMessage extends Eloquent
 	protected $fillable = [
 		'name',
 		'email',
-		'subject',
+		'phone',
+		'address',
 		'message',
 		'created_at'
 	];

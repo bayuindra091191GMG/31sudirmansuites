@@ -32,6 +32,9 @@ Route::get('/clear', function() {
 
 Route::get('/', 'Frontend\HomeController@index')->name('home');
 Route::get('/ourway', 'Frontend\HomeController@ourway')->name('frontend.ourway');
+Route::get('/apartments', 'Frontend\HomeController@apartments')->name('frontend.apartments');
+Route::get('/hotel', 'Frontend\HomeController@hotel')->name('frontend.hotel');
+Route::get('/news', 'Frontend\HomeController@news')->name('frontend.news');
 Route::get('/ecosystem', 'Frontend\HomeController@ecosystem')->name('frontend.ecosystem');
 Route::get('/credentials', 'Frontend\HomeController@credentials')->name('frontend.credentials');
 Route::get('/district', 'Frontend\HomeController@district')->name('frontend.district');

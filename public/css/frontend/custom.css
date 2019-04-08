@@ -18,6 +18,22 @@
     background-color: #292929;
 }
 
+.bg-custom-brown{
+    background-color: #654234;
+}
+
+.bg-custom-light-brown{
+    background-color: #a36348;
+}
+
+.text-custom-brown{
+    color: #664234;
+}
+
+.text-custom-light-brown{
+    color: #a36348;
+}
+
 .wrap-header-mobile{
     background-color: #fff !important;
 }
@@ -39,6 +55,13 @@
     font-weight: bold;
     color: #000 !important;
 }
+
+.menu-font-style2{
+    font-size: 12px !important;
+    font-weight: bold;
+    color: #a36348 !important;
+}
+
 
 #header-sticky .wrap-menu-desktop{
     top: 0 !important;

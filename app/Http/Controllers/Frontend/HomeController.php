@@ -30,6 +30,21 @@ class HomeController extends Controller
         return view('frontend.home');
     }
 
+    public function apartments()
+    {
+        return view('frontend.apartments');
+    }
+    
+    public function hotel()
+    {
+        return view('frontend.hotel');
+    }
+
+    public function news()
+    {
+        return view('frontend.news');
+    }
+
     public function ourway()
     {
         return view('frontend.ourway');

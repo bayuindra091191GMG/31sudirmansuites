@@ -61,36 +61,40 @@
 
         <!-- Header desktop STICKY -->
         <nav class="container-header-desktop" id="header-sticky">
-            <div class="wrap-menu-desktop">
+            <div class="wrap-menu-desktop" style="background-color: rgba(0,0,0,0.4)">
                 <div class="limiter-menu-desktop container">
-                    <!-- Logo desktop -->
+                <!-- Logo desktop -->
                     <div class="logo">
-                        <a href="{{ route('home') }}"><img src="{{ asset('images/salt/SALT-Website-36.png') }}" alt="LOGO" style="width: 100px; height: auto;"></a>
+                        <a href="{{ route('home') }}"><img src="{{ asset('images/31ss/Website1-05.png') }}" alt="LOGO" style="width: auto; height: auto;"></a>
                     </div>
+                </div>
+                <div class="limiter-menu-desktop container">
+                    
 
                     <!-- Menu desktop -->
                     <div class="menu-desktop">
                         <ul class="main-menu respon-sub-menu">
                             <li>
-                                <a class="custom-font-1 menu-font-style" href="{{ route('home') }}">HOME</a>
+                                <a class="custom-font-1 menu-font-style2" href="{{ route('home') }}">HOME</a>
                             </li>
                             <li>
-                                <a class="custom-font-1 menu-font-style" href="{{ route('frontend.ourway') }}">OUR WAY</a><i class="fa fa-chevron-down"></i></a>
-                                <ul class="sub-menu" style="z-index:9999;">
-                                        {{-- <li><a href="{{ route('frontend.paul.introduction') }}" class="custom-font-1">PAUL MARC</a></li> --}}
-                                        {{-- <li><a href="#" class="custom-font-1 disabled-link">Our Creative Ecosystem</a></li> --}}
+                                <a class="custom-font-1 menu-font-style2" href="{{ route('frontend.apartments') }}">APARTMENTS</a>
+                                {{-- <i class="fa fa-chevron-down"></i></a> --}}
+                                {{-- <ul class="sub-menu" style="z-index:9999;">
+                                        <li><a href="{{ route('frontend.paul.introduction') }}" class="custom-font-1">PAUL MARC</a></li>
+                                        <li><a href="#" class="custom-font-1 disabled-link">Our Creative Ecosystem</a></li>
                                         <li><a href="#" class="custom-font-1 disabled-link"></a></li>
-                                    </ul>
+                                    </ul> --}}
                             </li>
                             <li>
-                                <a class="custom-font-1 menu-font-style" href="{{ route('frontend.ecosystem') }}">ECOSYSTEM</a>
+                                <a class="custom-font-1 menu-font-style2" href="{{ route('frontend.hotel') }}">HOTEL</a>
                             </li>
                             <li>
-                                <a class="custom-font-1 menu-font-style" href="{{ route('frontend.partners.mainpartners') }}">PARTNERS</a>
+                                <a class="custom-font-1 menu-font-style2" href="{{ route('frontend.news') }}">NEWS</a>
                             </li>
 
                             <li>
-                                <a class="custom-font-1 menu-font-style" href="{{ route('frontend.credentials') }}" >CREDENTIALS</a>
+                                <a class="custom-font-1 menu-font-style2" href="{{ route('frontend.contact_us') }}" >CONTACT US</a>
                             </li>
                         </ul>
                     </div>
@@ -123,24 +127,25 @@
                 </li>
 
                 <li>
-                        <a class="custom-font-1 menu-font-style" href="{{ route('frontend.ourway') }}">OUR WAY</a><i class="fa fa-chevron-down"></i></a>
-                        <ul class="sub-menu" style="z-index:9999;">
-                                {{-- <li><a href="{{ route('frontend.paul.introduction') }}" class="custom-font-1">PAUL MARC</a></li> --}}
-                                {{-- <li><a href="#" class="custom-font-1 disabled-link">Our Creative Ecosystem</a></li> --}}
+                        <a class="custom-font-1 menu-font-style2" href="{{ route('frontend.apartments') }}">APARTMENTS</a>
+                        {{-- <i class="fa fa-chevron-down"></i></a> --}}
+                        {{-- <ul class="sub-menu" style="z-index:9999;">
+                                <li><a href="{{ route('frontend.paul.introduction') }}" class="custom-font-1">PAUL MARC</a></li>
+                                <li><a href="#" class="custom-font-1 disabled-link">Our Creative Ecosystem</a></li>
                                 <li><a href="#" class="custom-font-1 disabled-link"></a></li>
-                            </ul>
+                            </ul> --}}
                     </li>
 
                 <li>
-                    <a class="custom-font-1 text-white" href="{{ route('frontend.ecosystem') }}">ECOSYSTEM</a>
+                    <a class="custom-font-1 menu-font-style2" href="{{ route('frontend.hotel') }}">HOTEL</a>
                 </li>
 
                 <li>
-                    <a class="custom-font-1 text-white" href="{{ route('frontend.partners.mainpartners') }}">PARTNERS</a>
+                    <a class="custom-font-1 menu-font-style2" href="{{ route('frontend.news') }}">NEWS</a>
                 </li>
 
                 <li>
-                    <a class="custom-font-1 text-white" href="{{ route('frontend.credentials') }}">CREDENTIALS</a>
+                    <a class="custom-font-1 menu-font-style2" href="{{ route('frontend.contact_us') }}">CONTACT US</a>
                 </li>
 
                 {{--<li>--}}
