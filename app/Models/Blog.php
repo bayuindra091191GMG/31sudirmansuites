@@ -7,6 +7,7 @@
 
 namespace App\Models;
 
+use Carbon\Carbon;
 use Reliese\Database\Eloquent\Model as Eloquent;
 
 /**
@@ -52,6 +53,14 @@ class Blog extends Eloquent
 		'created_by',
 		'updated_by'
 	];
+
+	protected $appends = [
+	    'created_at_formatted'
+    ];
+
+    public function getCreatedAtFormattedAttribute(){
+        return Carbon::parse($this->attributes['created_at'])->format('d M Y');
+    }
 
 	public function category()
 	{

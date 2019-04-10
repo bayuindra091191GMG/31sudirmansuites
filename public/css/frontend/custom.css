@@ -26,12 +26,16 @@
     background-color: #a36348;
 }
 
+.bg-custom-dark-blue{
+    background-color: #1c242e;
+}
+
 .text-custom-brown{
     color: #664234;
 }
 
 .text-custom-light-brown{
-    color: #a36348;
+    color: #c38b63;
 }
 
 .wrap-header-mobile{
@@ -63,15 +67,17 @@
 }
 
 
-#header-sticky .wrap-menu-desktop{
+/* HEADER OVERRIDE */
+.wrap-menu-desktop{
     top: 0 !important;
+    position: relative;
 }
 
-#header-sticky{
+.container-header-desktop{
     height: 100px;
 }
 
-#header-sticky .fix-menu-desktop{
+.fix-menu-desktop{
     height: 100px;
 }
 

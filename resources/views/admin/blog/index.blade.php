@@ -1,12 +1,16 @@
 @extends('layouts.admin')
 
+@section('title')
+    <title>BACKEND - Daftar Artikel</title>
+@endsection
+
 @section('content')
 
     <header class="blue accent-3 relative nav-sticky">
         <div class="container-fluid text-white">
             <div class="row p-t-b-10 ">
                 <div class="col">
-                    <h4> <i class="fa fa-table"></i> News and Blogs</h4>
+                    <h4> <i class="fa fa-table"></i> Daftar Artikel </h4>
                 </div>
             </div>
         </div>
@@ -15,10 +19,26 @@
     <div class="content-wrapper animatedParent animateOnce">
         <div class="container">
             <section class="paper-card">
+                @if(\Illuminate\Support\Facades\Session::has('message'))
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <div role="alert" class="alert alert-success">
+                            {{ \Illuminate\Support\Facades\Session::get('message') }}
+                        </div>
+                    </div>
+                </div>
+                @endif
+                <div class="row mb-3">
+                    <div class="col-12 text-right">
+                        <a href="{{ route('admin.blog.create') }}" class="btn btn-success">
+                            <i class="fa fa-plus"></i>&nbsp;Buat Artikel Baru
+                        </a>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-lg-12">
                         @include('partials.admin._messages')
-                        <table id="category" class="table table-striped table-bordered dt-responsive">
+                        <table id="news-table" class="table table-striped table-bordered dt-responsive">
                             <thead>
                             <tr>
                                 <th>Judul</th>
@@ -46,7 +66,7 @@
     <script src="{{ asset('js/datatables.js') }}"></script>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
     <script>
-        $('#category').DataTable({
+        $('#news-table').DataTable({
             processing: true,
             serverSide: true,
             pageLength: 25,

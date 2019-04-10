@@ -36,19 +36,19 @@
                 </div>
             </div>
             <ul class="sidebar-menu">
-{{--                <li>--}}
-{{--                    <a href="{{ route('admin.contact-messages.index') }}">--}}
-{{--                        <i class="fa fa-file-text"></i>&nbsp;&nbsp;&nbsp;Contact Us--}}
-{{--                    </a>--}}
-{{--                </li>--}}
+                <li class="treeview">
+                    <a href="{{ route('admin.dashboard') }}">
+                        <i class="icon icon-dashboard2 purple-text s-18"></i> <span>Dashboard</span>
+                    </a>
+                </li>
                 <li class="treeview"><a href="#">
-                        <i class="icon icon-newspaper purple-text s-18"></i> <span>News & Blog</span> <i
+                        <i class="icon icon-newspaper purple-text s-18"></i> <span>Artikel</span> <i
                                 class="icon icon-angle-left s-18 pull-right"></i>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href="{{ route('admin.blog.index') }}"><i class="icon icon-list"></i>Daftar News</a>
+                        <li><a href="{{ route('admin.blog.index') }}"><i class="icon icon-list"></i>Daftar Artikel</a>
                         </li>
-                        <li><a href="{{ route('admin.blog.create') }}"><i class="icon icon-plus"></i>Buat News Baru</a>
+                        <li><a href="{{ route('admin.blog.create') }}"><i class="icon icon-plus"></i>Buat Artikel Baru</a>
                         </li>
                     </ul>
                 </li>
