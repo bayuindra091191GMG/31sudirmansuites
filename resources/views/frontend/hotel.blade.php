@@ -6,8 +6,9 @@
     <meta name="keywords" content="Property, Office, Residence, Apartment, House">
 
     <title>31 SUDIRMAN SUITES - HOTEL</title>
+@endsection
 
-
+@section('content')
     <section class="mt-3 bg-0 flex-wr-s-st m-b-15-sr991">
                 <div class="col-md-12 size-a-18 respon-3 header-img" style="background-image: url('{{ asset('images/31ss/hotel/website33.jpg') }}');
                     background-repeat: no-repeat;
@@ -111,7 +112,7 @@
             </div>
         </div>
     </section>
-    <section class="mt-5">
+    <section class="my-5 pb-5">
         <div class="container">
             <div class="row px-5 mx-5">
                 <div class="col-4" style="background-image: url('{{ asset('images/31ss/hotel/website36.jpg') }}');
