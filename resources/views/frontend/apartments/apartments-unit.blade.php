@@ -5,7 +5,7 @@
     <meta name="author" content="PT. Generasi Muda Gigih">
     <meta name="keywords" content="Property, Office, Residence, Apartment, House">
 
-    <title>APARTMENTS - UNIT PLAN</title>
+    <title>APARTMENTS - UNIT</title>
 @endsection
 
 @section('content')

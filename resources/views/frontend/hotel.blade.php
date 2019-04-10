@@ -35,7 +35,7 @@
                         background-size: contain;
                         height: 80px;">
                     </div>
-                    <div class="pl-5 pt-5 pb-5 mb-1" style="font-size: 12px;">
+                    <div class="pl-5 pt-5 pb-5 mb-1 " style="font-size: 13px;">
                         <p>The first-ever Hyatt Place Hotel in Indonesia will rise elegantly beside the<br/>
                             captivating 31 Sudirman Suites. The direct and easy access to the Hyatt<br/>
                             Place’s world-class amenities, leads 31 Sudirman Suites into luxurious yet<br/>

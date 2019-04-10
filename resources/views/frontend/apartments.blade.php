@@ -16,7 +16,10 @@
             background-position: center;
             background-size: contain;
             height: 400px;">
-        </div>      
+                <div class="d-flex justify-content-center flex-column text-center">
+                    <span>APARTMENTS</span>
+                </div>
+        </div>
 </section>
 
 {{-- <div class="container">

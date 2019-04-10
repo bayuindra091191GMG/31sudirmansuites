@@ -28,28 +28,46 @@
                         </div>
                         <div class="col-md-4 col-12 text-center text-md-left p-l-100">
                             <span class="t1-m-1 text-white">Contact Info</span><br/><br/>
-                            <span class="t1-m-1 text-white pb-5 mb-5">Email :</span><br/><br/>
-                            <span class="t1-m-1 text-white pb-5 mb-5">Phone :</span><br/><br/>
+                            <span class="t1-m-1 text-white">Email :</span><br/><br/>
+                            <span class="t1-m-1 text-white">Phone :</span><br/><br/>
                             <span class="t1-m-1 text-white">Fax :</span><br/><br/>
                         </div>   
                     </div>
                 </div>
             </div>
-            <div class="row pt-5">
-                <div class="col text-center">
-                    <a href="#">
-                        <img src="{{ asset('images/31ss/socmed.jpg') }}" width="800">
+            <div class="row d-flex py-5 mx-auto">
+                <div class="col-1 col-md-1"></div>
+                <div class="col-3 col-md-2 border pbox2 d-flex justify-content-center flex-column text-center" style="display:inline-block">
+                    <a href="https://www.facebook.com/">
+                        <img src="{{ asset('images/31ss/Website1-28.png') }}" height="15">
+                        <span class="text-white" style="font-size:12px;"> Facebook</span>
                     </a>
-                    <br/>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-2"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
+                <div class="col-3 col-md-2 border pbox2 d-flex justify-content-center flex-column text-center" style="display:inline-block">
+                    <a href="https://twitter.com/">
+                        <img src="{{ asset('images/31ss/Website1-29.png') }}" height="15">
+                        <span class="text-white" style="font-size:12px;"> Twitter</span>
+                    </a>
+                </div>
+                <div class="col-3 col-md-2 border pbox2 d-flex justify-content-center flex-column text-center" style="display:inline-block">
+                    <a href="https://plus.google.com/">
+                        <img src="{{ asset('images/31ss/Website1-30.png') }}" height="15">
+                        <span class="text-white" style="font-size:12px;"> Google plus</span>
+                    </a>
+                </div>
+                <div class="col-3 col-md-2 border pbox2 d-flex justify-content-center flex-column text-center" style="display:inline-block">
+                    <a href="https://www.linkedin.com/">
+                        <img src="{{ asset('images/31ss/Website1-31.png') }}" height="15">
+                        <span class="text-white" style="font-size:12px;"> linkedin</span>
+                    </a>
+                </div>
+                <div class="col-3 col-md-2 border pbox2 d-flex justify-content-center flex-column text-center" style="display:inline-block">
+                    <a href="https://www.pinterest.com/">
+                        <img src="{{ asset('images/31ss/Website1-32.png') }}" height="15">
+                        <span class="text-white" style="font-size:12px;"> Pinterest</span> 
+                    </a>
+                </div>
+                <div class="col-1 col-md-1"></div>
             </div>
         </div>
     </div>

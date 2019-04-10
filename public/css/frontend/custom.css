@@ -164,3 +164,8 @@
 .pbox {
     height: 150px;
 }
+
+.pbox2 {
+    height: 60px;
+    width: auto;
+}
