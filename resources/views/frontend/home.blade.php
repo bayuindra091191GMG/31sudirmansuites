@@ -12,13 +12,13 @@
 
     <!-- Banner -->
 
-    <section class="slider mb-5" style="margin-top:-100px;">
+    <section class="slider" style="margin-top:-100px;">
         <div class="rev_slider_wrapper fullwidthbanner-container">
             <div id="rev_slider_1" class="rev_slider fullwidthabanner" data-version="5.4.5" style="display:none;">
                 <ul>
                     <!-- Slide 1 -->
                     <li data-transition="slidingoverlayhorizontal">
-                        <img src="{{ asset('images/31ss/home/Website1-05.jpg') }}" alt="IMG-SLIDE" class="rev-slidebg" style="height: 5000px;">
+                        <img src="{{ asset('images/31ss/home/Website1-05.jpg') }}" alt="IMG-SLIDE" class="rev-slidebg" style="height: 500px;">
 
                         {{--<h2 class="tp-caption tp-resizeme caption-1 text-uppercase" --}}
                         {{--data-frames='[{"delay":500,"speed":1500,"frame":"0","from":"x:left;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'--}}
@@ -105,12 +105,12 @@
             <div class="row justify-content-center">
                 <div class="col-2"></div>
                 <div class="col-3 text-center">
-                    <span class="text-custom-light-brown font-italic" style="font-size: 30px;">The Vision</span>
+                    <span class="t1-m-1 text-custom-light-brown font-italic" style="font-size: 30px;">The Vision</span>
                     <br/>
                 </div>
                 <div class="col-4 text-center text-md-left">
-                    <span class="text-custom-light-brown">A Beautiful legacy</span><br/>
-                    <span style="font-size: 9px;">Our vision is to deliver a beautiful legacy you can savor with your loved ones and
+                    <span class="text-custom-light-brown font-weight-bold" style="font-size: 15px;">A Beautiful legacy</span><br/>
+                    <span style="font-size: 10px;">Our vision is to deliver a beautiful legacy you can savor with your loved ones and
                         to design the life of luxury you deserve in this city that you love.</span>
                 </div>
                 <div class="col-2"></div>
@@ -195,31 +195,31 @@
                     <div class="row d-none d-md-block">
                         <div class="col-12 pt-4">
                             <div class="five-slider align-content-center">
-                                <div><span class="text-white">At The Center of It All</span>
+                                <div><span class="t1-m-1 font-italic text-custom-light-brown">At The Center of It All</span>
                                     <p><span class="text-white">Location on the heart of Makassar city at Jalan Jendral Sudirman 31, experience<br/>
                                             prestigious living in the most spacious, most luxurious, and most exclusive<br/>
                                             development at the center of it all.</span>
                                     </p>    
                                 </div>
-                                <div><span class="text-white">Lorem ipsum 2</span>
+                                <div><span class="t1-m-1 font-italic text-custom-light-brown">Lorem ipsum 2</span>
                                     <p><span class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, reiciendis.<br/>
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, quidem!<br/>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, deserunt!</span>
                                     </p>    
                                 </div>
-                                <div><span class="text-white">Lorem ipsum 3</span>
+                                <div><span class="t1-m-1 font-italic text-custom-light-brown">Lorem ipsum 3</span>
                                     <p><span class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, reiciendis.<br/>
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, quidem!<br/>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, deserunt!</span>
                                     </p>    
                                 </div>
-                                <div><span class="text-white">Lorem ipsum 4</span>
+                                <div><span class="t1-m-1 font-italic text-custom-light-brown">Lorem ipsum 4</span>
                                     <p><span class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, reiciendis.<br/>
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, quidem!<br/>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, deserunt!</span>
                                     </p>    
                                 </div>
-                                <div><span class="text-white">Lorem ipsum </span>
+                                <div><span class="t1-m-1 font-italic text-custom-light-brown">Lorem ipsum 5 </span>
                                     <p><span class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, reiciendis.<br/>
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, quidem!<br/>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, deserunt!</span>
@@ -233,11 +233,11 @@
         </div>
     </section>
 
-    <section class="px-5 py-5 mx-3">
+    <section class="py-5 px-5">
         <div class="container">
-            <div class="row px-5 py-2">
+            <div class="py-2">
                 <div class="col-12">
-                    <div class="w-100 bg-approach-1-responsive" style="background-image: url('{{ asset('images/31ss/home/surroundingarea.png') }}');
+                    <div class="w-100 bg-approach-1-responsive" style="background-image: url('{{ asset('images/31ss/home/31ss-02.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: center;
                             background-size: contain;
@@ -272,11 +272,96 @@
             </div> --}}
         </div>    
     </section>
+        <div class="pb-5 mb-5" style="background-color: #292929">
             <div class="row">
-                <div class="col-12 justify-content-center text-center mb-5">
-                        <img src="{{ asset('images/31ss/home/bythose.PNG') }}">
+                <div class="col-12 text-center pt-5 pb-4">
+                        {{-- <img src="{{ asset('images/31ss/home/bythose.PNG') }}"> --}}
+                    <span class= "text-custom-light-brown font-italic t1-m-1" style="font-size: 20px;">By those who know them best</span>
                 </div>
             </div>
+            <div class="row pb-3">
+                <div class="col-3"></div>
+                <div class="col text-center font-weight-bold">
+                    <span class="text-white">Developed by</span>
+                </div>
+                <div class="col text-center font-weight-bold">
+                    <span class="text-white">Hotel Management by</span>
+                </div>
+                <div class="col text-center font-weight-bold">
+                    <span class="text-white">Designed by</span>
+                </div>
+                <div class="col-3"></div>
+            </div>
+            <div class="row pb-3">
+                <div class="col-3"></div>
+                <div class="col text-center">
+                    <img src="{{ asset('images/31ss/home/Website1-16.png') }}" alt="IMG" style="width:100px;" class="img-fluid"> 
+                </div>
+                    <div class="col text-center pt-1">
+                    <img src="{{ asset('images/31ss/home/Website1-17.png') }}" alt="IMG" style="width:120px;" class="img-fluid">
+                </div>
+                <div class="col text-center">
+                    <img src="{{ asset('images/31ss/home/Website1-18.png') }}" alt="IMG" style="width:100px;" class="img-fluid">
+                </div>
+                <div class="col-3"></div>
+            </div>
+            <div class="row py-3">
+                <div class="col-12 text-center">
+                    <span class= "text-custom-light-brown font-italic t1-m-1" style="font-size: 20px;">From the award-winning developer who brought you</span>
+                </div>
+            </div>
+            <div class="row pb-3">
+                <div class="col-3"></div>
+                <div class="col text-center">
+                    <img src="{{ asset('images/31ss/home/Website1-19.png') }}" alt="IMG" style="width:150px;" class="img-fluid"> 
+                </div>
+                    <div class="col text-center">
+                    <img src="{{ asset('images/31ss/home/Website1-20.png') }}" alt="IMG" style="width:180px;" class="img-fluid">
+                </div>
+                <div class="col text-center">
+                    <img src="{{ asset('images/31ss/home/Website1-21.png') }}" alt="IMG" style="width:100px;" class="img-fluid">
+                </div>
+                <div class="col-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col text-center">
+                    <img src="{{ asset('images/31ss/home/Website1-22.png') }}" alt="IMG" style="width:120px;" class="img-fluid">
+                </div>
+                <div class="col text-center">
+                    <img src="{{ asset('images/31ss/home/Website1-23.png') }}" alt="IMG" style="width:150px;" class="img-fluid">
+                </div>
+                <div class="col-4"></div>
+            </div>
+        </div>
+    <section class="py-5 px-5 p-b-50">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2">
+                    <br/>
+                </div>
+                <div class="col">
+                    <div class="pb-1"><span class="text-custom-light-brown font-italic t1-m-1" style="font-size: 30px;">Latest News</span></div><br/>
+                    <span class="pb-1 text-custom-light-brown font-weight-bold">January 1st, 2019</span><br/>
+                    <span>Lorem ipsum dolor sit amet,</span><br/>
+                    <a href="{{ route('frontend.news_detail') }}" class="text-custom-light-brown">
+                            READ MORE
+                    </a><br/><br/>
+                    <span class="pb-1 text-custom-light-brown font-weight-bold">January 1st, 2019</span><br/>
+                    <span>Lorem ipsum dolor sit amet,</span><br/>
+                    <a href="{{ route('frontend.news_detail') }}" class="text-custom-light-brown">
+                            READ MORE
+                    </a>
+                </div>
+                <div class="col text-center">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="{{url('https://www.youtube.com/embed/6eEZ7DJMzuk')}}" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+    </section>
 @endsection
 
 @section('styles')

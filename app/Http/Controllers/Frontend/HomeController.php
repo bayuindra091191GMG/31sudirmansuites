@@ -45,6 +45,11 @@ class HomeController extends Controller
         return view('frontend.news');
     }
 
+    public function newsdetail()
+    {
+        return view('frontend.news-detail');
+    }
+
     public function ourway()
     {
         return view('frontend.ourway');

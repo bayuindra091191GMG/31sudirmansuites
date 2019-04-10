@@ -35,6 +35,7 @@ Route::get('/ourway', 'Frontend\HomeController@ourway')->name('frontend.ourway')
 Route::get('/apartments', 'Frontend\HomeController@apartments')->name('frontend.apartments');
 Route::get('/hotel', 'Frontend\HomeController@hotel')->name('frontend.hotel');
 Route::get('/news', 'Frontend\HomeController@news')->name('frontend.news');
+Route::get('/news-detail', 'Frontend\HomeController@newsdetail')->name('frontend.news_detail');
 Route::get('/ecosystem', 'Frontend\HomeController@ecosystem')->name('frontend.ecosystem');
 Route::get('/credentials', 'Frontend\HomeController@credentials')->name('frontend.credentials');
 Route::get('/district', 'Frontend\HomeController@district')->name('frontend.district');
@@ -65,6 +66,11 @@ Route::get('/partners/danny', 'Frontend\HomePartnersController@danny')->name('fr
 Route::get('/partners/bong', 'Frontend\HomePartnersController@bong')->name('frontend.partners.bong');
 Route::get('/partners/andika', 'Frontend\HomePartnersController@andika')->name('frontend.partners.andika');
 Route::get('/partners/vincentius', 'Frontend\HomePartnersController@vincentius')->name('frontend.partners.vincentius');
+
+// FRONTEND APARTMENTS
+Route::get('/apartments/site', 'Frontend\HomeApartmentsController@site')->name('frontend.apartments.site');
+Route::get('/apartments/floor', 'Frontend\HomeApartmentsController@floor')->name('frontend.apartments.floor');
+Route::get('/apartments/unit', 'Frontend\HomeApartmentsController@unit')->name('frontend.apartments.unit');
 
 
 // ADMIN ROUTE

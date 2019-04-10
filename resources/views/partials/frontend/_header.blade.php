@@ -79,12 +79,12 @@
                             </li>
                             <li>
                                 <a class="custom-font-1 menu-font-style2" href="{{ route('frontend.apartments') }}">APARTMENTS</a>
-                                {{-- <i class="fa fa-chevron-down"></i></a> --}}
-                                {{-- <ul class="sub-menu" style="z-index:9999;">
-                                        <li><a href="{{ route('frontend.paul.introduction') }}" class="custom-font-1">PAUL MARC</a></li>
-                                        <li><a href="#" class="custom-font-1 disabled-link">Our Creative Ecosystem</a></li>
-                                        <li><a href="#" class="custom-font-1 disabled-link"></a></li>
-                                    </ul> --}}
+                                <i class="fa fa-chevron-down"></i></a>
+                                <ul class="sub-menu" style="z-index:9999;">
+                                    <li><a href="{{ route('frontend.apartments.site') }}" class="custom-font-1 font-weight-bold">Site Plan</a></li>
+                                    <li><a href="{{ route('frontend.apartments.floor') }}" class="custom-font-1 font-weight-bold">Floor Plan</a></li>
+                                    <li><a href="{{ route('frontend.apartments.unit') }}" class="custom-font-1 font-weight-bold">Unit Plan</a></li>
+                                </ul>
                             </li>
                             <li>
                                 <a class="custom-font-1 menu-font-style2" href="{{ route('frontend.hotel') }}">HOTEL</a>
@@ -128,12 +128,12 @@
 
                 <li>
                         <a class="custom-font-1 menu-font-style2" href="{{ route('frontend.apartments') }}">APARTMENTS</a>
-                        {{-- <i class="fa fa-chevron-down"></i></a> --}}
-                        {{-- <ul class="sub-menu" style="z-index:9999;">
-                                <li><a href="{{ route('frontend.paul.introduction') }}" class="custom-font-1">PAUL MARC</a></li>
-                                <li><a href="#" class="custom-font-1 disabled-link">Our Creative Ecosystem</a></li>
-                                <li><a href="#" class="custom-font-1 disabled-link"></a></li>
-                            </ul> --}}
+                        <i class="fa fa-chevron-down"></i></a>
+                        <ul class="sub-menu" style="z-index:9999;">
+                                <li><a href="{{ route('frontend.apartments.site') }}" class="custom-font-1 font-weight-bold">Site Plan</a></li>
+                                <li><a href="{{ route('frontend.apartments.floor') }}" class="custom-font-1 font-weight-bold">Floor Plan</a></li>
+                                <li><a href="{{ route('frontend.apartments.unit') }}" class="custom-font-1 font-weight-bold">Unit Plan</a></li>
+                            </ul>
                     </li>
 
                 <li>

@@ -24,14 +24,14 @@
                                 Jl. Jend. Sudirman 31<br/>
                                 Mangkura - Ujung Pandang.<br/>
                                 Makassar 90113
-                            </span>
+                            </span><br/><br/>
                         </div>
                         <div class="col-md-4 col-12 text-center text-md-left p-l-100">
-                                <span class="t1-m-1 text-white">Contact Info</span><br/><br/>
-                                <span class="t1-m-1 text-white pb-5 mb-5">Email :</span><br/><br/>
-                                <span class="t1-m-1 text-white pb-5 mb-5">Phone :</span><br/><br/>
-                                <span class="t1-m-1 text-white">Fax :</span><br/><br/>
-                            </div>   
+                            <span class="t1-m-1 text-white">Contact Info</span><br/><br/>
+                            <span class="t1-m-1 text-white pb-5 mb-5">Email :</span><br/><br/>
+                            <span class="t1-m-1 text-white pb-5 mb-5">Phone :</span><br/><br/>
+                            <span class="t1-m-1 text-white">Fax :</span><br/><br/>
+                        </div>   
                     </div>
                 </div>
             </div>
@@ -42,6 +42,14 @@
                     </a>
                     <br/>
                 </div>
+            </div>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
             </div>
         </div>
     </div>

@@ -14,7 +14,7 @@
                     background-position: center;
                     background-size: contain;
                     height: 400px;">
-                </div>       
+                </div>
     </section>
 
     <section>
