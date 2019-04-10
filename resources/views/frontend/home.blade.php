@@ -105,12 +105,12 @@
             <div class="row justify-content-center">
                 <div class="col-2"></div>
                 <div class="col-3 text-center">
-                    <span class="t1-m-1 text-custom-light-brown font-italic" style="font-size: 30px;">The Vision</span>
+                    <span class="t1-m-4 font-custom-tiempos-light text-custom-light-brown font-italic">The Vision</span>
                     <br/>
                 </div>
                 <div class="col-4 text-center text-md-left">
-                    <span class="text-custom-light-brown font-weight-bold" style="font-size: 15px;">A Beautiful legacy</span><br/>
-                    <span style="font-size: 10px;">Our vision is to deliver a beautiful legacy you can savor with your loved ones and
+                    <span class="font-custom-tiempos-bold text-custom-light-brown" style="font-size: 15px;">A Beautiful legacy</span><br/>
+                    <span class="font-custom-tiempos-medium" style="font-size: 10px;">Our vision is to deliver a beautiful legacy you can savor with your loved ones and
                         to design the life of luxury you deserve in this city that you love.</span>
                 </div>
                 <div class="col-2"></div>
@@ -122,7 +122,7 @@
         <div class="container-fluid">
             <div class="row justify-content-center mb-5">
                 <div class="col-12 text-center">
-                    <h1 class="t1-m-4 font-italic text-custom-light-brown">
+                    <h1 class="t1-m-4 font-custom-tiempos-light font-italic text-custom-light-brown">
                         <span>The</span><br/>
                         <span>Five Centerpieces</span>
                     </h1>
@@ -274,7 +274,7 @@
                     <div class="five-slider align-content-center mx-3">
                         <div class="text-center">
                             <div class="mb-4">
-                                <span class="t1-m-4 font-italic text-custom-light-brown">At The Center of It All</span>
+                                <span class="t1-m-4 font-custom-tiempos-light text-custom-light-brown font-italic">At The Center of It All</span>
                             </div>
                             <div>
                                 <p class="text-white">
@@ -357,7 +357,7 @@
             <div class="row mb-4">
                 <div class="col-12 text-center">
                     {{-- <img src="{{ asset('images/31ss/home/bythose.PNG') }}"> --}}
-                    <span class=" t1-m-2 text-custom-light-brown font-italic">By those who know them best</span>
+                    <span class="t1-s-4 text-custom-light-brown font-custom-tiempos-medium-italic">By those who know them best</span>
                 </div>
             </div>
             <div class="row mb-4">
@@ -396,7 +396,7 @@
             </div>
             <div class="row mb-3">
                 <div class="col-12 text-center">
-                    <span class="t1-m-2 text-custom-light-brown font-italic">From the award-winning developer who brought you</span>
+                    <span class="t1-s-4 text-custom-light-brown font-custom-tiempos-medium-italic">From the award-winning developer who brought you</span>
                 </div>
             </div>
             <div class="row mb-3">
@@ -453,12 +453,18 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-6 col-12 text-center">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="{{url('https://www.youtube.com/embed/6eEZ7DJMzuk')}}" frameborder="0" allowfullscreen></iframe>
+                <div class="col-md-4 col-12 text-center">
+                    <div class="w-100" style="background-image: url('{{ asset('images/31ss/video.png') }}');
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: contain;
+                            height: 200px;">
                     </div>
+{{--                    <div class="embed-responsive embed-responsive-16by9">--}}
+{{--                        <iframe class="embed-responsive-item" src="{{url('https://www.youtube.com/embed/6eEZ7DJMzuk')}}" frameborder="0" allowfullscreen></iframe>--}}
+{{--                    </div>--}}
                 </div>
-                <div class="col-1"></div>
+                <div class="col-md-2"></div>
             </div>
         </div>
     </section>

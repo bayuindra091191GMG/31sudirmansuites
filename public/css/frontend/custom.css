@@ -23,7 +23,7 @@
 }
 
 .bg-custom-light-brown{
-    background-color: #a36348;
+    background-color: #c38b63;
 }
 
 .bg-custom-dark-blue{
@@ -46,14 +46,6 @@
     border-bottom: 1px solid #ffffff;
 }
 
-.custom-font-1{
-    font-family: 'Roboto', sans-serif !important;
-}
-
-.custom-font-2{
-    font-family: 'chapazaregular', sans-serif !important;
-}
-
 .menu-font-style{
     font-size: 12px !important;
     font-weight: bold;
@@ -63,7 +55,7 @@
 .menu-font-style2{
     font-size: 12px !important;
     font-weight: bold;
-    color: #a36348 !important;
+    color: #ffffff !important;
 }
 
 
@@ -101,6 +93,10 @@
 
 .menu-desktop .sub-menu li:hover {
     background-color: #000;
+}
+
+.hamburger-inner:before, .hamburger-inner, .hamburger-inner:after{
+    background-color: #c38b63 !important;
 }
 
 #back-navigation{
@@ -149,22 +145,83 @@
 @media (min-width: 1200px) {
 }
 
-@font-face {
-    font-family: 'atsackersgothicregular';
-    src: url('../../fonts/at_sackers_gothic_medium-webfont.woff2') format('woff2'),
-    url('../../fonts/at_sackers_gothic_medium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+.font-custom-avenir-medium{
+    font-family: 'AvenirMedium', sans-serif !important;
+}
 
+.font-custom-tiempos-light{
+    font-family: 'TiemposHeadlineLight', sans-serif !important;
+}
+
+.font-custom-tiempos-medium{
+    font-family: 'TiemposHeadlineMedium', sans-serif !important;
+}
+
+.font-custom-tiempos-medium-italic{
+    font-family: 'TiemposHeadlineMediumItalic', sans-serif !important;
+}
+
+.font-custom-tiempos-bold{
+    font-family: 'TiemposHeadlineBold', sans-serif !important;
+}
+
+.font-custom-tiempos-bold-italic{
+    font-family: 'TiemposHeadlineBoldItalic', sans-serif !important;
+}
+
+
+@font-face {
+    font-family: 'AvenirMedium';
+    src: local('Avenir Medium'), local('Avenir-Medium'),
+    url('../../fonts/Avenir-Medium.woff2') format('woff2'),
+    url('../../fonts/Avenir-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: 'chapazaregular';
-    src: url('../../fonts/chapaza-webfont.woff2') format('woff2'),
-    url('../../fonts/chapaza-webfont.woff') format('woff');
-    font-weight: normal;
+    font-family: 'TiemposHeadlineLight';
+    src: local('Tiempos Headline Light'), local('TiemposHeadline-Light'),
+    url('../../fonts/TiemposHeadline-Light.woff2') format('woff2'),
+    url('../../fonts/TiemposHeadline-Light.woff') format('woff');
+    font-weight: 300;
     font-style: normal;
+}
 
+@font-face {
+    font-family: 'TiemposHeadlineMedium';
+    src: local('Tiempos Headline Medium'), local('TiemposHeadline-Medium'),
+    url('../../fonts/TiemposHeadline-Medium.woff2') format('woff2'),
+    url('../../fonts/TiemposHeadline-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TiemposHeadlineMediumItalic';
+    src: local('Tiempos Headline Medium Italic'), local('TiemposHeadline-MediumItalic'),
+    url('../../fonts/TiemposHeadline-MediumItalic.woff2') format('woff2'),
+    url('../../fonts/TiemposHeadline-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TiemposHeadlineBold';
+    src: local('Tiempos Headline Bold'), local('TiemposHeadline-Bold'),
+    url('../../fonts/TiemposHeadline-Bold.woff2') format('woff2'),
+    url('../../fonts/TiemposHeadline-Bold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TiemposHeadlineBoldItalic';
+    src: local('Tiempos Headline Bold Italic'), local('TiemposHeadline-BoldItalic'),
+    url('../../fonts/TiemposHeadline-BoldItalic.woff2') format('woff2'),
+    url('../../fonts/TiemposHeadline-BoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
 }
 
 .pbox {
