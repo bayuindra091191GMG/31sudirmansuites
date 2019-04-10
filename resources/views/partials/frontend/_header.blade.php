@@ -1,41 +1,41 @@
 <!-- Header -->
 <header>
     <div class="d-none d-md-block">
-        <nav class="container-header-desktop" id="header-sticky">
-            <div class="wrap-menu-desktop" style="background-color: rgba(0,0,0,0.4)">
-                <div class="limiter-menu-desktop container">
+        <nav class="container-header-desktop" id="header-sticky" >
+            <div class="wrap-menu-desktop" @if(Route::currentRouteName() == 'home') style="background-color: rgba(0,0,0,0.4)" @else style="background-color: #ffffff" @endif>
+                <div class="limiter-menu-desktop container-fluid px-5">
                 <!-- Logo desktop -->
                     <div class="logo">
                         <a href="{{ route('home') }}"><img src="{{ asset('images/31ss/Website1-05.png') }}" alt="LOGO" style="width: auto; height: auto;"></a>
                     </div>
                 </div>
-                <div class="limiter-menu-desktop container" style="background-color: rgba(0,0,0,0.4)">
+                <div class="limiter-menu-desktop container-fluid px-5" @if(Route::currentRouteName() == 'home') style="background-color: rgba(0,0,0,0.4)" @else style="background-color: #ffffff" @endif>
                     
 
                     <!-- Menu desktop -->
                     <div class="menu-desktop">
                         <ul class="main-menu respon-sub-menu">
                             <li>
-                                <a class="font-custom-tiempos-light menu-font-style2" href="{{ route('home') }}">HOME</a>
+                                <a class="font-custom-tiempos-light menu-font-style2 @if(Route::currentRouteName() == 'home') text-white @else text-black @endif" href="{{ route('home') }}">HOME</a>
                             </li>
                             <li>
-                                <a class="font-custom-tiempos-medium menu-font-style2" href="{{ route('frontend.apartments') }}">APARTMENTS</a>
+                                <a class="font-custom-tiempos-medium menu-font-style2 @if(Route::currentRouteName() == 'home') text-white @else text-black @endif" href="{{ route('frontend.apartments') }}">APARTMENTS</a>
                                 <i class="fa fa-chevron-down"></i></a>
                                 <ul class="sub-menu" style="z-index:9999;">
-                                    <li><a href="{{ route('frontend.apartments.site') }}" class="font-custom-tiempos-light font-weight-bold">Site Plan</a></li>
-                                    <li><a href="{{ route('frontend.apartments.floor') }}" class="font-custom-tiempos-light font-weight-bold">Floor Plan</a></li>
-                                    <li><a href="{{ route('frontend.apartments.unit') }}" class="font-custom-tiempos-light font-weight-bold">Unit Plan</a></li>
+                                    <li><a href="{{ route('frontend.apartments.site') }}" class="font-custom-tiempos-light">Site Plan</a></li>
+                                    <li><a href="{{ route('frontend.apartments.floor') }}" class="font-custom-tiempos-light">Floor Plan</a></li>
+                                    <li><a href="{{ route('frontend.apartments.unit') }}" class="font-custom-tiempos-light">Unit Plan</a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a class="font-custom-tiempos-light menu-font-style2" href="{{ route('frontend.hotel') }}">HOTEL</a>
+                                <a class="font-custom-tiempos-light menu-font-style2 @if(Route::currentRouteName() == 'home') text-white @else text-black @endif" href="{{ route('frontend.hotel') }}">HOTEL</a>
                             </li>
                             <li>
-                                <a class="font-custom-tiempos-light menu-font-style2" href="{{ route('frontend.news') }}">NEWS</a>
+                                <a class="font-custom-tiempos-light menu-font-style2 @if(Route::currentRouteName() == 'home') text-white @else text-black @endif" href="{{ route('frontend.news') }}">NEWS</a>
                             </li>
 
                             <li>
-                                <a class="font-custom-tiempos-light menu-font-style2" href="{{ route('frontend.contact_us') }}" >CONTACT US</a>
+                                <a class="font-custom-tiempos-light menu-font-style2 @if(Route::currentRouteName() == 'home') text-white @else text-black @endif" href="{{ route('frontend.contact_us') }}" >CONTACT US</a>
                             </li>
                         </ul>
                     </div>
@@ -91,3 +91,39 @@
         </div>
     </nav>
 </header>
+
+<style>
+    @if(Route::currentRouteName() == 'home')
+        .menu-desktop .main-menu .sub-menu li{
+            background-color: #000;
+        }
+
+        .menu-desktop .main-menu .sub-menu li a {
+            color: #fff;
+        }
+
+        .menu-desktop .main-menu > li > a {
+            color: #fff;
+        }
+
+        .menu-desktop .main-menu > li:hover > a {
+            color: #fff;
+        }
+    @else
+        .menu-desktop .main-menu .sub-menu li{
+            background-color: #ffffff;
+        }
+
+        .menu-desktop .main-menu .sub-menu li a {
+            color: #c38b63;
+        }
+
+        .menu-desktop .main-menu > li > a {
+            color: #c38b63;
+        }
+
+        .menu-desktop .main-menu > li:hover > a {
+            color: #c38b63;
+        }
+    @endif
+</style>

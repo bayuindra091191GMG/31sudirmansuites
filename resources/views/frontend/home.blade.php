@@ -137,7 +137,7 @@
                                 background-repeat: no-repeat;
                                 background-position: center;
                                 background-size: contain;
-                                height: 200px;">
+                                height: 250px;">
                             <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
                                 <span class="t1-m-1 custom-font-2">The</span>
                                 <span class="t1-m-1 custom-font-1">Prime Address</span>
@@ -149,7 +149,7 @@
                                 background-repeat: no-repeat;
                                 background-position: center;
                                 background-size: contain;
-                                height: 200px;">
+                                height: 250px;">
                             <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
                                 <span class="t1-m-1 custom-font-2">The</span>
                                 <span class="t1-m-1 custom-font-1">Prestige of Service</span>
@@ -161,7 +161,7 @@
                                 background-repeat: no-repeat;
                                 background-position: center;
                                 background-size: contain;
-                                height: 200px;">
+                                height: 250px;">
                             <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
                                 <span class="t1-m-1 custom-font-2">The</span>
                                 <span class="t1-m-1 custom-font-1">Select Community</span>
@@ -173,7 +173,7 @@
                                 background-repeat: no-repeat;
                                 background-position: center;
                                 background-size: contain;
-                                height: 200px;">
+                                height: 250px;">
                             <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
                                 <span class="t1-m-1 custom-font-2">The</span>
                                 <span class="t1-m-1 custom-font-1">State of Art</span>
@@ -185,7 +185,7 @@
                                 background-repeat: no-repeat;
                                 background-position: center;
                                 background-size: contain;
-                                height: 200px;">
+                                height: 250px;">
                             <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
                                 <span class="t1-m-1 custom-font-2">The</span>
                                 <span class="t1-m-1 custom-font-1">Award Winning Developer</span>
@@ -203,7 +203,7 @@
                                         background-repeat: no-repeat;
                                         background-position: center;
                                         background-size: contain;
-                                        height: 200px;
+                                        height: 250px;
                                         width: 150px;">
                                     <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
                                         <span class="t1-m-1 custom-font-2">The</span>
@@ -216,7 +216,7 @@
                                         background-repeat: no-repeat;
                                         background-position: center;
                                         background-size: contain;
-                                        height: 200px;
+                                        height: 250px;
                                         width: 150px;">
                                     <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
                                         <span class="t1-m-1 custom-font-2">The</span>
@@ -229,7 +229,7 @@
                                         background-repeat: no-repeat;
                                         background-position: center;
                                         background-size: contain;
-                                        height: 200px;
+                                        height: 250px;
                                         width: 150px;">
                                     <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
                                         <span class="t1-m-1 custom-font-2">The</span>
@@ -242,7 +242,7 @@
                                         background-repeat: no-repeat;
                                         background-position: center;
                                         background-size: contain;
-                                        height: 200px;
+                                        height: 250px;
                                         width: 150px;">
                                     <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
                                         <span class="t1-m-1 custom-font-2">The</span>
@@ -255,7 +255,7 @@
                                         background-repeat: no-repeat;
                                         background-position: center;
                                         background-size: contain;
-                                        height: 200px;
+                                        height: 250px;
                                         width: 150px;">
                                     <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
                                         <span class="t1-m-1 custom-font-2">The</span>

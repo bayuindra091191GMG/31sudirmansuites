@@ -55,7 +55,6 @@
 .menu-font-style2{
     font-size: 12px !important;
     font-weight: bold;
-    color: #ffffff !important;
 }
 
 
@@ -75,24 +74,6 @@
 
 .main-menu .sub-menu .disabled-link{
     color: #726866 !important;
-}
-
-.menu-desktop .main-menu .sub-menu li {
-    background-color: #000;
-    border-bottom: 1px solid #000;
-}
-
-.menu-desktop .main-menu .sub-menu li a {
-    color: #fff;
-}
-
-.menu-desktop .main-menu > li:hover > a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.menu-desktop .sub-menu li:hover {
-    background-color: #000;
 }
 
 .hamburger-inner:before, .hamburger-inner, .hamburger-inner:after{
