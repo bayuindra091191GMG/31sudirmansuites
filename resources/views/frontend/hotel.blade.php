@@ -14,7 +14,7 @@
         <div class="container-fluid px-0">
             <div class="row no-gutters">
                 <div class="col-md-12">
-                    <div class="w-100 img-banner-responsive" style="background-image: url('{{ asset('images/31ss/hotel/Website33.jpg') }}');
+                    <div class="w-100 img-banner-responsive" style="background-image: url('{{ asset('images/31ss/hotel/website33.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: center;
                             background-size: cover;">
@@ -33,7 +33,7 @@
             <div class="row pt-5">
                 <div class="col-md-1"></div>
                 <div class="col-12 col-md-4">
-                    <div class="img-fluid img-responsive" style="background-image: url('{{ asset('images/31ss/hotel/Website34.jpg') }}');
+                    <div class="img-fluid img-responsive" style="background-image: url('{{ asset('images/31ss/hotel/website34.jpg') }}');
                         background-repeat: no-repeat;
                         background-position: center;
                         background-size: contain;
@@ -43,7 +43,7 @@
                 <div class="col-md-1"></div>
                 <div class="col-12 col-md-6">
                     <div class="pt-3 img-fluid img-responsive text-center mb-5 tengah"> 
-                        <img src="{{ asset('images/31ss/hotel/Website 31ss 2-28.png') }}" style="height:80px"; alt="IMG">
+                        <img src="{{ asset('images/31ss/hotel/website 31ss 2-28.png') }}" style="height:80px"; alt="IMG">
                     </div>
                     <div style="font-size: 13px;">
                         <p>The first-ever Hyatt Place Hotel in Indonesia will rise elegantly beside the<br/>
@@ -78,7 +78,7 @@
         <div class="container-fluid px-0">
             <div class="row no-gutters">
                 <div class="col-md-12">
-                    <div class="w-100 img-banner-responsive" style="background-image: url('{{ asset('images/31ss/hotel/Website35.jpg') }}');
+                    <div class="w-100 img-banner-responsive" style="background-image: url('{{ asset('images/31ss/hotel/website35.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: center;
                             background-size: cover;">
@@ -145,19 +145,19 @@
         <div class="container">
             <div class="row no-gutters">
                 <div class="col-4" >
-                    <div class="w-100 gallery" style="background-image: url('{{ asset('images/31ss/hotel/Website36.jpg') }}');
+                    <div class="w-100 gallery" style="background-image: url('{{ asset('images/31ss/hotel/website36.jpg') }}');
                     background-repeat: no-repeat;
                     background-position: center;
                     background-size: cover;"></div>     
                 </div>
                 <div class="col-4" >
-                        <div class="w-100 gallery" style="background-image: url('{{ asset('images/31ss/hotel/Website37.jpg') }}');
+                        <div class="w-100 gallery" style="background-image: url('{{ asset('images/31ss/hotel/website37.jpg') }}');
                         background-repeat: no-repeat;
                         background-position: center;
                         background-size: cover;"></div>     
                     </div>
                 <div class="col-4" >
-                    <div class="w-100 gallery" style="background-image: url('{{ asset('images/31ss/hotel/Website38.jpg') }}');
+                    <div class="w-100 gallery" style="background-image: url('{{ asset('images/31ss/hotel/website38.jpg') }}');
                     background-repeat: no-repeat;
                     background-position: center;
                     background-size: cover;"></div>     
@@ -165,19 +165,19 @@
             </div>
             <div class="row no-gutters">
                 <div class="col-4" >
-                    <div class="w-100 gallery" style="background-image: url('{{ asset('images/31ss/hotel/Website39.jpg') }}');
+                    <div class="w-100 gallery" style="background-image: url('{{ asset('images/31ss/hotel/website39.jpg') }}');
                     background-repeat: no-repeat;
                     background-position: center;
                     background-size: cover;"></div>     
                 </div>
                 <div class="col-4" >
-                    <div class="w-100 gallery" style="background-image: url('{{ asset('images/31ss/hotel/Website40.jpg') }}');
+                    <div class="w-100 gallery" style="background-image: url('{{ asset('images/31ss/hotel/website40.jpg') }}');
                     background-repeat: no-repeat;
                     background-position: center;
                     background-size: cover;"></div>     
                 </div>
                 <div class="col-4" >
-                    <div class="w-100 gallery" style="background-image: url('{{ asset('images/31ss/hotel/Website47.jpg') }}');
+                    <div class="w-100 gallery" style="background-image: url('{{ asset('images/31ss/hotel/website47.jpg') }}');
                     background-repeat: no-repeat;
                     background-position: center;
                     background-size: cover;"></div>     

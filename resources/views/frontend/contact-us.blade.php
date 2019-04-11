@@ -11,13 +11,23 @@
 @section('content')
 
     <!-- About -->
-    <section class="bg-0 flex-wr-s-st m-b-15-sr991">
-        <div class="col-md-12 size-a-18 respon-3 header-img" style="background-image: url('{{ asset('images/31ss/contact-us/Website 31ss 2-09.jpg') }}');
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: contain;
-            height: 400px;">
+
+    <section class="mb-5 banner-margin-top">
+        <div class="container-fluid px-0">
+            <div class="row no-gutters">
+                <div class="col-md-12">
+                    <div class="w-100 img-banner-responsive" style="background-image: url('{{ asset('images/31ss/contact-us/website 31ss 2-09.jpg') }}');
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: cover;">
+                        <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
+                            <span class="t1-b-1 font-custom-tiempos-medium text-white">Contact Us</span>
+                            <hr class="mx-auto banner-line-width" style="border-bottom: 2px solid #fff;"/>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
     </section>
 
     <section>
@@ -143,6 +153,10 @@
             font-family: 'TiemposHeadlineLight', sans-serif !important;
         }
 
+        .img-banner-responsive{
+            height: 100px;
+        }
+
         @media (max-width: 576px) {
             .centered {
                 position: absolute;
@@ -161,6 +175,10 @@
                 left: 50%;
                 transform: translate(-50%, -50%);
                 min-width: 300px;
+            }
+
+            .img-banner-responsive{
+                height: 325px;
             }
         }
 
