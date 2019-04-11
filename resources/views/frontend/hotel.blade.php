@@ -30,7 +30,8 @@
 
     <section class="mb-5">
         <div class="container">
-            <div class="row px-5 pt-5">
+            <div class="row pt-5">
+                <div class="col-md-1"></div>
                 <div class="col-12 col-md-4">
                     <div class="img-fluid img-responsive" style="background-image: url('{{ asset('images/31ss/hotel/website34.jpg') }}');
                         background-repeat: no-repeat;
@@ -39,23 +40,25 @@
                         height: 330px;">
                     </div>
                 </div>
+                <div class="col-md-1"></div>
                 <div class="col-12 col-md-6">
-                    <div class="pt-3 img-fluid img-responsive text-center"> 
+                    <div class="pt-3 img-fluid img-responsive text-center mb-5 tengah"> 
                         <img src="{{ asset('images/31ss/hotel/Website 31ss 2-28.png') }}" style="height:80px"; alt="IMG">
                     </div>
-                    <div class="pl-5 pt-5 pb-5 mb-1" style="font-size: 13px;">
+                    <div style="font-size: 13px;">
                         <p>The first-ever Hyatt Place Hotel in Indonesia will rise elegantly beside the<br/>
                             captivating 31 Sudirman Suites. The direct and easy access to the Hyatt<br/>
                             Place’s world-class amenities, leads 31 Sudirman Suites into luxurious yet<br/>
-                            life-enhancing development.<br/>
+                            life-enhancing development.<br/><br/><br/>
                         </p>
                     </div>
-                    <div class="pl-5">
+                    <div>
                         <p>"We go above and beyond to deliver what<br/>
                             is best for our residents."
                         </p>
                     </div>
                 </div>
+                <div class=" col-md-1"></div>
             </div>
         </div>
     </section>
@@ -240,7 +243,10 @@
 
             .gallery{
                 height: 400px;
-        }
+            }
+            .tengah{
+                margin-right: 140px;
+            }
         }
 
         @media (min-width: 992px) {
