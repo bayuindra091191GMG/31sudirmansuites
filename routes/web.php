@@ -117,6 +117,10 @@ Route::prefix('admin')->group(function(){
     Route::get('/blog/unpublish/{id}', 'Admin\BlogController@unpublishBlog')->name('admin.blog.unpublish');
     Route::post('/blog/update/{id}', 'Admin\BlogController@update')->name('admin.blog.update');
     Route::post('/blog/delete', 'Admin\BlogController@destroy')->name('admin.blog.destroy');
+
+
+    Route::get('/admin/change-password', 'Admin\AdminController@editPassword')->name('admin.change-password');
+    Route::post('/admin/change-password/save', 'Admin\AdminController@updatePassword')->name('admin.change-password.save');
 });
 
 Route::get('/datatable/contact-message', 'Admin\ContactMessageController@getIndex')->name('datatables.contact-message');
