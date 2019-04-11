@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <h3>MARC BOULEVARD</h3>
+    <h3>31 SUDIRMAN SUITES</h3>
     <p>Admin Login</p>
 
     <form method="POST" action="{{ route('admin.login.submit') }}">
