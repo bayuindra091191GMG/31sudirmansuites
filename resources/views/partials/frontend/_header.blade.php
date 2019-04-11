@@ -22,12 +22,12 @@
                             </li>
                             <li>
                                 <a class="font-custom-tiempos-medium menu-font-style2 @if(Route::currentRouteName() == 'home') text-white @else text-black @endif" href="{{ route('frontend.apartments') }}">APARTMENTS</a>
-                                <i class="fa fa-chevron-down"></i></a>
+                                {{-- <i class="fa fa-chevron-down"></i></a>
                                 <ul class="sub-menu" style="z-index:9999;">
                                     <li><a href="{{ route('frontend.apartments.site') }}" class="font-custom-tiempos-light">Site Plan</a></li>
                                     <li><a href="{{ route('frontend.apartments.floor') }}" class="font-custom-tiempos-light">Floor Plan</a></li>
                                     <li><a href="{{ route('frontend.apartments.unit') }}" class="font-custom-tiempos-light">Unit Plan</a></li>
-                                </ul>
+                                </ul> --}}
                             </li>
                             <li>
                                 <a class="font-custom-tiempos-light menu-font-style2 @if(Route::currentRouteName() == 'home') text-white @else text-black @endif" href="{{ route('frontend.hotel') }}">HOTEL</a>
@@ -71,11 +71,11 @@
 
                 <li>
                         <a class="font-custom-tiempos-light text-white" href="{{ route('frontend.apartments') }}">APARTMENTS</a>
-                        <ul class="sub-menu" style="z-index:9999;">
+                        {{-- <ul class="sub-menu" style="z-index:9999;">
                                 <li><a href="{{ route('frontend.apartments.site') }}" class="font-custom-tiempos-light text-black">Site Plan</a></li>
                                 <li><a href="{{ route('frontend.apartments.floor') }}" class="font-custom-tiempos-light text-black">Floor Plan</a></li>
                                 <li><a href="{{ route('frontend.apartments.unit') }}" class="font-custom-tiempos-light text-black">Unit Plan</a></li>
-                            </ul>
+                            </ul> --}}
                     </li>
 
                 <li>

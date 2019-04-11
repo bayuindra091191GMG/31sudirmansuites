@@ -10,20 +10,22 @@
 
 @section('content')
 
-<section class="bg-0 flex-wr-s-st m-b-15-sr991">
-        <div class="col-md-12 size-a-18 respon-3 header-img" style="background-image: url('{{ asset('images/31ss/apartments/website1-12.jpg') }}');
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: contain;
-            height: 400px;">
-        </div>      
+<section class="mb-5">
+        <div class="container-fluid">
+            <div class="col-md-12">
+                <div class="w-100 img-banner-responsive" style="background-image: url('{{ asset('images/31ss/apartments/Website1-12.jpg') }}');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;">
+                </div>
+            </div>
+        </div>
 </section>
 
 <section>
         <div class="container">
             <div class="row">
-                <div class="col-2"></div>
-                <div class="col-9">
+                <div class="col-12">
                     <p class="text-custom-light-brown">
                         <span class="font-italic t1-m-1">the
                                 {{-- <img src="{{ asset('images/31ss/apartments/Website1-35.png') }}" alt="IMG" style="width:130px;" class="img-fluid float-right mt-2"> --}}
@@ -179,4 +181,84 @@
 </section>
 
 
+@endsection
+
+@section('styles')
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
+    <style>
+        .slick-prev:before,
+        .slick-next:before {
+            color: sandybrown;
+        }
+
+        .slick-dots li.slick-active button:before{
+            font-size: 16px;
+            color: sandybrown;
+        }
+
+        .slick-dots li button:before{
+            font-size: 16px;
+            color: sandybrown;
+        }
+
+        .home-top-margin{
+            margin-top: 0;
+        }
+
+        .img-banner-responsive{
+            height: 80px;
+        }
+
+        .img-map-responsive{
+            height: 250px;
+        }
+
+        @media (min-width: 576px) {
+
+        }
+
+        @media (min-width: 768px) {
+            .home-top-margin{
+                margin-top: -100px;
+            }
+
+            .img-banner-responsive{
+                height: 500px;
+            }
+
+            .img-map-responsive{
+                height: 650px;
+            }
+        }
+
+        @media (min-width: 992px) {
+
+        }
+
+        @media (min-width: 1200px) {
+        }
+    </style>
+@endsection
+
+@section('scripts')
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script>
+
+        $(".slider-five-centerpiece").slick({
+            dots: true,
+            infinite: false,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+        });
+
+        $(".five-slider").slick({
+            dots: true,
+            infinite: false,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+        });
+    </script>
 @endsection
