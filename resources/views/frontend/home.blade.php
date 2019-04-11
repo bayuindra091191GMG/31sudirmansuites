@@ -433,25 +433,26 @@
             <div class="row">
                 <div class="col-md-2"></div>
                 <div class="col-md-4 col-12 mb-3 mb-md-0 text-center text-md-left">
-                    <div class="pb-1">
-                        <span class="text-custom-light-brown font-italic t1-m-1" style="font-size: 30px;">Latest News</span>
+                    <div class="row mb-5">
+                        <div class="col-12">
+                            <div class="pb-1">
+                                <span class="text-custom-light-brown font-italic t1-m-1" style="font-size: 30px;">Latest News</span>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <span class="pb-1 text-custom-light-brown font-weight-bold">January 1st, 2019</span><br/>
-                        <span>Lorem ipsum dolor sit amet,</span><br/>
-                        <a href="{{ route('frontend.news_detail') }}" class="text-custom-light-brown">
-                            READ MORE
-                        </a>
-                        <br/>
-                        <br/>
-                        <span class="pb-1 text-custom-light-brown font-weight-bold">January 1st, 2019</span>
-                        <br/>
-                        <span>Lorem ipsum dolor sit amet,</span>
-                        <br/>
-                        <a href="{{ route('frontend.news_detail') }}" class="text-custom-light-brown">
-                            READ MORE
-                        </a>
-                    </div>
+
+                    @foreach($news as $new)
+                        <div class="row mb-4">
+                            <div class="col-12">
+                                <span class="pb-1 text-custom-light-brown font-weight-bold">{{ $new->created_at_front_end_formatted }}</span><br/>
+                                <span>{{ $new->title }}</span><br/>
+                                <a href="{{ route('frontend.news_detail', ['slug' => $new->blog]) }}" class="text-custom-light-brown">
+                                    READ MORE
+                                </a>
+                            </div>
+                        </div>
+                    @endforeach
+
                 </div>
                 <div class="col-md-4 col-12 text-center">
                     <div class="w-100" style="background-image: url('{{ asset('images/31ss/video.png') }}');

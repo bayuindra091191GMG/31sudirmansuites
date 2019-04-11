@@ -66,7 +66,7 @@ class Blog extends Eloquent
     }
 
     public function getCreatedAtFrontEndFormattedAttribute(){
-        return Carbon::parse($this->attributes['created_at'])->format('MM d Y');
+        return Carbon::parse($this->attributes['created_at'])->format('F d Y');
     }
 
     public function setAliasAttribute($value)

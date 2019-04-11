@@ -69,9 +69,10 @@ class BlogController extends Controller
         $dateTimeNow = Carbon::now('Asia/Jakarta');
 
         $user = Auth::guard('admin')->user();
-        //dd($user);
+        $slug = str_slug($request->input('title'));
         $newBlog = Blog::create([
             'title'         => $request->input('title'),
+            'slug'          => $slug,
             'subtitle'      => $request->input('subtitle') ?? null,
             'description'   => $request->input('content'),
             'read_count'    => 0,
@@ -137,6 +138,7 @@ class BlogController extends Controller
         }
 
         $blog->title = $request->input('title');
+        $blog->slug = str_slug($request->input('title'));
         $blog->subtitle = $request->input('subtitle');
         $blog->description = $request->input('content');
         $blog->updated_by = $user->id;

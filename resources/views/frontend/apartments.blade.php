@@ -14,7 +14,7 @@
     <div class="container-fluid px-0">
         <div class="row no-gutters">
             <div class="col-md-12">
-                <div class="w-100 img-banner-responsive" style="background-image: url('{{ asset('images/31ss/apartments/website1-12.jpg') }}');
+                <div class="w-100 img-banner-responsive" style="background-image: url('{{ asset('images/31ss/apartments/Website1-12.jpg') }}');
                         background-repeat: no-repeat;
                         background-position: center;
                         background-size: cover;">
@@ -352,7 +352,7 @@
                                     background-size: contain;
                                     height: 400px;">
                                 </div>
-                                <div style="background-image: url('{{ asset('images/31ss/apartments/website19.jpg') }}');
+                                <div style="background-image: url('{{ asset('images/31ss/apartments/Website19.jpg') }}');
                                     background-repeat: no-repeat;
                                     background-position: left;
                                     background-size: 80%;
@@ -373,7 +373,7 @@
                             background-size: contain;
                             height: 400px;">
                     </div>
-                    <div style="background-image: url('{{ asset('images/31ss/apartments/website19.jpg') }}');
+                    <div style="background-image: url('{{ asset('images/31ss/apartments/Website19.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: left;
                             background-size: 80%;
@@ -403,7 +403,7 @@
                                     background-size: 80%;
                                     height: 450px;">
                                 </div>
-                                <div style="background-image: url('{{ asset('images/31ss/apartments/website22.jpg') }}');
+                                <div style="background-image: url('{{ asset('images/31ss/apartments/Website22.jpg') }}');
                                     background-repeat: no-repeat;
                                     background-position: left;
                                     background-size: 80%;
@@ -424,7 +424,7 @@
                             background-size: 80%;
                             height: 450px;">
                     </div>
-                    <div style="background-image: url('{{ asset('images/31ss/apartments/website22.jpg') }}');
+                    <div style="background-image: url('{{ asset('images/31ss/apartments/Website22.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: left;
                             background-size: 80%;
@@ -454,7 +454,7 @@
                                     background-size: 80%;
                                     height: 450px;">
                                 </div>
-                                <div style="background-image: url('{{ asset('images/31ss/apartments/website25.jpg') }}');
+                                <div style="background-image: url('{{ asset('images/31ss/apartments/Website25.jpg') }}');
                                     background-repeat: no-repeat;
                                     background-position: left;
                                     background-size: 80%;
@@ -475,7 +475,7 @@
                             background-size: 80%;
                             height: 450px;">
                     </div>
-                    <div style="background-image: url('{{ asset('images/31ss/apartments/website25.jpg') }}');
+                    <div style="background-image: url('{{ asset('images/31ss/apartments/Website25.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: left;
                             background-size: 80%;
@@ -505,7 +505,7 @@
                                     background-size: 80%;
                                     height: 450px;">
                                 </div>
-                                <div style="background-image: url('{{ asset('images/31ss/apartments/website28.jpg') }}');
+                                <div style="background-image: url('{{ asset('images/31ss/apartments/Website28.jpg') }}');
                                     background-repeat: no-repeat;
                                     background-position: left;
                                     background-size: 80%;
@@ -526,7 +526,7 @@
                             background-size: 80%;
                             height: 450px;">
                     </div>
-                    <div style="background-image: url('{{ asset('images/31ss/apartments/website28.jpg') }}');
+                    <div style="background-image: url('{{ asset('images/31ss/apartments/Website28.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: left;
                             background-size: 80%;
@@ -556,7 +556,7 @@
                                     background-size: 80%;
                                     height: 450px;">
                                 </div>
-                                <div style="background-image: url('{{ asset('images/31ss/apartments/website22.jpg') }}');
+                                <div style="background-image: url('{{ asset('images/31ss/apartments/Website22.jpg') }}');
                                     background-repeat: no-repeat;
                                     background-position: left;
                                     background-size: 80%;

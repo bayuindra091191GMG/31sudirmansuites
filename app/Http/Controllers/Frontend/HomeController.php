@@ -31,7 +31,12 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('frontend.home');
+        $news = Blog::where('status_id', 4)
+            ->orderBy('created_at', 'desc')
+            ->take(2)
+            ->get();
+
+        return view('frontend.home', compact('news'));
     }
 
     public function apartments()
