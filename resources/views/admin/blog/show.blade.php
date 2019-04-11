@@ -68,6 +68,12 @@
                                         </div>
                                         <div class="form-group">
                                             <div class="form-line">
+                                                <label class="form-control">Sub Judul Artikel</label>
+                                                <input type="text" class="form-control" value="{{ $blog->subtitle ?? "-" }}" readonly />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="form-line">
                                                 <label class="form-control">Tanggal Dibuat</label>
                                                 <input type="text" class="form-control" value="{{ $blog->created_at_formatted }}" readonly />
                                             </div>

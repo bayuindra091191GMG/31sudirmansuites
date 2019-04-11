@@ -9,19 +9,26 @@
 @endsection
 
 @section('content')
-<section class="mt-3 bg-0 flex-wr-s-st m-b-15-sr991">
-    <div class="container-fluid">
-        <div class="col-12">
-            <div class="w-100 img-banner-responsive" style="background-image: url('{{ asset('images/31ss/hotel/website33.jpg') }}');
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;">
+
+    <section class="mb-5 banner-margin-top">
+        <div class="container-fluid px-0">
+            <div class="row no-gutters">
+                <div class="col-md-12">
+                    <div class="w-100 img-banner-responsive" style="background-image: url('{{ asset('images/31ss/hotel/website33.jpg') }}');
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: cover;">
+                        <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
+                            <span class="t1-b-1 font-custom-tiempos-medium text-white">HOTEL</span>
+                            <hr class="mx-auto banner-line-width" style="border-bottom: 2px solid #fff;"/>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-    <section>
+    <section class="mb-5">
         <div class="container">
             <div class="row px-5 pt-5">
                 <div class="col-12 col-md-4">
@@ -52,17 +59,37 @@
             </div>
         </div>
     </section>
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-12 img-fluid img-responsive img-map-responsive" style="background-image: url('{{ asset('images/31ss/hotel/website35.jpg') }}');
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: contain;">
+
+{{--    <section>--}}
+{{--        <div class="container">--}}
+{{--            <div class="row">--}}
+{{--                <div class="col-12 col-md-12 img-fluid img-banner-responsive" style="background-image: url('{{ asset('images/31ss/hotel/website35.jpg') }}');--}}
+{{--                    background-repeat: no-repeat;--}}
+{{--                    background-position: center;--}}
+{{--                    background-size: contain;">--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
+    <section class="mb-5">
+        <div class="container-fluid px-0">
+            <div class="row no-gutters">
+                <div class="col-md-12">
+                    <div class="w-100 img-banner-responsive" style="background-image: url('{{ asset('images/31ss/hotel/website35.jpg') }}');
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: cover;">
+                        <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
+                            <span class="t1-m-1 font-custom-tiempos-medium text-white">RESIDENTIAL</span>
+                            <span class="t1-b-1 font-custom-tiempos-medium text-white">SERVICE</span>
+                            <hr class="mx-auto banner-line-width" style="border-bottom: 2px solid #fff;"/>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
     <section class="m-b-50">
         <div class="container">
             <div class="row px-5">
@@ -183,7 +210,7 @@
         }
 
         .img-banner-responsive{
-            height: 80px;
+            height: 100px;
         }
 
         .img-map-responsive{
@@ -204,7 +231,7 @@
             }
 
             .img-banner-responsive{
-                height: 500px;
+                height: 325px;
             }
 
             .img-map-responsive{

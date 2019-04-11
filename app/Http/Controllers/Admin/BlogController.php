@@ -18,6 +18,11 @@ use Yajra\DataTables\Facades\DataTables;
 
 class BlogController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth:admin');
+    }
+
     public function index(){
         return view('admin.blog.index');
     }
@@ -64,8 +69,10 @@ class BlogController extends Controller
         $dateTimeNow = Carbon::now('Asia/Jakarta');
 
         $user = Auth::guard('admin')->user();
+        //dd($user);
         $newBlog = Blog::create([
             'title'         => $request->input('title'),
+            'subtitle'      => $request->input('subtitle') ?? null,
             'description'   => $request->input('content'),
             'read_count'    => 0,
             'status_id'     => 4,
@@ -122,6 +129,7 @@ class BlogController extends Controller
         $dateTimeNow = Carbon::now('Asia/Jakarta');
 
         $user = Auth::guard('admin')->user();
+        //dd($user);
 
         $blog = Blog::find($id);
         if(empty($blog)){
@@ -129,6 +137,7 @@ class BlogController extends Controller
         }
 
         $blog->title = $request->input('title');
+        $blog->subtitle = $request->input('subtitle');
         $blog->description = $request->input('content');
         $blog->updated_by = $user->id;
         $blog->updated_at = $dateTimeNow->toDateTimeString();

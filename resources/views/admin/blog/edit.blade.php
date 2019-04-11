@@ -59,7 +59,12 @@
                                 <div class="col-md-6 col-12">
                                     <div class="form-group">
                                         <div class="form-line">
-                                            <input type="text" id="title" name="title" class="form-control" placeholder="Judul Artikel" value="{{ $blog->title }}" />
+                                            <input type="text" id="title" name="title" class="form-control" placeholder="Judul Artikel" value="{{ $blog->title }}" required/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" id="subtitle" name="subtitle" class="form-control" placeholder="Sub Judul Artikel" value="{{ $blog->subtitle }}" />
                                         </div>
                                     </div>
                                     <div class="form-group">

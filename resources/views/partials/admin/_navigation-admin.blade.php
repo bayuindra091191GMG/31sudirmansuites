@@ -41,6 +41,11 @@
                         <i class="icon icon-dashboard2 purple-text s-18"></i> <span>Dashboard</span>
                     </a>
                 </li>
+                <li class="treeview">
+                    <a href="{{ route('admin.contact-messages.index') }}">
+                        <i class="icon icon-newspaper purple-text s-18"></i> <span>Contact Message</span>
+                    </a>
+                </li>
                 <li class="treeview"><a href="#">
                         <i class="icon icon-newspaper purple-text s-18"></i> <span>Artikel</span> <i
                                 class="icon icon-angle-left s-18 pull-right"></i>

@@ -10,13 +10,19 @@
 
 @section('content')
 
-<section class="mb-5">
-    <div class="container-fluid">
-        <div class="col-md-12" >
-            <div class="w-100 img-banner-responsive" style="background-image: url('{{ asset('images/31ss/apartments/website1-12.jpg') }}');
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;">
+<section class="mb-5 banner-margin-top">
+    <div class="container-fluid px-0">
+        <div class="row no-gutters">
+            <div class="col-md-12">
+                <div class="w-100 img-banner-responsive" style="background-image: url('{{ asset('images/31ss/apartments/website1-12.jpg') }}');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;">
+                    <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
+                        <span class="t1-b-1 font-custom-tiempos-medium text-black">APARTMENTS</span>
+                        <hr class="mx-auto banner-line-width" style="border-bottom: 2px solid #000;"/>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -636,7 +642,7 @@
             }
 
             .img-banner-responsive{
-                height: 500px;
+                height: 325px;
             }
 
             .img-responsive{

@@ -30,6 +30,10 @@
     background-color: #1c242e;
 }
 
+.text-custom-black{
+    color: #000;
+}
+
 .text-custom-brown{
     color: #664234;
 }
@@ -57,6 +61,13 @@
     font-weight: bold;
 }
 
+.banner-line-width{
+    width: 25%;
+}
+
+.banner-margin-top{
+    margin-top: 0;
+}
 
 /* HEADER OVERRIDE */
 .wrap-menu-desktop{
@@ -155,6 +166,14 @@
     .box-subscribe{
         width: 40%;
         position: relative;
+    }
+
+    .banner-line-width{
+        width: 4%;
+    }
+
+    .banner-margin-top{
+        margin-top: 100px;
     }
 }
 

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
+use App\Models\Blog;
 use App\Models\ContactMessage;
 use App\Models\Subscribe;
 use Carbon\Carbon;
@@ -45,12 +46,40 @@ class HomeController extends Controller
 
     public function news()
     {
-        return view('frontend.news');
+        $news = Blog::where('status_id', 4)
+            ->orderBy('created_at', 'desc')
+            ->get();
+
+        return view('frontend.news', compact('news'));
     }
 
-    public function newsdetail()
+    public function newsdetail($slug)
     {
-        return view('frontend.news-detail');
+        $new = Blog::where('slug', $slug)->first();
+        //dd($new);
+        if(empty($new)){
+            return redirect()->back();
+        }
+
+        $news = Blog::where('status_id', 4)
+            ->inRandomOrder()
+            ->take(3)
+            ->get();
+
+        $years = Blog::where('status_id', 4)
+            ->orderBy('created_at', 'desc')
+            ->get()
+            ->groupBy(function ($val) {
+                return Carbon::parse($val->created_at)->format('Y');
+            });
+
+        $data = [
+            'article'       => $new,
+            'news'          => $news,
+            'years'         => $years
+        ];
+
+        return view('frontend.news-detail')->with($data);
     }
 
     public function ourway()
@@ -116,6 +145,7 @@ class HomeController extends Controller
     }
 
     public function contactUs(){
+
         return view('frontend.contact-us');
     }
 
