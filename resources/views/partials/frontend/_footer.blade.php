@@ -2,11 +2,26 @@
 <footer>
     <div class="py-5" style="background: #292929;">
         <div class="container">
+
             <div class="row mb-4">
-{{--                <div class="col-12 text-center pb-5">--}}
-{{--                    <span class="t1-m-1 text-white b-5">Subscribe Newsletter</span>--}}
-{{--                        --}}{{-- <input class="form-control text-center" type="email" name="subscribe_email" id="subscribe_email" placeholder="Enter Your Email Address" required/> --}}
-{{--                </div>--}}
+                <div class="col-12 text-center">
+                    <span class="t1-m-4 font-custom-tiempos-light text-white">Subscribe Newsletter</span>
+                </div>
+            </div>
+            <div id="subscribe_success_message" class="row mb-3" style="display: none;">
+                <div class="col-12 text-center">
+                    <h5 class="t1-m-1 font-custom-tiempos-medium" style="color: greenyellow;">Subscribe sukses!</h5>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-12">
+                    <div class="box-subscribe mx-auto">
+                        <input type="text" class="form-control p-3 input-subscribe" id="subscribe_email" name="subscribe_email" placeholder="Enter Your Email Address"/>
+                        <button type="button" id="subscrine_submit" class="button-sucbscribe"><i class="fa fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-4">
                 <div class="col-md-4 col-12 mb-4 mb-md-0 text-center">
                     <a href="{{ route('home') }}">
                         <img class="mb-4" src="{{ asset('images/31ss/Website1-27.png') }}" width="100">

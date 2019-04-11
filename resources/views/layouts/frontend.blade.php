@@ -88,11 +88,20 @@
             // $('#preloader').delay(100).fadeOut();
         });
 
-        $('#subscription_form').on('submit', function(e) {
-            e.preventDefault();
-            var name = $('#subscribe_name').val();
-            var email = $('#subscribe_email').val();
-            // alert(name);
+        $('#subscribe_email').on('keydown', function(e) {
+            if (e.which == 13 || e.keyCode == 13) {
+                let subscribeInput = $('#subscribe_email').val();
+                if(!subscribeInput || subscribeInput === ""){
+                    return false;
+                }
+                else{
+                    submitSubscribe();
+                }
+            }
+        });
+
+        function submitSubscribe(){
+            let email = $('#subscribe_email').val();
 
             $.ajax({
                 type: 'POST',
@@ -100,13 +109,22 @@
                 datatype : "application/json",
                 data: {
                     '_token': '{{ csrf_token() }}',
-                    'name': name,
                     'email': email
                 }, // no need to stringify
                 success: function (result) {
                     $('#subscribe_success_message').slideDown(500);
                 }
             });
+        }
+
+        $('#subscrine_submit').on('click', function(e) {
+            let subscribeInput = $('#subscribe_email').val();
+            if(!subscribeInput || subscribeInput === ""){
+                return false;
+            }
+            else{
+                submitSubscribe();
+            }
         });
 
     </script>

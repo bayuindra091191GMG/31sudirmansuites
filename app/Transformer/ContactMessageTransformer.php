@@ -18,13 +18,15 @@ class ContactMessageTransformer extends TransformerAbstract
     public function transform(ContactMessage $data){
 
         try{
-            $createdDate = Carbon::parse($data->created_at)->format('d M Y');
+            $createdDate = Carbon::parse($data->created_at)->toIso8601String();
 
             $action = "<a class='delete-modal btn btn-xs btn-danger' data-id='". $data->id ."' ><i class='icon-delete'></i></a>";
 
             return[
                 'name'              => $data->name,
                 'email'             => $data->email,
+                'phone'             => $data->phone,
+                'address'           => $data->address,
                 'message'           => $data->message,
                 'created_at'        => $createdDate,
                 'action'            => $action

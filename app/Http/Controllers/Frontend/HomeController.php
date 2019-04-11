@@ -4,9 +4,12 @@ namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
 use App\Models\ContactMessage;
+use App\Models\Subscribe;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Validator;
 
 class HomeController extends Controller
 {
@@ -117,17 +120,48 @@ class HomeController extends Controller
     }
 
     public function saveContactUs(Request $request){
-//        dd(Carbon::now('Asia/Jakarta')->toDateTimeString());
-        $data = ContactMessage::create([
-            'name'          => $request->input('name'),
-            'email'         => $request->input('email'),
-            'subject'         => $request->input('subject'),
-            'message'       => $request->input('message'),
-            'created_at'    => Carbon::now('Asia/Jakarta')->toDateTimeString()
+        $validator = Validator::make($request->all(),[
+            'name'          => 'required|max:50',
+            'email'         => 'required|email|max:50',
+            'phone'         => 'required|max:25',
+            'case'          => 'required|max:200'
+        ],[
+            'name.required'         => 'Nama wajib diisi!',
+            'email.required'        => 'Email wajib diisii!',
+            'phone.required'        => 'Nomor Ponsel wajib diisii!',
+            'case.required'         => 'Case wajib diisii!',
         ]);
 
-        Session::flash('success', 'Thank you for Contacting us!');
-        return redirect()->route('contact_us');
+        if ($validator->fails()) {
+            return back()->withErrors($validator)->withInput();
+        }
+
+        $now = Carbon::now('Asia/Jakarta');
+
+        $newMessage = ContactMessage::create([
+            'name'          => $request->input('name'),
+            'email'         => $request->input('email'),
+            'phone'         => $request->input('phone'),
+            'address'       => $request->input('address') ?? null,
+            'message'       => $request->input('case'),
+            'created_at'    => $now->toDateTimeString(),
+        ]);
+
+        Session::flash('success', 'Pesan Anda berhasil diterima!');
+
+        return redirect()->route('frontend.contact_us');
+    }
+
+    public function saveSubscribe(Request $request){
+
+        $now = Carbon::now('Asia/Jakarta');
+
+        $newSubscribe = Subscribe::create([
+            'email'         => $request->input('email'),
+            'created_at'    => $now->toDateTimeString(),
+        ]);
+
+        return Response::json(array('success' => 'VALID'));
     }
 
     public function downloadCatalogue(){

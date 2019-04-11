@@ -3,13 +3,15 @@
     <div class="d-none d-md-block">
         <nav class="container-header-desktop" id="header-sticky" >
             <div class="wrap-menu-desktop" @if(Route::currentRouteName() == 'home') style="background-color: rgba(0,0,0,0.4)" @else style="background-color: #ffffff" @endif>
-                <div class="limiter-menu-desktop container-fluid px-5">
+                <div class="limiter-menu-desktop container-fluid" style="padding-left: 8rem; padding-right: 8rem">
                 <!-- Logo desktop -->
-                    <div class="logo">
-                        <a href="{{ route('home') }}"><img src="{{ asset('images/31ss/Website1-05.png') }}" alt="LOGO" style="width: auto; height: auto;"></a>
+                    <div class="w-100 pb-3 mt-5 @if(Route::currentRouteName() == 'home') header-border-white @else header-border-light-brown @endif">
+                        <div class="logo" style="height: 100%;">
+                            <a href="{{ route('home') }}"><img src="{{ asset('images/31ss/Website1-05.png') }}" alt="LOGO" style="width: auto; height: auto;"></a>
+                        </div>
                     </div>
                 </div>
-                <div class="limiter-menu-desktop container-fluid px-5" @if(Route::currentRouteName() == 'home') style="background-color: rgba(0,0,0,0.4)" @else style="background-color: #ffffff" @endif>
+                <div class="limiter-menu-desktop container-fluid" style="padding-left: 8rem; padding-right: 8rem; @if(Route::currentRouteName() == 'home') background-color: rgba(0,0,0,0.4) @else background-color: #ffffff @endif">
                     
 
                     <!-- Menu desktop -->

@@ -80,6 +80,38 @@
     background-color: #c38b63 !important;
 }
 
+.header-border-white{
+    border-bottom: 1px solid #fff;
+    height: 100%;
+}
+
+.header-border-light-brown{
+    border-bottom: 1px solid #c38b63;
+    height: 100%;
+}
+
+/* FOOTER OVERRIDE */
+.box-subscribe{
+    width: 90%;
+    position: relative;
+}
+
+.input-subscribe{
+    border-radius: 30px;
+    background-color: #3a3f42;
+}
+
+.button-sucbscribe{
+    border: none;
+    background: transparent;
+    font-size: 2rem;
+    position: absolute;
+    right: 1.9rem;
+    top: 0.2rem;
+    padding: 0;
+    color: dimgray;
+}
+
 #back-navigation{
     width: 175px;
 }
@@ -112,9 +144,18 @@
     .mobile-p-t-0{
         padding-top: 0;
     }
+
+
 }
 
 @media (max-width: 992px) {
+}
+
+@media (min-width: 992px) {
+    .box-subscribe{
+        width: 40%;
+        position: relative;
+    }
 }
 
 @media (min-width: 1024px) {

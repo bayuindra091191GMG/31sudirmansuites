@@ -6,6 +6,8 @@ use App\Http\Controllers\Controller;
 use App\Models\ContactMessage;
 use App\Transformer\ContactMessageTransformer;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Validator;
 use Yajra\DataTables\DataTables;
 
 class ContactMessageController extends Controller
@@ -21,10 +23,9 @@ class ContactMessageController extends Controller
     }
 
     public function getIndex(Request $request){
-        $users = ContactMessage::query();
-        return DataTables::of($users)
+        $messages = ContactMessage::query();
+        return DataTables::of($messages)
             ->setTransformer(new ContactMessageTransformer)
-            ->addIndexColumn()
             ->make(true);
     }
 
@@ -56,7 +57,7 @@ class ContactMessageController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
     }
 
     /**
@@ -101,8 +102,16 @@ class ContactMessageController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Request $request)
     {
-        //
+        $message = ContactMessage::find($request->input('deleted-message-id'));
+        if(empty($message)){
+            return redirect()->back();
+        }
+
+        $message->delete();
+
+        Session::flash('message', 'Berhasil hapus pesan!');
+        return redirect()->route('admin.contact-messages.index');
     }
 }

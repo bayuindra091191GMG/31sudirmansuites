@@ -50,8 +50,6 @@ Route::get('/floor-plan', 'Frontend\HomeController@planFloor')->name('frontend.p
 Route::get('/unit-plan', 'Frontend\HomeController@planUnit')->name('frontend.plan.unit');
 Route::get('/features', 'Frontend\HomeController@features')->name('frontend.features');
 Route::get('/contact-us', 'Frontend\HomeController@contactUs')->name('frontend.contact_us');
-Route::post('/contact-us', 'Frontend\HomeController@saveContactUs')->name('frontend.contact_us.save');
-Route::post('/subscribe-submit', 'Admin\SubscribeController@store')->name('frontend.subscribe.save');
 Route::get('/catalogue/download', 'Frontend\HomeController@downloadCatalogue')->name('frontend.catalogue.download');
 
 // FRONTEND PAUL
@@ -73,6 +71,9 @@ Route::get('/apartments/floor', 'Frontend\HomeApartmentsController@floor')->name
 Route::get('/apartments/unit', 'Frontend\HomeApartmentsController@unit')->name('frontend.apartments.unit');
 
 
+Route::post('/contact-us/save', 'Frontend\HomeController@saveContactUs')->name('frontend.contact_us.save');
+Route::post('/subscribe/save', 'Frontend\HomeController@saveSubscribe')->name('frontend.subscribe.save');
+
 // ADMIN ROUTE
 // ====================================================================================================================
 
@@ -84,6 +85,7 @@ Route::prefix('admin')->group(function(){
 
     // Contact Message
     Route::get('/contact-messages', 'Admin\ContactMessageController@index')->name('admin.contact-messages.index');
+    Route::post('/contact-messages/delete', 'Admin\ContactMessageController@destroy')->name('admin.contact-messages.destroy');
 
     // Admin User
     Route::get('/admin-users', 'Admin\AdminUserController@index')->name('admin.admin-users.index');
