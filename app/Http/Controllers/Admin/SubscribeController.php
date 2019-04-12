@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 use App\Models\Subscribe;
 use App\Transformer\SubscribeTransformer;
 use Carbon\Carbon;
+use Illuminate\Support\Facades\Session;
 use Maatwebsite\Excel\Facades\Excel;
 use Illuminate\Support\Facades\Response;
 use Illuminate\Http\Request;
@@ -28,7 +29,6 @@ class SubscribeController extends Controller
         $users = Subscribe::query();
         return DataTables::of($users)
             ->setTransformer(new SubscribeTransformer)
-            ->addIndexColumn()
             ->make(true);
     }
 
@@ -58,24 +58,24 @@ class SubscribeController extends Controller
 
     public function store(Request $request)
     {
-        try{
-            $now = Carbon::now('Asia/Jakarta');
-            $email = $request->input('email');
-            $name = $request->input('name');
-
-            if(!empty($email) && !empty($name)){
-                $newSubscribe = Subscribe::create([
-                    'email'    => $email,
-                    'name'      => $name,
-                    'created_at'         => $now->toDateTimeString()
-                ]);
-            }
-
-            return Response::json(array('success' => 'VALID'));
-        }
-        catch(\Exception $ex){
-            return Response::json(array('errors' => 'INVALID' . $request->input('id')));
-        }
+//        try{
+//            $now = Carbon::now('Asia/Jakarta');
+//            $email = $request->input('email');
+//            $name = $request->input('name');
+//
+//            if(!empty($email) && !empty($name)){
+//                $newSubscribe = Subscribe::create([
+//                    'email'    => $email,
+//                    'name'      => $name,
+//                    'created_at'         => $now->toDateTimeString()
+//                ]);
+//            }
+//
+//            return Response::json(array('success' => 'VALID'));
+//        }
+//        catch(\Exception $ex){
+//            return Response::json(array('errors' => 'INVALID' . $request->input('id')));
+//        }
 
     }
 
@@ -116,11 +116,21 @@ class SubscribeController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param Request $request
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Request $request)
     {
-        //
+        $deletedSubscribeId = $request->input('deleted_subscribe_id');
+
+        $subscribe = Subscribe::find($deletedSubscribeId);
+        if(empty($subscribe)){
+            return redirect()->back();
+        }
+
+        $subscribe->delete();
+
+        Session::flash('success', 'Berhasil Hapus Subscriber!');
+        return redirect()->route('admin.subscribes.index');
     }
 }

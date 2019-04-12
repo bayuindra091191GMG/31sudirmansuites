@@ -43,11 +43,16 @@
                 </li>
                 <li class="treeview">
                     <a href="{{ route('admin.contact-messages.index') }}">
-                        <i class="icon icon-newspaper purple-text s-18"></i> <span>Contact Message</span>
+                        <i class="icon icon-newspaper yellow-text s-18"></i> <span>Contact Message</span>
+                    </a>
+                </li>
+                <li class="treeview">
+                    <a href="{{ route('admin.subscribes.index') }}">
+                        <i class="icon icon-person blue-text-text s-18"></i> <span>Subscriber</span>
                     </a>
                 </li>
                 <li class="treeview"><a href="#">
-                        <i class="icon icon-newspaper purple-text s-18"></i> <span>Artikel</span> <i
+                        <i class="icon icon-newspaper green-text-text s-18"></i> <span>Artikel</span> <i
                                 class="icon icon-angle-left s-18 pull-right"></i>
                     </a>
                     <ul class="treeview-menu">

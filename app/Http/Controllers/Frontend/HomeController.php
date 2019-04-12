@@ -87,66 +87,12 @@ class HomeController extends Controller
         return view('frontend.news-detail')->with($data);
     }
 
-    public function ourway()
-    {
-        return view('frontend.ourway');
-    }
-
-    public function ecosystem()
-    {
-        return view('frontend.ecosystem');
-    }
-
-    public function credentials()
-    {
-        return view('frontend.credentials');
-    }
-
-    public function about()
-    {
-        return view('frontend.about');
-    }
-
-    public function district()
-    {
-        return view('frontend.district');
-    }
-
-    public function masterplan()
-    {
-        return view('frontend.masterplan');
-    }
-
     public function partners(){
         return view('frontend.partners');
     }
 
-    public function introduction(){
-        return view('frontend.introduction');
-    }
-
     public function location(){
         return view('frontend.location');
-    }
-
-    public function developer(){
-        return view('frontend.developer');
-    }
-
-    public function planMaster(){
-        return view('frontend.plan-master');
-    }
-
-    public function planFloor(){
-        return view('frontend.plan-floor');
-    }
-
-    public function planUnit(){
-        return view('frontend.plan-unit');
-    }
-
-    public function features(){
-        return view('frontend.features');
     }
 
     public function contactUs(){

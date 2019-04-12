@@ -52,18 +52,9 @@ Route::get('/features', 'Frontend\HomeController@features')->name('frontend.feat
 Route::get('/contact-us', 'Frontend\HomeController@contactUs')->name('frontend.contact_us');
 Route::get('/catalogue/download', 'Frontend\HomeController@downloadCatalogue')->name('frontend.catalogue.download');
 
-// FRONTEND PAUL
-Route::get('/paul_marc/introduction', 'Frontend\HomePaulController@introduction')->name('frontend.paul.introduction');
-Route::get('/paul_marc/prives', 'Frontend\HomePaulController@prives')->name('frontend.paul.prives');
-Route::get('/paul_marc/lanes', 'Frontend\HomePaulController@lanes')->name('frontend.paul.lanes');
+// FRONTEND SEARCH
+Route::get('/search-results', 'Frontend\SearchController@search')->name('frontend.search-results');
 
-
-// FRONTEND PARTNERS
-Route::get('/partners/mainpartners', 'Frontend\HomePartnersController@mainpartners')->name('frontend.partners.mainpartners');
-Route::get('/partners/danny', 'Frontend\HomePartnersController@danny')->name('frontend.partners.danny');
-Route::get('/partners/bong', 'Frontend\HomePartnersController@bong')->name('frontend.partners.bong');
-Route::get('/partners/andika', 'Frontend\HomePartnersController@andika')->name('frontend.partners.andika');
-Route::get('/partners/vincentius', 'Frontend\HomePartnersController@vincentius')->name('frontend.partners.vincentius');
 
 // FRONTEND APARTMENTS
 Route::get('/apartments/site', 'Frontend\HomeApartmentsController@site')->name('frontend.apartments.site');
@@ -105,6 +96,7 @@ Route::prefix('admin')->group(function(){
 
     // Subscribes
     Route::get('/subscribes', 'Admin\SubscribeController@index')->name('admin.subscribes.index');
+    Route::post('/subscribes/delete', 'Admin\SubscribeController@destroy')->name('admin.subscribes.destroy');
     Route::get('/subscribe-downloads', 'Admin\SubscribeController@download')->name('admin.subscribes.download');
 
     // News & Blogs
@@ -125,3 +117,4 @@ Route::prefix('admin')->group(function(){
 
 Route::get('/datatable/contact-message', 'Admin\ContactMessageController@getIndex')->name('datatables.contact-message');
 Route::get('/datatable/blogs', 'Admin\BlogController@getIndex')->name('datatables.blog');
+Route::get('/datatable/subscribes', 'Admin\SubscribeController@getIndex')->name('datatables.subscribe');

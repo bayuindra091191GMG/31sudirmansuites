@@ -128,6 +128,19 @@
             }
         });
 
+        $('#header_search').on('keydown', function(e) {
+            if (e.which == 13 || e.keyCode == 13) {
+                let searchInput = $('#header_search').val();
+                if(!searchInput || searchInput === ""){
+                    return false;
+                }
+                else{
+                    let searchUrl = '{{ route('frontend.search-results') }}';
+                    window.location.replace(searchUrl + '?keyword=' + searchInput);
+                }
+            }
+        });
+
     </script>
     @yield('scripts')
 

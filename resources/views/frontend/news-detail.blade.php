@@ -10,7 +10,7 @@
 
 @section('content')
 
-    <section class="mb-5 banner-margin-top"">
+    <section class="mb-5 banner-margin-top">
         <div class="container-fluid px-0">
             <div class="row no-gutters">
                 <div class="col-md-12">

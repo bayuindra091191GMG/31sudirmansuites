@@ -15,8 +15,8 @@
                     
 
                     <!-- Menu desktop -->
-                    <div class="menu-desktop">
-                        <ul class="main-menu respon-sub-menu">
+                    <div class="menu-desktop pt-4">
+                        <ul class="main-menu respon-sub-menu left">
                             <li>
                                 <a class="font-custom-tiempos-light menu-font-style2 @if(Route::currentRouteName() == 'home') text-white @else text-black @endif" href="{{ route('home') }}">HOME</a>
                             </li>
@@ -38,6 +38,12 @@
 
                             <li>
                                 <a class="font-custom-tiempos-light menu-font-style2 @if(Route::currentRouteName() == 'home') text-white @else text-black @endif" href="{{ route('frontend.contact_us') }}" >CONTACT US</a>
+                            </li>
+                        </ul>
+
+                        <ul class="main-menu respon-sub-menu right" style="position: absolute; right: 8rem;">
+                            <li>
+                                <input type="text" id="header_search" class="form-control p-3" placeholder="Search..."/>
                             </li>
                         </ul>
                     </div>

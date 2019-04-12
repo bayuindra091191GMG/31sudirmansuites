@@ -14,7 +14,7 @@
     <div class="container-fluid px-0">
         <div class="row no-gutters">
             <div class="col-md-12">
-                <div class="w-100 img-banner-responsive" style="background-image: url('{{ asset('images/31ss/apartments/website1-12.jpg') }}');
+                <div class="w-100 img-banner-responsive" style="background-image: url('{{ asset('images/31ss/apartments/Website1-12.jpg') }}');
                         background-repeat: no-repeat;
                         background-position: center;
                         background-size: cover;">
@@ -76,14 +76,14 @@
                                 <h4 class="panel-title">
                                     <a href="#panelBodyOne" class="text-custom-light-brown font-custom-tiempos-light" data-toggle="collapse" data-parent="accordion">
                                         Ground Floor
-                                        <span class="float-r ">View More <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid">
+                                        <span class="float-r ">View More <img src="{{ asset('images/31ss/apartments/Website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid">
                                         </span>
                                     </a>
                                 </h4>                                                                    
                             </div>
                             <div id="panelBodyOne" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    <div class="w-100 img-responsive2" style="background-image: url('{{ asset('images/31ss/apartments/website1-16.jpg') }}');
+                                    <div class="w-100 img-responsive2" style="background-image: url('{{ asset('images/31ss/apartments/Website1-16.jpg') }}');
                                         background-repeat: no-repeat;
                                         background-position: left;
                                         background-size: cover;">
@@ -157,7 +157,7 @@
                             <h4 class="panel-title">
                                 <a href="#panelBodyTwo" class="text-custom-light-brown font-custom-tiempos-light" data-toggle="collapse" data-parent="accordion">
                                     3rd Floor
-                                    <span class="float-r">View More <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid"></span>
+                                    <span class="float-r">View More <img src="{{ asset('images/31ss/apartments/Website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid"></span>
                                 </a>
                             </h4>                                                                    
                         </div>
@@ -166,7 +166,7 @@
                         </div>
                         <div id="panelBodyTwo" class="panel-collapse collapse">
                             <div class="panel-body">
-                                <div class="mb-3 w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/website1-17.jpg') }}');
+                                <div class="mb-3 w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/Website1-17.jpg') }}');
                                     background-repeat: no-repeat;
                                     background-position: left;
                                     background-size: cover;">
@@ -203,7 +203,7 @@
                         </div>
                     </div>
                 </div>
-                            <div class="mb-3 w-100 img-responsive2" style="background-image: url('{{ asset('images/31ss/apartments/website1-15.jpg') }}');
+                            <div class="mb-3 w-100 img-responsive2" style="background-image: url('{{ asset('images/31ss/apartments/Website1-15.jpg') }}');
                                 background-repeat: no-repeat;
                                 background-position: center;
                                 background-size: cover;">
@@ -266,7 +266,7 @@
                             <h4 class="panel-title">
                                 <a href="#panelBodyThree" class="text-custom-light-brown font-custom-tiempos-light" data-toggle="collapse" data-parent="accordion">
                                     Placement
-                                    <span class="float-r">View More <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid"></span>
+                                    <span class="float-r">View More <img src="{{ asset('images/31ss/apartments/Website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid"></span>
                                 </a>
                             </h4>                                                                    
                         </div>
@@ -275,12 +275,12 @@
                         </div>
                         <div id="panelBodyThree" class="panel-collapse collapse">
                             <div class="panel-body">
-                                <div class="py-5 mb-5 w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/website18.jpg') }}');
+                                <div class="py-5 mb-5 w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/Website18.jpg') }}');
                                     background-repeat: no-repeat;
                                     background-position: left;
                                     background-size: cover;">
                                 </div>
-                                <div class="py-5 mb-5 w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/website17.jpg') }}');
+                                <div class="py-5 mb-5 w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/Website17.jpg') }}');
                                     background-repeat: no-repeat;
                                     background-position: left;
                                     background-size: cover;">
@@ -292,7 +292,7 @@
                         </div>
                     </div>
                 </div>
-                                <div class="mb-5 w-100 img-responsive2" style="background-image: url('{{ asset('images/31ss/apartments/website1-13.jpg') }}');
+                                <div class="mb-5 w-100 img-responsive2" style="background-image: url('{{ asset('images/31ss/apartments/Website1-13.jpg') }}');
                                     background-repeat: no-repeat;
                                     background-position: center;
                                     background-size: contain;">
@@ -323,7 +323,7 @@
                 <p class="text-custom-light-brown">
                     <span class="font-italic t1-m-1">the
                             <a href="{{ route('frontend.apartments.unit') }}">    
-                                <img src="{{ asset('images/31ss/apartments/website1-35.png') }}" alt="IMG" style="width:130px;" class="img-fluid float-right mt-2">
+                                <img src="{{ asset('images/31ss/apartments/Website1-35.png') }}" alt="IMG" style="width:130px;" class="img-fluid float-right mt-2">
                             </a>
                     </span><br/>
                     <span class="font-weight-bold">Unit Plan</span><br/>
@@ -352,7 +352,7 @@
                                     background-size: contain;
                                     height: 400px;">
                                 </div>
-                                <div style="background-image: url('{{ asset('images/31ss/apartments/website19.jpg') }}');
+                                <div style="background-image: url('{{ asset('images/31ss/apartments/Website19.jpg') }}');
                                     background-repeat: no-repeat;
                                     background-position: left;
                                     background-size: 80%;
@@ -403,7 +403,7 @@
                                     background-size: 80%;
                                     height: 450px;">
                                 </div>
-                                <div style="background-image: url('{{ asset('images/31ss/apartments/website22.jpg') }}');
+                                <div style="background-image: url('{{ asset('images/31ss/apartments/Website22.jpg') }}');
                                     background-repeat: no-repeat;
                                     background-position: left;
                                     background-size: 80%;
@@ -454,7 +454,7 @@
                                     background-size: 80%;
                                     height: 450px;">
                                 </div>
-                                <div style="background-image: url('{{ asset('images/31ss/apartments/website25.jpg') }}');
+                                <div style="background-image: url('{{ asset('images/31ss/apartments/Website25.jpg') }}');
                                     background-repeat: no-repeat;
                                     background-position: left;
                                     background-size: 80%;
@@ -505,7 +505,7 @@
                                     background-size: 80%;
                                     height: 450px;">
                                 </div>
-                                <div style="background-image: url('{{ asset('images/31ss/apartments/website28.jpg') }}');
+                                <div style="background-image: url('{{ asset('images/31ss/apartments/Website28.jpg') }}');
                                     background-repeat: no-repeat;
                                     background-position: left;
                                     background-size: 80%;
@@ -556,7 +556,7 @@
                                     background-size: 80%;
                                     height: 450px;">
                                 </div>
-                                <div style="background-image: url('{{ asset('images/31ss/apartments/website22.jpg') }}');
+                                <div style="background-image: url('{{ asset('images/31ss/apartments/Website22.jpg') }}');
                                     background-repeat: no-repeat;
                                     background-position: left;
                                     background-size: 80%;
@@ -580,7 +580,7 @@
                 <div class="flex-col-c-c py-3">
                     <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
                 </div> --}}
-                    <div class="m-b-150 w-100 img-responsive2" style="background-image: url('{{ asset('images/31ss/apartments/website1-14.jpg') }}');
+                    <div class="m-b-150 w-100 img-responsive2" style="background-image: url('{{ asset('images/31ss/apartments/Website1-14.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: center;
                             background-size: contain;">

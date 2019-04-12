@@ -432,26 +432,30 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-2"></div>
-                <div class="col-md-4 col-12 mb-3 mb-md-0 text-center text-md-left">
+                <div class="col-md-4 col-12 mb-3 mb-md-0">
                     <div class="row mb-5">
-                        <div class="col-12">
+                        <div class="col-12 text-center text-md-left">
                             <div class="pb-1">
                                 <span class="text-custom-light-brown font-italic t1-m-1" style="font-size: 30px;">Latest News</span>
                             </div>
                         </div>
                     </div>
+                    <div class="row mb-4 pl-5" id="list_latest_new">
+                        <ul>
+                            @foreach($news as $new)
+                                <li>
+                                    <div style="margin-top: -25px;">
+                                        <span class="pb-1 text-custom-light-brown font-custom-tiempos-medium">{{$new->created_at_front_end_formatted}}</span><br/>
+                                        <span>{{ $new->title }}</span><br/>
+                                        <a href="{{ route('frontend.news_detail', ['slug' => $new->blog]) }}" class="text-custom-light-brown font-custom-avenir-medium" style="text-decoration: underline;">
+                                            READ MORE
+                                        </a>
+                                    </div>
+                                </li>
+                            @endforeach
+                        </ul>
+                    </div>
 
-                    @foreach($news as $new)
-                        <div class="row mb-4">
-                            <div class="col-12">
-                                <span class="pb-1 text-custom-light-brown font-weight-bold">{{ $new->created_at_front_end_formatted }}</span><br/>
-                                <span>{{ $new->title }}</span><br/>
-                                <a href="{{ route('frontend.news_detail', ['slug' => $new->blog]) }}" class="text-custom-light-brown">
-                                    READ MORE
-                                </a>
-                            </div>
-                        </div>
-                    @endforeach
 
                 </div>
                 <div class="col-md-4 col-12 text-center">
@@ -500,6 +504,25 @@
 
         .img-map-responsive{
             height: 250px;
+        }
+
+        #list_latest_new li{
+            margin-bottom: 2rem;
+        }
+
+        #list_latest_new li:last-child{
+            margin-bottom: 0;
+        }
+
+        #list_latest_new li::before{
+            content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+            color: #c38b63; /* Change the color */
+            font-size: 25px;
+            font-weight: bold; /* If you want it to be bold */
+            line-height: 0.5rem;
+            display: inline-block; /* Needed to add space between the bullet and the text */
+            width: 1em; /* Also needed for space (tweak if needed) */
+            margin-left: -1em; /* Also needed for space (tweak if needed) */
         }
 
         @media (min-width: 576px) {

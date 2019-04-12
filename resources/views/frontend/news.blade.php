@@ -14,7 +14,7 @@
     <div class="container-fluid px-0">
         <div class="row no-gutters">
             <div class="col-md-12">
-                <div class="w-100 img-banner-responsive" style="background-image: url('{{ asset('images/31ss/news/website 31ss 2-04.jpg') }}');
+                <div class="w-100 img-banner-responsive" style="background-image: url('{{ asset('images/31ss/news/Website 31ss 2-04.jpg') }}');
                         background-repeat: no-repeat;
                         background-position: center;
                         background-size: cover;">
@@ -126,46 +126,13 @@
             color: sandybrown;
         }
 
-        .home-top-margin{
-            margin-top: 0;
-        }
-
         .img-banner-responsive{
             height: 80px;
         }
 
-        .img-map-responsive{
-            height: 250px;
-        }
-
-        @media (min-width: 576px) {
-
-        }
-
-        @media (min-width: 768px) {
-            .home-top-margin{
-                margin-top: -100px;
-            }
-
-            .img-banner-responsive{
-                height: 300px;
-            }
-
-            .img-map-responsive{
-                height: 650px;
-            }
-        }
-
-        @media (min-width: 992px) {
-
-        }
-
-        @media (min-width: 1200px) {
-        }
-
         .slider-youtube iframe {
-            min-width: 700px;
-            height: 400px;
+            min-width: 350px;
+            height: 175px;
         }
 
         .slider-youtube .youtube {
@@ -187,7 +154,7 @@
         .video-foreground,
         .video-background iframe {
             width: 100%;
-            height: 400px;
+            height: 175px;
             pointer-events: none;
         }
 
@@ -202,6 +169,35 @@
             color: white;
             background-color: black;
         }
+
+        @media (min-width: 576px) {
+
+        }
+
+        @media (min-width: 768px) {
+            .img-banner-responsive{
+                height: 300px;
+            }
+
+            .slider-youtube iframe {
+                min-width: 700px;
+                height: 400px;
+            }
+            .video-foreground,
+            .video-background iframe {
+                width: 100%;
+                height: 400px;
+                pointer-events: none;
+            }
+        }
+
+        @media (min-width: 992px) {
+
+        }
+
+        @media (min-width: 1200px) {
+        }
+
     </style>
 @endsection
 

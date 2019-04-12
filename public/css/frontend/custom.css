@@ -101,6 +101,19 @@
     height: 100%;
 }
 
+#header_search{
+    border-radius: 30px;
+    background-color: rgba(0,0,0,0.4);
+    color: #fff;
+    font-family: 'TiemposHeadlineLight', sans-serif !important;
+    border: 1px solid #fff;
+}
+
+#header_search::placeholder{
+    color: #fff;
+    font-family: 'TiemposHeadlineLight', sans-serif !important;
+}
+
 /* FOOTER OVERRIDE */
 .box-subscribe{
     width: 90%;
