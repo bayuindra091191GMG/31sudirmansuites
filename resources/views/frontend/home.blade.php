@@ -18,7 +18,7 @@
                 <ul>
                     <!-- Slide 1 -->
                     <li data-transition="slidingoverlayhorizontal">
-                        <img src="{{ asset('images/31ss/home/Website1-05.jpg') }}" alt="IMG-SLIDE" class="rev-slidebg img-banner-responsive">
+                        <img src="{{ asset('images/31ss/home/website1-05.jpg') }}" alt="IMG-SLIDE" class="rev-slidebg img-banner-responsive">
 
                         {{--<h2 class="tp-caption tp-resizeme caption-1 text-uppercase" --}}
                         {{--data-frames='[{"delay":500,"speed":1500,"frame":"0","from":"x:left;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'--}}
@@ -133,7 +133,7 @@
                 <div class="row justify-content-center mb-5">
                     <div class="col-md-0"></div>
                     <div class="col-md-2 mb-md-0 mb-3">
-                        <div class="w-100" style="background-image: url('{{ asset('images/31ss/home/Website1-06.jpg') }}');
+                        <div class="w-100" style="background-image: url('{{ asset('images/31ss/home/website1-06.jpg') }}');
                                 background-repeat: no-repeat;
                                 background-position: center;
                                 background-size: contain;
@@ -145,7 +145,7 @@
                         </div>
                     </div>
                     <div class="col-md-2 mb-md-0 mb-3">
-                        <div class="w-100" style="background-image: url('{{ asset('images/31ss/home/Website1-07.jpg') }}');
+                        <div class="w-100" style="background-image: url('{{ asset('images/31ss/home/website1-07.jpg') }}');
                                 background-repeat: no-repeat;
                                 background-position: center;
                                 background-size: contain;
@@ -157,7 +157,7 @@
                         </div>
                     </div>
                     <div class="col-md-2 mb-md-0 mb-3">
-                        <div class="w-100" style="background-image: url('{{ asset('images/31ss/home/Website1-08.jpg') }}');
+                        <div class="w-100" style="background-image: url('{{ asset('images/31ss/home/website1-08.jpg') }}');
                                 background-repeat: no-repeat;
                                 background-position: center;
                                 background-size: contain;
@@ -169,7 +169,7 @@
                         </div>
                     </div>
                     <div class="col-md-2 mb-md-0 mb-3">
-                        <div class="w-100" style="background-image: url('{{ asset('images/31ss/home/Website1-09.jpg') }}');
+                        <div class="w-100" style="background-image: url('{{ asset('images/31ss/home/website1-09.jpg') }}');
                                 background-repeat: no-repeat;
                                 background-position: center;
                                 background-size: contain;
@@ -181,7 +181,7 @@
                         </div>
                     </div>
                     <div class="col-md-2 mb-md-0 mb-3">
-                        <div class="w-100" style="background-image: url('{{ asset('images/31ss/home/Website1-10.jpg') }}');
+                        <div class="w-100" style="background-image: url('{{ asset('images/31ss/home/website1-10.jpg') }}');
                                 background-repeat: no-repeat;
                                 background-position: center;
                                 background-size: contain;
@@ -199,7 +199,7 @@
                     <div class="col-12">
                         <div class="slider-five-centerpiece mx-3">
                             <div>
-                                <div class="mx-auto" style="background-image: url('{{ asset('images/31ss/home/Website1-06.jpg') }}');
+                                <div class="mx-auto" style="background-image: url('{{ asset('images/31ss/home/website1-06.jpg') }}');
                                         background-repeat: no-repeat;
                                         background-position: center;
                                         background-size: contain;
@@ -212,7 +212,7 @@
                                 </div>
                             </div>
                             <div>
-                                <div class="mx-auto" style="background-image: url('{{ asset('images/31ss/home/Website1-07.jpg') }}');
+                                <div class="mx-auto" style="background-image: url('{{ asset('images/31ss/home/website1-07.jpg') }}');
                                         background-repeat: no-repeat;
                                         background-position: center;
                                         background-size: contain;
@@ -225,7 +225,7 @@
                                 </div>
                             </div>
                             <div>
-                                <div class="mx-auto" style="background-image: url('{{ asset('images/31ss/home/Website1-08.jpg') }}');
+                                <div class="mx-auto" style="background-image: url('{{ asset('images/31ss/home/website1-08.jpg') }}');
                                         background-repeat: no-repeat;
                                         background-position: center;
                                         background-size: contain;
@@ -238,7 +238,7 @@
                                 </div>
                             </div>
                             <div>
-                                <div class="mx-auto" style="background-image: url('{{ asset('images/31ss/home/Website1-09.jpg') }}');
+                                <div class="mx-auto" style="background-image: url('{{ asset('images/31ss/home/website1-09.jpg') }}');
                                         background-repeat: no-repeat;
                                         background-position: center;
                                         background-size: contain;
@@ -251,7 +251,7 @@
                                 </div>
                             </div>
                             <div>
-                                <div class="mx-auto" style="background-image: url('{{ asset('images/31ss/home/Website1-10.jpg') }}');
+                                <div class="mx-auto" style="background-image: url('{{ asset('images/31ss/home/website1-10.jpg') }}');
                                         background-repeat: no-repeat;
                                         background-position: center;
                                         background-size: contain;
@@ -382,13 +382,13 @@
                 <div class="col-md-8 col-12">
                     <div class="row">
                         <div class="col-md-4 col-4 text-center">
-                            <img src="{{ asset('images/31ss/home/Website1-16.png') }}" alt="IMG" class="img-fluid">
+                            <img src="{{ asset('images/31ss/home/website1-16.png') }}" alt="IMG" class="img-fluid">
                         </div>
                         <div class="col-md-4 col-4 text-center">
-                            <img src="{{ asset('images/31ss/home/Website1-17.png') }}" alt="IMG" class="img-fluid">
+                            <img src="{{ asset('images/31ss/home/website1-17.png') }}" alt="IMG" class="img-fluid">
                         </div>
                         <div class="col-md-4 col-4 text-center">
-                            <img src="{{ asset('images/31ss/home/Website1-18.png') }}" alt="IMG" class="img-fluid">
+                            <img src="{{ asset('images/31ss/home/website1-18.png') }}" alt="IMG" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -404,13 +404,13 @@
                 <div class="col-md-8 col-12">
                     <div class="row">
                         <div class="col-md-4 col-4 text-center">
-                            <img src="{{ asset('images/31ss/home/Website1-19.png') }}" alt="IMG" class="img-fluid">
+                            <img src="{{ asset('images/31ss/home/website1-19.png') }}" alt="IMG" class="img-fluid">
                         </div>
                         <div class="col-md-4 col-4 text-center">
-                            <img src="{{ asset('images/31ss/home/Website1-20.png') }}" alt="IMG" class="img-fluid">
+                            <img src="{{ asset('images/31ss/home/website1-20.png') }}" alt="IMG" class="img-fluid">
                         </div>
                         <div class="col-md-4 col-4 text-center">
-                            <img src="{{ asset('images/31ss/home/Website1-21.png') }}" alt="IMG" class="img-fluid">
+                            <img src="{{ asset('images/31ss/home/website1-21.png') }}" alt="IMG" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -418,10 +418,10 @@
             <div class="row">
                 <div class="col-md-3"></div>
                 <div class="col-md-3 col-6 text-center">
-                    <img src="{{ asset('images/31ss/home/Website1-22.png') }}" alt="IMG" class="img-fluid">
+                    <img src="{{ asset('images/31ss/home/website1-22.png') }}" alt="IMG" class="img-fluid">
                 </div>
                 <div class="col-md-3 col-6 text-center">
-                    <img src="{{ asset('images/31ss/home/Website1-23.png') }}" alt="IMG" class="img-fluid">
+                    <img src="{{ asset('images/31ss/home/website1-23.png') }}" alt="IMG" class="img-fluid">
                 </div>
                 <div class="col-md-3 "></div>
             </div>
