@@ -7,7 +7,7 @@
                 <!-- Logo desktop -->
                     <div class="w-100 pb-3 mt-5 @if(Route::currentRouteName() == 'home') header-border-white @else header-border-light-brown @endif">
                         <div class="logo" style="height: 100%;">
-                            <a href="{{ route('home') }}"><img src="{{ asset('images/31ss/Website1-05.png') }}" alt="LOGO" style="width: auto; height: auto;"></a>
+                            <a href="{{ route('home') }}"><img src="{{ asset('images/31ss/website1-05.png') }}" alt="LOGO" style="width: auto; height: auto;"></a>
                         </div>
                     </div>
                 </div>
@@ -57,7 +57,7 @@
         <div class="wrap-header-mobile">
             <!-- Logo moblie -->
             <div class="logo-mobile">
-                <a href="{{ route('home') }}"><img src="{{ asset('images/31ss/Website1-05.png') }}" alt="LOGO"></a>
+                <a href="{{ route('home') }}"><img src="{{ asset('images/31ss/website1-05.png') }}" alt="LOGO"></a>
             </div>
 
 

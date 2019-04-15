@@ -24,7 +24,7 @@
             <div class="row mb-4">
                 <div class="col-md-4 col-12 mb-4 mb-md-0 text-center">
                     <a href="{{ route('home') }}">
-                        <img class="mb-4" src="{{ asset('images/31ss/Website1-27.png') }}" width="100">
+                        <img class="mb-4" src="{{ asset('images/31ss/website1-27.png') }}" width="100">
                     </a>
                     <br/>
                 </div>
@@ -60,31 +60,31 @@
                     <div class="col-1"></div>
                     <div class="col-2 border pbox2 d-flex justify-content-center flex-column text-center" style="display:inline-block">
                         <a href="https://www.facebook.com/">
-                            <img src="{{ asset('images/31ss/Website1-28.png') }}" height="15">
+                            <img src="{{ asset('images/31ss/website1-28.png') }}" height="15">
                             <span class="text-white" style="font-size:12px;"> Facebook</span>
                         </a>
                     </div>
                     <div class="col-2 border pbox2 d-flex justify-content-center flex-column text-center" style="display:inline-block">
                         <a href="https://twitter.com/">
-                            <img src="{{ asset('images/31ss/Website1-29.png') }}" height="15">
+                            <img src="{{ asset('images/31ss/website1-29.png') }}" height="15">
                             <span class="text-white" style="font-size:12px;"> Twitter</span>
                         </a>
                     </div>
                     <div class="col-2 border pbox2 d-flex justify-content-center flex-column text-center" style="display:inline-block">
                         <a href="https://plus.google.com/">
-                            <img src="{{ asset('images/31ss/Website1-30.png') }}" height="15">
+                            <img src="{{ asset('images/31ss/website1-30.png') }}" height="15">
                             <span class="text-white" style="font-size:12px;"> Google plus</span>
                         </a>
                     </div>
                     <div class="col-2 border pbox2 d-flex justify-content-center flex-column text-center" style="display:inline-block">
                         <a href="https://www.linkedin.com/">
-                            <img src="{{ asset('images/31ss/Website1-31.png') }}" height="15">
+                            <img src="{{ asset('images/31ss/website1-31.png') }}" height="15">
                             <span class="text-white" style="font-size:12px;"> linkedin</span>
                         </a>
                     </div>
                     <div class="col-2 border pbox2 d-flex justify-content-center flex-column text-center" style="display:inline-block">
                         <a href="https://www.pinterest.com/">
-                            <img src="{{ asset('images/31ss/Website1-32.png') }}" height="15">
+                            <img src="{{ asset('images/31ss/website1-32.png') }}" height="15">
                             <span class="text-white" style="font-size:12px;"> Pinterest</span>
                         </a>
                     </div>
@@ -98,19 +98,19 @@
                     <div class="col-1 col-md-0"></div>
                     <div class="col-3 col-md-2 border pbox2 d-flex justify-content-center flex-column text-center" style="display:inline-block">
                         <a href="https://www.facebook.com/">
-                            <img src="{{ asset('images/31ss/Website1-28.png') }}" height="15">
+                            <img src="{{ asset('images/31ss/website1-28.png') }}" height="15">
                             <span class="text-white" style="font-size:12px;"> Facebook</span>
                         </a>
                     </div>
                     <div class="col-3 col-md-2 border pbox2 d-flex justify-content-center flex-column text-center" style="display:inline-block">
                         <a href="https://twitter.com/">
-                            <img src="{{ asset('images/31ss/Website1-29.png') }}" height="15">
+                            <img src="{{ asset('images/31ss/website1-29.png') }}" height="15">
                             <span class="text-white" style="font-size:12px;"> Twitter</span>
                         </a>
                     </div>
                     <div class="col-4 col-md-2 border pbox2 d-flex justify-content-center flex-column text-center" style="display:inline-block">
                         <a href="https://plus.google.com/">
-                            <img src="{{ asset('images/31ss/Website1-30.png') }}" height="15">
+                            <img src="{{ asset('images/31ss/website1-30.png') }}" height="15">
                             <span class="text-white" style="font-size:12px;"> Google plus</span>
                         </a>
                     </div>
@@ -118,13 +118,13 @@
                     <div class="col-2 col-md-0"></div>
                     <div class="col-4 col-md-2 border pbox2 d-flex justify-content-center flex-column text-center" style="display:inline-block">
                         <a href="https://www.linkedin.com/">
-                            <img src="{{ asset('images/31ss/Website1-31.png') }}" height="15">
+                            <img src="{{ asset('images/31ss/website1-31.png') }}" height="15">
                             <span class="text-white" style="font-size:12px;"> linkedin</span>
                         </a>
                     </div>
                     <div class="col-4 col-md-2 border pbox2 d-flex justify-content-center flex-column text-center" style="display:inline-block">
                         <a href="https://www.pinterest.com/">
-                            <img src="{{ asset('images/31ss/Website1-32.png') }}" height="15">
+                            <img src="{{ asset('images/31ss/website1-32.png') }}" height="15">
                             <span class="text-white" style="font-size:12px;"> Pinterest</span>
                         </a>
                     </div>

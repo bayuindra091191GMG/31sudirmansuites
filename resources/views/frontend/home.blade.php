@@ -382,13 +382,13 @@
                 <div class="col-md-8 col-12">
                     <div class="row">
                         <div class="col-md-4 col-4 text-center">
-                            <img src="{{ asset('images/31ss/home/website1-16.png') }}" alt="IMG" class="img-fluid" style="height: 80px;">
+                            <img src="{{ asset('images/31ss/home/website1-16.png') }}" alt="IMG" class="img-fluid">
                         </div>
                         <div class="col-md-4 col-4 text-center">
-                            <img src="{{ asset('images/31ss/home/website1-17.png') }}" alt="IMG" class="img-fluid" style="height: 40px;">
+                            <img src="{{ asset('images/31ss/home/website1-17.png') }}" alt="IMG" class="img-fluid">
                         </div>
                         <div class="col-md-4 col-4 text-center">
-                            <img src="{{ asset('images/31ss/home/website1-18.png') }}" alt="IMG" class="img-fluid" style="height: 80px;">
+                            <img src="{{ asset('images/31ss/home/website1-18.png') }}" alt="IMG" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -404,13 +404,13 @@
                 <div class="col-md-8 col-12">
                     <div class="row">
                         <div class="col-md-4 col-4 text-center">
-                            <img src="{{ asset('images/31ss/home/website1-19.png') }}" alt="IMG" class="img-fluid" style="height: 80px;">
+                            <img src="{{ asset('images/31ss/home/website1-19.png') }}" alt="IMG" class="img-fluid">
                         </div>
                         <div class="col-md-4 col-4 text-center">
-                            <img src="{{ asset('images/31ss/home/website1-20.png') }}" alt="IMG" class="img-fluid" style="height: 60px;">
+                            <img src="{{ asset('images/31ss/home/website1-20.png') }}" alt="IMG" class="img-fluid">
                         </div>
                         <div class="col-md-4 col-4 text-center">
-                            <img src="{{ asset('images/31ss/home/website1-21.png') }}" alt="IMG" class="img-fluid" style="height: 80px;">
+                            <img src="{{ asset('images/31ss/home/website1-21.png') }}" alt="IMG" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -485,12 +485,12 @@
         }
 
         .slick-dots li.slick-active button:before{
-            font-size: 16px;
+            font-size: 14px;
             color: sandybrown;
         }
 
         .slick-dots li button:before{
-            font-size: 16px;
+            font-size: 14px;
             color: sandybrown;
         }
 
@@ -525,11 +525,19 @@
             margin-left: -1em; /* Also needed for space (tweak if needed) */
         }
 
+        .img-fluid{
+            max-width: 100%;
+        }
+
         @media (min-width: 576px) {
 
         }
 
         @media (min-width: 768px) {
+            .img-fluid{
+                max-width: 80%;
+            }
+
             .home-top-margin{
                 margin-top: -100px;
             }
