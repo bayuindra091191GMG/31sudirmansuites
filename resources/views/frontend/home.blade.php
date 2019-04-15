@@ -277,7 +277,7 @@
                                 <span class="t1-m-4 font-custom-tiempos-light text-custom-light-brown font-italic">At The Center of It All</span>
                             </div>
                             <div>
-                                <p class="text-white">
+                                <p class="text-white mb-5">
                                     Location on the heart of Makassar city at Jalan Jendral Sudirman 31, experience<br/>
                                     prestigious living in the most spacious, most luxurious, and most exclusive<br/>
                                     development at the center of it all.
@@ -289,7 +289,7 @@
                                 <span class="t1-m-4 font-italic text-custom-light-brown">Lorem ipsum 2</span>
                             </div>
                             <div>
-                                <p class="text-white">
+                                <p class="text-white mb-5">
                                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, reiciendis.<br/>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, quidem!<br/>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, deserunt!
@@ -301,7 +301,7 @@
                                 <span class="t1-m-4 font-italic text-custom-light-brown">Lorem ipsum 3</span>
                             </div>
                             <div>
-                                <p class="text-white">
+                                <p class="text-white mb-5">
                                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, reiciendis.<br/>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, quidem!<br/>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, deserunt!
@@ -313,7 +313,7 @@
                                 <span class="t1-m-4 font-italic text-custom-light-brown">Lorem ipsum 4</span>
                             </div>
                             <div>
-                                <p class="text-white">
+                                <p class="text-white mb-5">
                                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, reiciendis.<br/>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, quidem!<br/>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, deserunt!
@@ -325,7 +325,7 @@
                                 <span class="t1-m-4 font-italic text-custom-light-brown">Lorem ipsum 5</span>
                             </div>
                             <div>
-                                <p class="text-white">
+                                <p class="text-white mb-5">
                                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, reiciendis.<br/>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, quidem!<br/>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, deserunt!
@@ -382,13 +382,13 @@
                 <div class="col-md-8 col-12">
                     <div class="row">
                         <div class="col-md-4 col-4 text-center">
-                            <img src="{{ asset('images/31ss/home/website1-16.png') }}" alt="IMG" class="img-fluid">
+                            <img src="{{ asset('images/31ss/home/website1-16.png') }}" alt="IMG" class="img-fluid" style="height: 80px;">
                         </div>
                         <div class="col-md-4 col-4 text-center">
-                            <img src="{{ asset('images/31ss/home/website1-17.png') }}" alt="IMG" class="img-fluid">
+                            <img src="{{ asset('images/31ss/home/website1-17.png') }}" alt="IMG" class="img-fluid" style="height: 40px;">
                         </div>
                         <div class="col-md-4 col-4 text-center">
-                            <img src="{{ asset('images/31ss/home/website1-18.png') }}" alt="IMG" class="img-fluid">
+                            <img src="{{ asset('images/31ss/home/website1-18.png') }}" alt="IMG" class="img-fluid" style="height: 80px;">
                         </div>
                     </div>
                 </div>
@@ -404,13 +404,13 @@
                 <div class="col-md-8 col-12">
                     <div class="row">
                         <div class="col-md-4 col-4 text-center">
-                            <img src="{{ asset('images/31ss/home/website1-19.png') }}" alt="IMG" class="img-fluid">
+                            <img src="{{ asset('images/31ss/home/website1-19.png') }}" alt="IMG" class="img-fluid" style="height: 80px;">
                         </div>
                         <div class="col-md-4 col-4 text-center">
-                            <img src="{{ asset('images/31ss/home/website1-20.png') }}" alt="IMG" class="img-fluid">
+                            <img src="{{ asset('images/31ss/home/website1-20.png') }}" alt="IMG" class="img-fluid" style="height: 60px;">
                         </div>
                         <div class="col-md-4 col-4 text-center">
-                            <img src="{{ asset('images/31ss/home/website1-21.png') }}" alt="IMG" class="img-fluid">
+                            <img src="{{ asset('images/31ss/home/website1-21.png') }}" alt="IMG" class="img-fluid" style="height: 80px;">
                         </div>
                     </div>
                 </div>
@@ -418,10 +418,10 @@
             <div class="row">
                 <div class="col-md-3"></div>
                 <div class="col-md-3 col-6 text-center">
-                    <img src="{{ asset('images/31ss/home/website1-22.png') }}" alt="IMG" class="img-fluid">
+                    <img src="{{ asset('images/31ss/home/website1-22.png') }}" alt="IMG" class="img-fluid" style="height: 60px;">
                 </div>
                 <div class="col-md-3 col-6 text-center">
-                    <img src="{{ asset('images/31ss/home/website1-23.png') }}" alt="IMG" class="img-fluid">
+                    <img src="{{ asset('images/31ss/home/website1-23.png') }}" alt="IMG" class="img-fluid" style="height: 50px;">
                 </div>
                 <div class="col-md-3 "></div>
             </div>

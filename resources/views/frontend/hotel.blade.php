@@ -53,7 +53,7 @@
                         </p>
                     </div>
                     <div>
-                        <p>"We go above and beyond to deliver what<br/>
+                        <p style="font-family: sans-serif">"We go above and beyond to deliver what<br/>
                             is best for our residents."
                         </p>
                     </div>
@@ -145,42 +145,40 @@
         <div class="container">
             <div class="row no-gutters">
                 <div class="col-4" >
-                    <div class="w-100 gallery" style="background-image: url('{{ asset('images/31ss/hotel/website36.jpg') }}');
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: cover;"></div>     
+                        <img class="w-100 gallery" src="{{ asset('images/31ss/hotel/website36.jpg') }}" alt="Drop Off"  
+                        onmouseover="this.src='{{ asset('images/31ss/hotel/website42.jpg') }}'" 
+                        onmouseout="this.src='{{ asset('images/31ss/hotel/website36.jpg') }}'">
                 </div>
                 <div class="col-4" >
-                        <div class="w-100 gallery" style="background-image: url('{{ asset('images/31ss/hotel/website37.jpg') }}');
+                        {{-- <div class="w-100 gallery" style="background-image: url('{{ asset('images/31ss/hotel/website37.jpg') }}');
                         background-repeat: no-repeat;
                         background-position: center;
-                        background-size: cover;"></div>     
+                        background-size: cover;"></div>      --}}
+                        <img class="w-100 gallery" src="{{ asset('images/31ss/hotel/website37.jpg') }}" alt="Main Entrance"  
+                        onmouseover="this.src='{{ asset('images/31ss/hotel/website43.jpg') }}'" 
+                        onmouseout="this.src='{{ asset('images/31ss/hotel/website37.jpg') }}'">
                     </div>
                 <div class="col-4" >
-                    <div class="w-100 gallery" style="background-image: url('{{ asset('images/31ss/hotel/website38.jpg') }}');
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: cover;"></div>     
+                    <img class="w-100 gallery" src="{{ asset('images/31ss/hotel/website38.jpg') }}" alt="Hotel Lobby"  
+                        onmouseover="this.src='{{ asset('images/31ss/hotel/website44.jpg') }}'" 
+                        onmouseout="this.src='{{ asset('images/31ss/hotel/website38.jpg') }}'">     
                 </div>
             </div>
             <div class="row no-gutters">
                 <div class="col-4" >
-                    <div class="w-100 gallery" style="background-image: url('{{ asset('images/31ss/hotel/website39.jpg') }}');
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: cover;"></div>     
+                    <img class="w-100 gallery" src="{{ asset('images/31ss/hotel/website39.jpg') }}" alt="Apartment Lobby"  
+                        onmouseover="this.src='{{ asset('images/31ss/hotel/website45.jpg') }}'" 
+                        onmouseout="this.src='{{ asset('images/31ss/hotel/website39.jpg') }}'">     
                 </div>
                 <div class="col-4" >
-                    <div class="w-100 gallery" style="background-image: url('{{ asset('images/31ss/hotel/website40.jpg') }}');
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: cover;"></div>     
+                    <img class="w-100 gallery" src="{{ asset('images/31ss/hotel/website40.jpg') }}" alt="Unit Interior"  
+                        onmouseover="this.src='{{ asset('images/31ss/hotel/website46.jpg') }}'" 
+                        onmouseout="this.src='{{ asset('images/31ss/hotel/website40.jpg') }}'">     
                 </div>
                 <div class="col-4" >
-                    <div class="w-100 gallery" style="background-image: url('{{ asset('images/31ss/hotel/website47.jpg') }}');
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: cover;"></div>     
+                    <img class="w-100 gallery" src="{{ asset('images/31ss/hotel/website41.jpg') }}" alt="Swimming Pool"  
+                        onmouseover="this.src='{{ asset('images/31ss/hotel/website47.jpg') }}'" 
+                        onmouseout="this.src='{{ asset('images/31ss/hotel/website41.jpg') }}'">     
                 </div>
             </div>
         </div>
