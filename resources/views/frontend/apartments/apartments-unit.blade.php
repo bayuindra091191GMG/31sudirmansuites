@@ -58,7 +58,7 @@
                             <div id="panelBodyFour" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <div>
-                                        <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/premiersuitesabcd.png') }}');
+                                        <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/denah-pecah-01.png') }}');
                                         background-repeat: no-repeat;
                                         background-position: left;
                                         background-size: cover;">
@@ -108,7 +108,7 @@
                             </div>
                             <div id="panelBodyFive" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/northprivatesuites.png') }}');
+                                    <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/denah-pecah-02.png') }}');
                                         background-repeat: no-repeat;
                                         background-position: left;
                                         background-size: cover;">
@@ -157,7 +157,7 @@
                             </div>
                             <div id="panelBodySix" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/southprivatesuites.png') }}');
+                                    <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/denah-pecah-03.png') }}');
                                         background-repeat: no-repeat;
                                         background-position: left;
                                         background-size: cover;">
@@ -206,7 +206,7 @@
                             </div>
                             <div id="panelBodySeven" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    <div class="py-5 w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/premiersuitee.png') }}');
+                                    <div class="py-5 w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/denah-pecah-04.png') }}');
                                         background-repeat: no-repeat;
                                         background-position: left;
                                         background-size: cover;">
@@ -255,7 +255,7 @@
                             </div>
                             <div id="panelBodyEight" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/twobedroom.png') }}');
+                                    <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/denah-pecah-05.png') }}');
                                         background-repeat: no-repeat;
                                         background-position: left;
                                         background-size: cover;">
