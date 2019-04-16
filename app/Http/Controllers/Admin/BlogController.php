@@ -10,6 +10,7 @@ use App\Transformer\BlogTransformer;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Validator;
 use Intervention\Image\Facades\Image;
@@ -66,10 +67,18 @@ class BlogController extends Controller
             return redirect()->back()->withErrors('Gambar utama wajib upload!', 'default')->withInput($request->all());
         }
 
+        // Checking title exist
+        $title = strtolower($request->input('title'));
+        $existBlog = Blog::whereRaw("LOWER(title) LIKE '%". $title ."%'")->first();
+        //dd($existBlog);
+        if(!empty($existBlog)){
+            return redirect()->back()->withErrors('Judul Artikel sudah ada!', 'default')->withInput($request->all());
+        }
+
         $dateTimeNow = Carbon::now('Asia/Jakarta');
 
         $user = Auth::guard('admin')->user();
-        $slug = str_slug($request->input('title'));
+        $slug = str_slug(strtolower($request->input('title')));
         $newBlog = Blog::create([
             'title'         => $request->input('title'),
             'slug'          => $slug,
@@ -121,11 +130,17 @@ class BlogController extends Controller
             return back()->withErrors($validator)->withInput();
         }
 
-        //dd($id);
+        // Checking title exist
+        $title = strtolower($request->input('title'));
+        $existBlog = Blog::whereRaw("LOWER(title) LIKE '%". $title ."%'")
+            ->where('id', '!=', $id)
+            ->first();
 
-//        if($request->file('featured-image') == null){
-//            return redirect()->back()->withErrors('Gambar utama wajib upload!', 'default')->withInput($request->all());
-//        }
+        //dd($existBlog);
+
+        if(!empty($existBlog)){
+            return redirect()->back()->withErrors('Judul Artikel sudah ada!', 'default')->withInput($request->all());
+        }
 
         $dateTimeNow = Carbon::now('Asia/Jakarta');
 
@@ -138,7 +153,7 @@ class BlogController extends Controller
         }
 
         $blog->title = $request->input('title');
-        $blog->slug = str_slug($request->input('title'));
+        $blog->slug = str_slug(strtolower($request->input('title')));
         $blog->subtitle = $request->input('subtitle');
         $blog->description = $request->input('content');
         $blog->updated_by = $user->id;

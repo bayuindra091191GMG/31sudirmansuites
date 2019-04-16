@@ -3,11 +3,14 @@
 namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
+use App\Mail\ContactMessageMail;
 use App\Models\Blog;
 use App\Models\ContactMessage;
 use App\Models\Subscribe;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Validator;
@@ -101,36 +104,42 @@ class HomeController extends Controller
     }
 
     public function saveContactUs(Request $request){
-        $validator = Validator::make($request->all(),[
-            'name'          => 'required|max:50',
-            'email'         => 'required|email|max:50',
-            'phone'         => 'required|max:25',
-            'case'          => 'required|max:200'
-        ],[
-            'name.required'         => 'Nama wajib diisi!',
-            'email.required'        => 'Email wajib diisii!',
-            'phone.required'        => 'Nomor Ponsel wajib diisii!',
-            'case.required'         => 'Case wajib diisii!',
-        ]);
+        try{
+            $validator = Validator::make($request->all(),[
+                'name'          => 'required|max:50',
+                'email'         => 'required|email|max:50',
+                'phone'         => 'required|max:25',
+                'case'          => 'required|max:200'
+            ],[
+                'name.required'         => 'Nama wajib diisi!',
+                'email.required'        => 'Email wajib diisii!',
+                'phone.required'        => 'Nomor Ponsel wajib diisii!',
+                'case.required'         => 'Case wajib diisii!',
+            ]);
 
-        if ($validator->fails()) {
-            return back()->withErrors($validator)->withInput();
+            if ($validator->fails()) {
+                return back()->withErrors($validator)->withInput();
+            }
+
+            $now = Carbon::now('Asia/Jakarta');
+
+            $newMessage = ContactMessage::create([
+                'name'          => $request->input('name'),
+                'email'         => $request->input('email'),
+                'phone'         => $request->input('phone'),
+                'address'       => $request->input('address') ?? null,
+                'message'       => $request->input('case'),
+                'created_at'    => $now->toDateTimeString(),
+            ]);
+
+            Mail::to("info@31sudirmansuites.com")->send(new ContactMessageMail($newMessage));
+            Session::flash('success', 'Pesan Anda berhasil diterima!');
+
+            return redirect()->route('frontend.contact_us');
         }
-
-        $now = Carbon::now('Asia/Jakarta');
-
-        $newMessage = ContactMessage::create([
-            'name'          => $request->input('name'),
-            'email'         => $request->input('email'),
-            'phone'         => $request->input('phone'),
-            'address'       => $request->input('address') ?? null,
-            'message'       => $request->input('case'),
-            'created_at'    => $now->toDateTimeString(),
-        ]);
-
-        Session::flash('success', 'Pesan Anda berhasil diterima!');
-
-        return redirect()->route('frontend.contact_us');
+        catch (\Exception $ex){
+            Log::error("HomeController - saveContactUs error: ". $ex);
+        }
     }
 
     public function saveSubscribe(Request $request){

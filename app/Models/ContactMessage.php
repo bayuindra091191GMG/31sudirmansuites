@@ -10,7 +10,7 @@ namespace App\Models;
 use Reliese\Database\Eloquent\Model as Eloquent;
 
 /**
- * Class ContactMessage
+ * Class ContactMessageMail
  * 
  * @property int $id
  * @property string $name
