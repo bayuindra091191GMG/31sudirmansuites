@@ -14,7 +14,7 @@
 
     <section class="slider home-top-margin">
         <div class="rev_slider_wrapper fullwidthbanner-container">
-            <div id="rev_slider_1" class="rev_slider fullwidthabanner" data-version="5.4.5" style="display:none;">
+            <div id="rev_slider_1" class="rev_slider fullwidthabanner img-banner-responsive" data-version="5.4.5" style="display:none;">
                 <ul>
                     <!-- Slide 1 -->
                     <li data-transition="slidingoverlayhorizontal">
@@ -62,7 +62,7 @@
                         data-voffset="['-13', '-13', '-13', '-13']" 
                      
                         data-width="['1200','992','768','480']"
-                        data-height="['auto', 'auto', 'auto', 'auto']" 
+                        data-height="['auto', 'auto', 'auto', 'auto']"
                         data-whitespace="['normal']" 
                      
                         data-paddingtop="[0, 0, 0, 0]"
@@ -109,7 +109,7 @@
                     <br/>
                 </div>
                 <div class="col-4 text-center text-md-left">
-                    <span class="font-custom-tiempos-bold text-custom-light-brown" style="font-size: 15px;">A Beautiful legacy</span><br/>
+                    <span class="font-custom-tiempos-regular-italic text-custom-light-brown" style="font-size: 15px;">A Beautiful legacy</span><br/>
                     <span class="font-custom-tiempos-medium" style="font-size: 10px;">Our vision is to deliver a beautiful legacy you can savor with your loved ones and
                         to design the life of luxury you deserve in this city that you love.</span>
                 </div>
@@ -186,9 +186,10 @@
                                 background-position: center;
                                 background-size: contain;
                                 height: 250px;">
-                            <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
+                            <div class="box h-100 d-flex justify-content-center flex-column text-center px-3 px-xl-5">
                                 <span class="t1-m-1 custom-font-2">The</span>
-                                <span class="t1-m-1 custom-font-1">Award Winning Developer</span>
+                                <span class="t1-m-1 custom-font-1">Award Winning</span>
+                                <span class="t1-m-1 custom-font-1">Developer</span>
                             </div>
                         </div>
                     </div>
@@ -274,7 +275,7 @@
                     <div class="five-slider align-content-center mx-3">
                         <div class="text-center">
                             <div class="mb-4">
-                                <span class="t1-m-4 font-custom-tiempos-light text-custom-light-brown font-italic">At The Center of It All</span>
+                                <span class="t1-m-4 font-custom-tiempos-regular-italic text-custom-light-brown">At The Center of It All</span>
                             </div>
                             <div>
                                 <p class="text-white mb-5">
@@ -286,49 +287,48 @@
                         </div>
                         <div class="text-center">
                             <div class="mb-4">
-                                <span class="t1-m-4 font-italic text-custom-light-brown">Lorem ipsum 2</span>
+                                <span class="t1-m-4 font-custom-tiempos-regular-italic text-custom-light-brown">Live the Life You Deserve</span>
                             </div>
                             <div>
                                 <p class="text-white mb-5">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, reiciendis.<br/>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, quidem!<br/>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, deserunt!
+                                    The first-ever Hyatt Place Hotel in Indonesia will rise elegantly beside the captivating 31 Sudirman Suites.<br/>
+                                    The direct and easy access to the Hyatt Place’s world-class amenities,<br/>
+                                    leads 31 Sudirman Suites to become a luxurious and life-enhancing development.
                                 </p>
                             </div>
                         </div>
                         <div class="text-center">
                             <div class="mb-4">
-                                <span class="t1-m-4 font-italic text-custom-light-brown">Lorem ipsum 3</span>
+                                <span class="t1-m-4 font-italic text-custom-light-brown">A View for the Few</span>
                             </div>
                             <div>
                                 <p class="text-white mb-5">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, reiciendis.<br/>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, quidem!<br/>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, deserunt!
+                                    31 Sudirman Suites is home to only 161 of the largest suites.<br/>
+                                    We designed the highest levels of privacy and security for the luckiest few.<br/>
+                                    This iconic beauty will be the benchmark of urban living in Makassar’s skyscraper landscape.
                                 </p>
                             </div>
                         </div>
                         <div class="text-center">
                             <div class="mb-4">
-                                <span class="t1-m-4 font-italic text-custom-light-brown">Lorem ipsum 4</span>
+                                <span class="t1-m-4 font-italic text-custom-light-brown">Hadiprana</span>
                             </div>
                             <div>
                                 <p class="text-white mb-5">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, reiciendis.<br/>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, quidem!<br/>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, deserunt!
+                                    “To look not just with eyes, but with heart. Find the things that connect with us and our surroundings.”<br/><br/>
+                                    Flawless design is about when we approach the right balance between all elements.<br/>
+                                    Understated theatricality - that is what 31 Sudirman Suites is all about.
+
                                 </p>
                             </div>
                         </div>
                         <div class="text-center">
                             <div class="mb-4">
-                                <span class="t1-m-4 font-italic text-custom-light-brown">Lorem ipsum 5</span>
+                                <span class="t1-m-4 font-italic text-custom-light-brown">Welcome to the Paradise Group</span>
                             </div>
                             <div>
                                 <p class="text-white mb-5">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, reiciendis.<br/>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, quidem!<br/>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, deserunt!
+                                    “We develop and operate iconic lifestyle destinations in Indonesia’s greatest cities.”<br/>
                                 </p>
                             </div>
                         </div>
@@ -447,7 +447,7 @@
                                     <div style="margin-top: -25px;">
                                         <span class="pb-1 text-custom-light-brown font-custom-tiempos-medium">{{$new->created_at_front_end_formatted}}</span><br/>
                                         <span>{{ $new->title }}</span><br/>
-                                        <a href="{{ route('frontend.news_detail', ['slug' => $new->blog]) }}" class="text-custom-light-brown font-custom-avenir-medium" style="text-decoration: underline;">
+                                        <a href="{{ route('frontend.news_detail', ['slug' => $new->slug]) }}" class="text-custom-light-brown font-custom-avenir-medium" style="text-decoration: underline;">
                                             READ MORE
                                         </a>
                                     </div>
@@ -543,7 +543,7 @@
             }
 
             .img-banner-responsive{
-                height: 500px;
+                height: 700px;
             }
 
             .img-map-responsive{

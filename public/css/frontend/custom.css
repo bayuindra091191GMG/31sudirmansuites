@@ -207,6 +207,10 @@
     font-family: 'TiemposHeadlineLight', sans-serif !important;
 }
 
+.font-custom-tiempos-regular-italic{
+    font-family: 'TiemposHeadlineRegularItalic', sans-serif !important;
+}
+
 .font-custom-tiempos-medium{
     font-family: 'TiemposHeadlineMedium', sans-serif !important;
 }
@@ -240,6 +244,15 @@
     url('../../fonts/TiemposHeadline-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
+}
+
+@font-face {
+    font-family: 'TiemposHeadlineRegularItalic';
+    src: local('Tiempos Headline Regular Italic'), local('TiemposHeadline-RegularItalic'),
+    url('../../fonts/TiemposHeadline-RegularItalic.woff2') format('woff2'),
+    url('../../fonts/TiemposHeadline-RegularItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
 }
 
 @font-face {
