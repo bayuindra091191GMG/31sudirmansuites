@@ -105,12 +105,12 @@
             <div class="row justify-content-center">
                 <div class="col-2"></div>
                 <div class="col-3 text-center">
-                    <span class="t1-m-4 font-custom-tiempos-light text-custom-light-brown font-italic">The Vision</span>
+                    <span class="t1-m-2 font-custom-tiempos-light text-custom-light-brown font-italic" style="font-size: 24px;">The Vision</span>
                     <br/>
                 </div>
                 <div class="col-4 text-center text-md-left">
-                    <span class="font-custom-tiempos-regular-italic text-custom-light-brown" style="font-size: 15px;">A Beautiful legacy</span><br/>
-                    <span class="font-custom-tiempos-medium" style="font-size: 10px;">Our vision is to deliver a beautiful legacy you can savor with your loved ones and
+                    <span class="font-custom-tiempos-regular-italic text-custom-light-brown" style="font-size: 18px;">A Beautiful legacy</span><br/>
+                    <span class="font-custom-tiempos-regular" style="font-size: 12px;">Our vision is to deliver a beautiful legacy you can savor with your loved ones and
                         to design the life of luxury you deserve in this city that you love.</span>
                 </div>
                 <div class="col-2"></div>
@@ -138,9 +138,9 @@
                                 background-position: center;
                                 background-size: contain;
                                 height: 250px;">
-                            <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
-                                <span class="t1-m-1 custom-font-2">The</span>
-                                <span class="t1-m-1 custom-font-1">Prime Address</span>
+                            <div class="box h-100 d-flex justify-content-center flex-column text-center px-3 px-xl-5">
+                                <span class="t1-m-1 font-custom-tiempos-regular">The</span>
+                                <span class="t1-m-1 font-custom-tiempos-regular">Prime Address</span>
                             </div>
                         </div>
                     </div>
@@ -150,9 +150,9 @@
                                 background-position: center;
                                 background-size: contain;
                                 height: 250px;">
-                            <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
-                                <span class="t1-m-1 custom-font-2">The</span>
-                                <span class="t1-m-1 custom-font-1">Prestige of Service</span>
+                            <div class="box h-100 d-flex justify-content-center flex-column text-center px-3 px-xl-5">
+                                <span class="t1-m-1 font-custom-tiempos-regular">The</span>
+                                <span class="t1-m-1 font-custom-tiempos-regular">Prestige of Service</span>
                             </div>
                         </div>
                     </div>
@@ -162,9 +162,9 @@
                                 background-position: center;
                                 background-size: contain;
                                 height: 250px;">
-                            <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
-                                <span class="t1-m-1 custom-font-2">The</span>
-                                <span class="t1-m-1 custom-font-1">Select Community</span>
+                            <div class="box h-100 d-flex justify-content-center flex-column text-center px-3 px-xl-5">
+                                <span class="t1-m-1 font-custom-tiempos-regular">The</span>
+                                <span class="t1-m-1 font-custom-tiempos-regular">Select Community</span>
                             </div>
                         </div>
                     </div>
@@ -174,9 +174,9 @@
                                 background-position: center;
                                 background-size: contain;
                                 height: 250px;">
-                            <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
-                                <span class="t1-m-1 custom-font-2">The</span>
-                                <span class="t1-m-1 custom-font-1">State of Art</span>
+                            <div class="box h-100 d-flex justify-content-center flex-column text-center px-3 px-xl-5">
+                                <span class="t1-m-1 font-custom-tiempos-regular">The</span>
+                                <span class="t1-m-1 font-custom-tiempos-regular">State of Art</span>
                             </div>
                         </div>
                     </div>
@@ -187,9 +187,9 @@
                                 background-size: contain;
                                 height: 250px;">
                             <div class="box h-100 d-flex justify-content-center flex-column text-center px-3 px-xl-5">
-                                <span class="t1-m-1 custom-font-2">The</span>
-                                <span class="t1-m-1 custom-font-1">Award Winning</span>
-                                <span class="t1-m-1 custom-font-1">Developer</span>
+                                <span class="t1-m-1 font-custom-tiempos-regular">The</span>
+                                <span class="t1-m-1 font-custom-tiempos-regular">Award Winning</span>
+                                <span class="t1-m-1 font-custom-tiempos-regular">Developer</span>
                             </div>
                         </div>
                     </div>
@@ -207,8 +207,8 @@
                                         height: 250px;
                                         width: 150px;">
                                     <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
-                                        <span class="t1-m-1 custom-font-2">The</span>
-                                        <span class="t1-m-1 custom-font-1">Prime Address</span>
+                                        <span class="t1-m-1 font-custom-tiempos-regular">The</span>
+                                        <span class="t1-m-1 font-custom-tiempos-regular">Prime Address</span>
                                     </div>
                                 </div>
                             </div>
@@ -220,8 +220,8 @@
                                         height: 250px;
                                         width: 150px;">
                                     <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
-                                        <span class="t1-m-1 custom-font-2">The</span>
-                                        <span class="t1-m-1 custom-font-1">Prestige of Service</span>
+                                        <span class="t1-m-1 font-custom-tiempos-regular">The</span>
+                                        <span class="t1-m-1 font-custom-tiempos-regular">Prestige of Service</span>
                                     </div>
                                 </div>
                             </div>
@@ -233,8 +233,8 @@
                                         height: 250px;
                                         width: 150px;">
                                     <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
-                                        <span class="t1-m-1 custom-font-2">The</span>
-                                        <span class="t1-m-1 custom-font-1">Select Community</span>
+                                        <span class="t1-m-1 font-custom-tiempos-regular">The</span>
+                                        <span class="t1-m-1 font-custom-tiempos-regular">Select Community</span>
                                     </div>
                                 </div>
                             </div>
@@ -246,8 +246,8 @@
                                         height: 250px;
                                         width: 150px;">
                                     <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
-                                        <span class="t1-m-1 custom-font-2">The</span>
-                                        <span class="t1-m-1 custom-font-1">State of Art</span>
+                                        <span class="t1-m-1 font-custom-tiempos-regular">The</span>
+                                        <span class="t1-m-1 font-custom-tiempos-regular">State of Art</span>
                                     </div>
                                 </div>
                             </div>
@@ -259,8 +259,8 @@
                                         height: 250px;
                                         width: 150px;">
                                     <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
-                                        <span class="t1-m-1 custom-font-2">The</span>
-                                        <span class="t1-m-1 custom-font-1">Award Winning Developer</span>
+                                        <span class="t1-m-1 font-custom-tiempos-regular">The</span>
+                                        <span class="t1-m-1 font-custom-tiempos-regular">Award Winning Developer</span>
                                     </div>
                                 </div>
                             </div>
@@ -299,7 +299,7 @@
                         </div>
                         <div class="text-center">
                             <div class="mb-4">
-                                <span class="t1-m-4 font-italic text-custom-light-brown">A View for the Few</span>
+                                <span class="t1-m-4 font-custom-tiempos-regular-italic text-custom-light-brown">A View for the Few</span>
                             </div>
                             <div>
                                 <p class="text-white mb-5">
@@ -311,7 +311,7 @@
                         </div>
                         <div class="text-center">
                             <div class="mb-4">
-                                <span class="t1-m-4 font-italic text-custom-light-brown">Hadiprana</span>
+                                <span class="t1-m-4 font-custom-tiempos-regular-italic text-custom-light-brown">Hadiprana</span>
                             </div>
                             <div>
                                 <p class="text-white mb-5">
@@ -324,7 +324,7 @@
                         </div>
                         <div class="text-center">
                             <div class="mb-4">
-                                <span class="t1-m-4 font-italic text-custom-light-brown">Welcome to the Paradise Group</span>
+                                <span class="t1-m-4 font-custom-tiempos-regular-italic text-custom-light-brown">Welcome to the Paradise Group</span>
                             </div>
                             <div>
                                 <p class="text-white mb-5">

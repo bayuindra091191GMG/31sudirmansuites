@@ -132,9 +132,8 @@
     <section>
         <div class="container">
             <div class="row justify-content-center">
-                <div class= "col-12 text-center text-custom-light-brown pb-2" 
-                    style="font-size: 30px !important;
-                    font-weight: bold;">
+                <div class= "col-12 text-center text-custom-light-brown pb-2 font-custom-tiempos-regular"
+                    style="font-size: 30px !important;">
                     Gallery
                 </div>
             <div class="size-a-2 bg-3 bg-custom-light-brown" style="width: 3%; height: 1px;"></div>

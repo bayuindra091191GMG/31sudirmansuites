@@ -59,12 +59,9 @@
             <div class="col-1"></div>
             <div class="col-10">
                 <p class="text-custom-light-brown">
-                    <span class="font-italic t1-m-1">the
-                        {{-- <a href="{{ route('frontend.apartments.site') }}">    
-                            <img src="{{ asset('images/31ss/apartments/website1-35.png') }}" alt="IMG" style="width:130px;" class="img-fluid float-right mt-2">
-                        </a> --}}
+                    <span class="t1-m-2 font-custom-tiempos-light-italic">the
                     </span><br/>
-                    <span class="font-weight-bold">Site Plan</span><br/>
+                    <span class="font-custom-tiempos-regular">Site Plan</span><br/>
                 </p>
                 <div class="flex-col-c-c py-3">
                     <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
@@ -76,7 +73,7 @@
                                 <h4 class="panel-title">
                                     <a href="#panelBodyOne" class="text-custom-light-brown font-custom-tiempos-light" data-toggle="collapse" data-parent="accordion">
                                         Ground Floor
-                                        <span class="float-r ">View More <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid">
+                                        <span class="float-r font-custom-avenir-medium">View More &nbsp; <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid">
                                         </span>
                                     </a>
                                 </h4>                                                                    
@@ -157,7 +154,7 @@
                             <h4 class="panel-title">
                                 <a href="#panelBodyTwo" class="text-custom-light-brown font-custom-tiempos-light" data-toggle="collapse" data-parent="accordion">
                                     3rd Floor
-                                    <span class="float-r">View More <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid"></span>
+                                    <span class="float-r font-custom-avenir-medium">View More &nbsp; <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid"></span>
                                 </a>
                             </h4>                                                                    
                         </div>
@@ -203,11 +200,11 @@
                         </div>
                     </div>
                 </div>
-                            <div class="mb-3 w-100 img-responsive2" style="background-image: url('{{ asset('images/31ss/apartments/website1-15.jpg') }}');
-                                background-repeat: no-repeat;
-                                background-position: center;
-                                background-size: cover;">
-                            </div>
+                <div class="mb-3 w-100 img-responsive2" style="background-image: url('{{ asset('images/31ss/apartments/website1-15.jpg') }}');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;">
+                </div>
                 {{-- <p class="text-custom-light-brown">3rd Floor</p><br/>
                     <div class="col-8" style="background-image: url('{{ asset('images/31ss/apartments/website1-17.jpg') }}');
                             background-repeat: no-repeat;
@@ -250,12 +247,12 @@
                             height: 400px;">
                     </div> --}}
                 <p class="text-custom-light-brown">
-                    <span class="font-italic t1-m-1">the
+                    <span class="t1-m-2 font-custom-tiempos-light-italic">the
                             <a href="{{ route('frontend.apartments.floor') }}">    
                                     {{-- <img src="{{ asset('images/31ss/apartments/website1-35.png') }}" alt="IMG" style="width:130px;" class="img-fluid float-right mt-2"> --}}
                             </a>
                     </span><br/>
-                    <span class="font-weight-bold">Floor Plan</span><br/>
+                    <span class="font-custom-tiempos-regular">Floor Plan</span><br/>
                 </p>
                 <div class="flex-col-c-c py-3">
                     <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
@@ -266,7 +263,7 @@
                             <h4 class="panel-title">
                                 <a href="#panelBodyThree" class="text-custom-light-brown font-custom-tiempos-light" data-toggle="collapse" data-parent="accordion">
                                     Placement
-                                    <span class="float-r">View More <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid"></span>
+                                    <span class="float-r font-custom-avenir-medium">View More &nbsp; <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid"></span>
                                 </a>
                             </h4>                                                                    
                         </div>
@@ -292,11 +289,11 @@
                         </div>
                     </div>
                 </div>
-                                <div class="mb-5 w-100 img-responsive2" style="background-image: url('{{ asset('images/31ss/apartments/website1-13.jpg') }}');
-                                    background-repeat: no-repeat;
-                                    background-position: center;
-                                    background-size: contain;">
-                                </div>
+                <div class="mb-5 w-100 img-responsive2" style="background-image: url('{{ asset('images/31ss/apartments/website1-13.jpg') }}');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: contain;">
+                </div>
                 {{-- <p class="text-custom-light-brown">Placement
                         <span class="float-r">View More <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid"></span></p><br/>
                     <div class="py-5 mb-5" style="background-image: url('{{ asset('images/31ss/apartments/website18.jpg') }}');
@@ -321,12 +318,12 @@
                             height: 400px;">
                     </div> --}}
                 <p class="text-custom-light-brown">
-                    <span class="font-italic t1-m-1">the
+                    <span class="t1-m-2 font-custom-tiempos-light-italic">the
                             <a href="{{ route('frontend.apartments.unit') }}">    
                                 <img src="{{ asset('images/31ss/apartments/website1-35.png') }}" alt="IMG" style="width:130px;" class="img-fluid float-right mt-2">
                             </a>
                     </span><br/>
-                    <span class="font-weight-bold">Unit Plan</span><br/>
+                    <span class="font-custom-tiempos-regular">Unit Plan</span><br/>
                 </p>
                 <div class="flex-col-c-c py-3">
                     <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
