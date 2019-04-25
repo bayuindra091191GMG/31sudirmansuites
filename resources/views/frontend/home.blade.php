@@ -407,7 +407,7 @@
                             <img src="{{ asset('images/31ss/home/website1-19.png') }}" alt="IMG" class="img-fluid">
                         </div>
                         <div class="col-md-4 col-4 text-center">
-                            <img src="{{ asset('images/31ss/home/website1-20.png') }}" alt="IMG" class="img-fluid">
+                            <img src="{{ asset('images/31ss/home/website1-20.png') }}" alt="IMG" class="img-fluid pt-4">
                         </div>
                         <div class="col-md-4 col-4 text-center">
                             <img src="{{ asset('images/31ss/home/website1-21.png') }}" alt="IMG" class="img-fluid">
