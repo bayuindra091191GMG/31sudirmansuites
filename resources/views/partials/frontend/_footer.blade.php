@@ -5,7 +5,7 @@
 
             <div class="row mb-4">
                 <div class="col-12 text-center">
-                    <span class="t1-m-4 font-custom-tiempos-light text-white">Subscribe Newsletter</span>
+                    <span class="t1-m-4 font-custom-libre-baskerville-italic text-white">Subscribe Newsletter</span>
                 </div>
             </div>
             <div id="subscribe_success_message" class="row mb-3" style="display: none;">

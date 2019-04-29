@@ -21,7 +21,7 @@
                             background-position: center;
                             background-size: cover;">
                         <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
-                            <span class="t1-b-1 font-custom-tiempos-medium text-white">Contact Us</span>
+                            <span class="t1-b-1 font-custom-libre-baskerville-bold text-white">Contact Us</span>
                             <hr class="mx-auto banner-line-width" style="border-bottom: 2px solid #fff;"/>
                         </div>
                     </div>

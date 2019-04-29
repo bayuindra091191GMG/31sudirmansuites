@@ -235,6 +235,18 @@
     font-family: 'TiemposHeadlineBoldItalic', sans-serif !important;
 }
 
+.font-custom-libre-baskerville-regular{
+    font-family: 'libre_baskervilleregular', sans-serif !important;
+}
+
+.font-custom-libre-baskerville-italic{
+    font-family: 'libre_baskervilleitalic', sans-serif !important;
+}
+
+.font-custom-libre-baskerville-bold{
+    font-family: 'libre_baskervillebold', sans-serif !important;
+}
+
 
 @font-face {
     font-family: 'AvenirMedium';
@@ -313,6 +325,33 @@
     src: local('Tiempos Headline Bold Italic'), local('TiemposHeadline-BoldItalic'),
     url('../../fonts/TiemposHeadline-BoldItalic.woff2') format('woff2'),
     url('../../fonts/TiemposHeadline-BoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'libre_baskervilleregular';
+    src: local('libre_baskervilleregular'), local('librebaskerville-regular-webfont'),
+    url('../../fonts/librebaskerville-regular-webfont.woff2') format('woff2'),
+    url('../../fonts/librebaskerville-regular-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'libre_baskervilleitalic';
+    src: local('libre_baskervilleitalic'), local('librebaskerville-italic-webfont'),
+    url('../../fonts/librebaskerville-italic-webfont.woff2') format('woff2'),
+    url('../../fonts/librebaskerville-italic-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'libre_baskervillebold';
+    src: local('libre_baskervillebold'), local('librebaskerville-bold-webfont'),
+    url('../../fonts/librebaskerville-bold-webfont.woff2') format('woff2'),
+    url('../../fonts/librebaskerville-bold-webfont.woff') format('woff');
     font-weight: 600;
     font-style: italic;
 }

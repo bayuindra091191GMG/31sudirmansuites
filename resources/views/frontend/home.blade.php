@@ -103,17 +103,17 @@
         <div class="container">
             <!--  -->
             <div class="row justify-content-center">
-                <div class="col-2"></div>
-                <div class="col-3 text-center">
-                    <span class="t1-m-2 font-custom-tiempos-light text-custom-light-brown font-italic" style="font-size: 24px;">The Vision</span>
+                <div class="col-md-2"></div>
+                <div class="col-md-3 col-12 text-center">
+                    <span class="t1-m-2 font-custom-libre-baskerville-italic text-custom-light-brown" style="font-size: 24px;">The Vision</span>
                     <br/>
                 </div>
-                <div class="col-4 text-center text-md-left">
-                    <span class="font-custom-tiempos-regular-italic text-custom-light-brown" style="font-size: 18px;">A Beautiful legacy</span><br/>
+                <div class="col-md-4 col-6 text-center text-md-left">
+                    <span class="font-custom-libre-baskerville-italic text-custom-light-brown" style="font-size: 18px;">A Beautiful legacy</span><br/>
                     <span class="font-custom-tiempos-regular" style="font-size: 12px;">Our vision is to deliver a beautiful legacy you can savor with your loved ones and
                         to design the life of luxury you deserve in this city that you love.</span>
                 </div>
-                <div class="col-2"></div>
+                <div class="col-md-2"></div>
             </div>
         </div>
     </section>
@@ -122,7 +122,7 @@
         <div class="container-fluid">
             <div class="row justify-content-center mb-5">
                 <div class="col-12 text-center">
-                    <h1 class="t1-m-4 font-custom-tiempos-light font-italic text-custom-light-brown">
+                    <h1 class="t1-m-4 font-custom-libre-baskerville-italic text-custom-light-brown">
                         <span>The</span><br/>
                         <span>Five Centerpieces</span>
                     </h1>
@@ -275,7 +275,7 @@
                     <div class="five-slider align-content-center mx-3">
                         <div class="text-center">
                             <div class="mb-4">
-                                <span class="t1-m-4 font-custom-tiempos-regular-italic text-custom-light-brown">At The Center of It All</span>
+                                <span class="t1-m-4 font-custom-libre-baskerville-italic text-custom-light-brown">At The Center of It All</span>
                             </div>
                             <div>
                                 <p class="text-white mb-5">
@@ -287,7 +287,7 @@
                         </div>
                         <div class="text-center">
                             <div class="mb-4">
-                                <span class="t1-m-4 font-custom-tiempos-regular-italic text-custom-light-brown">Live the Life You Deserve</span>
+                                <span class="t1-m-4 font-custom-libre-baskerville-italic text-custom-light-brown">Live the Life You Deserve</span>
                             </div>
                             <div>
                                 <p class="text-white mb-5">
@@ -299,7 +299,7 @@
                         </div>
                         <div class="text-center">
                             <div class="mb-4">
-                                <span class="t1-m-4 font-custom-tiempos-regular-italic text-custom-light-brown">A View for the Few</span>
+                                <span class="t1-m-4 font-custom-libre-baskerville-italic text-custom-light-brown">A View for the Few</span>
                             </div>
                             <div>
                                 <p class="text-white mb-5">
@@ -311,7 +311,7 @@
                         </div>
                         <div class="text-center">
                             <div class="mb-4">
-                                <span class="t1-m-4 font-custom-tiempos-regular-italic text-custom-light-brown">Hadiprana</span>
+                                <span class="t1-m-4 font-custom-libre-baskerville-italic text-custom-light-brown">Hadiprana</span>
                             </div>
                             <div>
                                 <p class="text-white mb-5">
@@ -324,7 +324,7 @@
                         </div>
                         <div class="text-center">
                             <div class="mb-4">
-                                <span class="t1-m-4 font-custom-tiempos-regular-italic text-custom-light-brown">Welcome to the Paradise Group</span>
+                                <span class="t1-m-4 font-custom-libre-baskerville-italic text-custom-light-brown">Welcome to the Paradise Group</span>
                             </div>
                             <div>
                                 <p class="text-white mb-5">
