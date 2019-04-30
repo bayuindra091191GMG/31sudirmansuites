@@ -429,7 +429,7 @@
         </div>
     </section>
 
-    <section class="py-5 px-5 p-b-50">
+    <section class="py-3 px-3 mb-4">
         <div class="container">
             <div class="row">
                 <div class="col-md-2"></div>
@@ -459,18 +459,17 @@
 
 
                 </div>
-                <div class="col-md-4 col-12 text-center">
-                    <div class="w-100" style="background-image: url('{{ asset('images/31ss/video.png') }}');
-                            background-repeat: no-repeat;
-                            background-position: center;
-                            background-size: contain;
-                            height: 200px;">
-                    </div>
-{{--                    <div class="embed-responsive embed-responsive-16by9">--}}
-{{--                        <iframe class="embed-responsive-item" src="{{url('https://www.youtube.com/embed/6eEZ7DJMzuk')}}" frameborder="0" allowfullscreen></iframe>--}}
+                <div class="col-md-6 col-12 text-center">
+{{--                    <div class="w-100" style="background-image: url('{{ asset('images/31ss/video.png') }}');--}}
+{{--                            background-repeat: no-repeat;--}}
+{{--                            background-position: center;--}}
+{{--                            background-size: contain;--}}
+{{--                            height: 200px;">--}}
 {{--                    </div>--}}
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="{{url('https://www.youtube.com/embed/zqlliAq4bmY')}}" frameborder="0" allowfullscreen></iframe>
+                    </div>
                 </div>
-                <div class="col-md-2"></div>
             </div>
         </div>
     </section>
