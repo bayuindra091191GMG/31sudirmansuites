@@ -1,9 +1,9 @@
 @extends('layouts.frontend')
 
 @section('head_and_title')
-    <meta name="description" content="Home Page">
+    <meta name="description" content="31 SUDIRMAN SUITES Home Page">
     <meta name="author" content="PT. Generasi Muda Gigih">
-    <meta name="keywords" content="Property, Office, Residence, Apartment, House">
+    <meta name="keywords" content="31 SUDIRMAN SUITES, Property, Office, Residence, Apartment, House">
 
     <title>31 SUDIRMAN SUITES</title>
 @endsection
@@ -279,7 +279,7 @@
                             </div>
                             <div>
                                 <p class="text-white mb-5">
-                                    Location on the heart of Makassar city at Jalan Jendral Sudirman 31, experience<br/>
+                                    Located in the heart of Makassar city at Jalan Jendral Sudirman 31, experience<br/>
                                     prestigious living in the most spacious, most luxurious, and most exclusive<br/>
                                     development at the center of it all.
                                 </p>
@@ -303,7 +303,8 @@
                             </div>
                             <div>
                                 <p class="text-white mb-5">
-                                    31 Sudirman Suites is home to only 161 of the largest suites.<br/>
+                                    31 Sudirman Suites is home to only 256 of the largest suites, consisting of<br/>
+                                    46 three-bedroom private suites, 20 three-bedroom premier suites and 190 two-bedroom suites.<br/>
                                     We designed the highest levels of privacy and security for the luckiest few.<br/>
                                     This iconic beauty will be the benchmark of urban living in Makassar’s skyscraper landscape.
                                 </p>

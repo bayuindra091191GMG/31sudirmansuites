@@ -29,7 +29,7 @@
                     <br/>
                 </div>
                 <div class="col-md-3 col-12 mb-3 mb-md-0 text-center text-md-left">
-                    <span class="t1-m-1 text-white">Address</span>
+                    <span class="t1-m-1 text-white">Site Project</span>
                     <br/>
                     <span class="t1-m-1 text-white">
                         <br/>
@@ -37,19 +37,28 @@
                         Mangkura - Ujung Pandang.<br/>
                         Makassar 90113
                     </span>
+                    <br/><br/>
+                    <span class="t1-m-1 text-white">Marketing Gallery</span>
+                    <br/>
+                    <span class="t1-m-1 text-white">
+                        <br/>
+                        Ratulangi Point 4th Floor<br/>
+                        Jl. DR. Ratulangi No.2<br/>
+                        Makassar 90114
+                    </span>
                 </div>
                 <div class="col-md-5 col-12 text-center text-md-left">
                     <div class="d-none d-md-block">
                         <span class="t1-m-1 text-white">Contact Info</span><br/><br/>
-                        <span class="t1-m-1 text-white">Email :</span><br/><br/>
-                        <span class="t1-m-1 text-white">Phone :</span><br/><br/>
-                        <span class="t1-m-1 text-white">Fax :</span><br/><br/>
+                        <span class="t1-m-1 text-white">Email : info@31sudirmansuites.com</span><br/><br/>
+                        <span class="t1-m-1 text-white">Phone : 0411 - 8989 838</span><br/><br/>
+{{--                        <span class="t1-m-1 text-white">Fax :</span><br/><br/>--}}
                     </div>
                     <div class="d-block d-md-none">
                         <span class="t1-m-1 text-white">Contact Info</span><br/>
-                        <span class="t1-m-1 text-white">Email</span><br/>
-                        <span class="t1-m-1 text-white">Phone</span><br/>
-                        <span class="t1-m-1 text-white">Fax</span><br/>
+                        <span class="t1-m-1 text-white">Email : info@31sudirmansuites.com</span><br/>
+                        <span class="t1-m-1 text-white">Phone : 0411 - 8989 838</span><br/>
+{{--                        <span class="t1-m-1 text-white">Fax</span><br/>--}}
                     </div>
                 </div>
             </div>

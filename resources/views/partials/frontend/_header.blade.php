@@ -18,10 +18,10 @@
                     <div class="menu-desktop pt-4">
                         <ul class="main-menu respon-sub-menu left">
                             <li>
-                                <a class="font-custom-tiempos-light menu-font-style2 @if(Route::currentRouteName() == 'home') text-white @else text-black @endif" href="{{ route('home') }}">HOME</a>
+                                <a class="font-custom-libre-baskerville-regular menu-font-style2 @if(Route::currentRouteName() == 'home') text-white @else text-black @endif" href="{{ route('home') }}">HOME</a>
                             </li>
                             <li>
-                                <a class="font-custom-tiempos-medium menu-font-style2 @if(Route::currentRouteName() == 'home') text-white @else text-black @endif" href="{{ route('frontend.apartments') }}">APARTMENTS</a>
+                                <a class="font-custom-libre-baskerville-regular menu-font-style2 @if(Route::currentRouteName() == 'home') text-white @else text-black @endif" href="{{ route('frontend.apartments') }}">APARTMENTS</a>
                                 {{-- <i class="fa fa-chevron-down"></i></a>
                                 <ul class="sub-menu" style="z-index:9999;">
                                     <li><a href="{{ route('frontend.apartments.site') }}" class="font-custom-tiempos-light">Site Plan</a></li>
@@ -30,14 +30,14 @@
                                 </ul> --}}
                             </li>
                             <li>
-                                <a class="font-custom-tiempos-light menu-font-style2 @if(Route::currentRouteName() == 'home') text-white @else text-black @endif" href="{{ route('frontend.hotel') }}">HOTEL</a>
+                                <a class="font-custom-libre-baskerville-regular menu-font-style2 @if(Route::currentRouteName() == 'home') text-white @else text-black @endif" href="{{ route('frontend.hotel') }}">HOTEL</a>
                             </li>
                             <li>
-                                <a class="font-custom-tiempos-light menu-font-style2 @if(Route::currentRouteName() == 'home') text-white @else text-black @endif" href="{{ route('frontend.news') }}">NEWS</a>
+                                <a class="font-custom-libre-baskerville-regular menu-font-style2 @if(Route::currentRouteName() == 'home') text-white @else text-black @endif" href="{{ route('frontend.news') }}">NEWS</a>
                             </li>
 
                             <li>
-                                <a class="font-custom-tiempos-light menu-font-style2 @if(Route::currentRouteName() == 'home') text-white @else text-black @endif" href="{{ route('frontend.contact_us') }}" >CONTACT US</a>
+                                <a class="font-custom-libre-baskerville-regular menu-font-style2 @if(Route::currentRouteName() == 'home') text-white @else text-black @endif" href="{{ route('frontend.contact_us') }}" >CONTACT US</a>
                             </li>
                         </ul>
 
@@ -72,11 +72,11 @@
         <div class="menu-mobile">
             <ul class="main-menu" style="background-color: #000 !important;">
                 <li>
-                    <a class="font-custom-tiempos-light text-white" href="{{ route('home') }}">HOME</a>
+                    <a class="font-custom-libre-baskerville-regular text-white" href="{{ route('home') }}">HOME</a>
                 </li>
 
                 <li>
-                        <a class="font-custom-tiempos-light text-white" href="{{ route('frontend.apartments') }}">APARTMENTS</a>
+                        <a class="font-custom-libre-baskerville-regular text-white" href="{{ route('frontend.apartments') }}">APARTMENTS</a>
                         {{-- <ul class="sub-menu" style="z-index:9999;">
                                 <li><a href="{{ route('frontend.apartments.site') }}" class="font-custom-tiempos-light text-black">Site Plan</a></li>
                                 <li><a href="{{ route('frontend.apartments.floor') }}" class="font-custom-tiempos-light text-black">Floor Plan</a></li>
@@ -85,15 +85,15 @@
                     </li>
 
                 <li>
-                    <a class="font-custom-tiempos-light text-white" href="{{ route('frontend.hotel') }}">HOTEL</a>
+                    <a class="font-custom-libre-baskerville-regular text-white" href="{{ route('frontend.hotel') }}">HOTEL</a>
                 </li>
 
                 <li>
-                    <a class="font-custom-tiempos-light text-white" href="{{ route('frontend.news') }}">NEWS</a>
+                    <a class="font-custom-libre-baskerville-regular text-white" href="{{ route('frontend.news') }}">NEWS</a>
                 </li>
 
                 <li>
-                    <a class="font-custom-tiempos-light text-white" href="{{ route('frontend.contact_us') }}">CONTACT US</a>
+                    <a class="font-custom-libre-baskerville-regular text-white" href="{{ route('frontend.contact_us') }}">CONTACT US</a>
                 </li>
             </ul>
         </div>

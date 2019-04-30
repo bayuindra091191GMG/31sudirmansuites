@@ -100,17 +100,22 @@
                             <div class="feature-main-banner-responsive">
                                 <div class="box d-flex flex-column p-3">
                                     <div class="text-custom-style text-white">
-                                        <h1 class="pb-3 t1-m-1 font-custom-tiempos-medium">Contact Info</h1>
+                                        <h1 class="pb-3 t1-m-1 font-custom-tiempos-medium">Site Project</h1>
                                         <p class="text-contact-size">
-                                            Lorem ipsum dolor sit amet, consectetuer
-                                            adipiLorem ipsum dolor sit amet, consectetuer
-                                            adipiscing elit, sed diam nonummy
+                                            Jl. Jend. Sudirman 31<br/>
+                                            Mangkura - Ujung Pandang.<br/>
+                                            Makassar 90113
+                                        </p><br/>
+                                        <h1 class="pb-3 t1-m-1 font-custom-tiempos-medium">Marketing Gallery</h1>
+                                        <p class="text-contact-size">
+                                            Ratulangi Point 4th Floor<br/>
+                                            Jl. DR. Ratulangi No.2<br/>
+                                            Makassar 90114
                                         </p><br/>
                                         <div class="pl-4 text-contact-size">
-                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, eveniet!</p><br/>
-                                            <span>12345 6789</span><br/>
-                                            <span>12345 6789</span><br/><br/>
-                                            <span>qwelk!@info.com</span>
+                                            <p>Contact Info</p>
+                                            <span>info@31sudirmansuites.com</span><br/>
+                                            <span>0411 - 8989 838</span>
                                         </div>
                                     </div>
                                 </div>
