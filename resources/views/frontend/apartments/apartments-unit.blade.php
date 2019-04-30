@@ -42,40 +42,7 @@
                     <div class="flex-col-c-c py-3">
                         <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
                     </div>
-                    <div id="accordion" class="panel-group pb-3">
-                        <div class="panel panel-primary">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a href="#panelBodyFour" class="text-custom-light-brown font-custom-tiempos-light" data-toggle="collapse" data-parent="accordion">
-                                        Premier Suites A, B ,C, D
-                                        <span class="float-r font-custom-avenir-medium">View More &nbsp; <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid"></span>
-                                    </a>
-                                    <div class="flex-col-c-c py-3">
-                                        <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
-                                    </div>
-                                </h4>                                                                    
-                            </div>
-                            <div id="panelBodyFour" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    <div>
-                                        <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/denah-pecah-01.png') }}');
-                                        background-repeat: no-repeat;
-                                        background-position: left;
-                                        background-size: cover;">
-                                        </div>
-                                    </div>
-                                    <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/website19.jpg') }}');
-                                        background-repeat: no-repeat;
-                                        background-position: left;
-                                        background-size: cover;">
-                                    </div>
-                                    <div class="flex-col-c-c py-3">
-                                        <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
                     {{-- <p class="text-custom-light-brown">Premier Suites A, B, C, D
                             <span class="float-r">View More <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid"></span></p><br/>
                         <div style="background-image: url('{{ asset('images/31ss/apartments/premiersuitesabcd.png') }}');
@@ -195,8 +162,42 @@
                         <div class="panel panel-primary">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
+                                    <a href="#panelBodyFour" class="text-custom-light-brown font-custom-tiempos-light" data-toggle="collapse" data-parent="accordion">
+                                        3 Bedroom Premier Suites A, B ,C, D
+                                        <span class="float-r font-custom-avenir-medium">View More &nbsp; <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid"></span>
+                                    </a>
+                                    <div class="flex-col-c-c py-3">
+                                        <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
+                                    </div>
+                                </h4>                                                                    
+                            </div>
+                            <div id="panelBodyFour" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <div>
+                                        <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/denah-pecah-01.png') }}');
+                                        background-repeat: no-repeat;
+                                        background-position: left;
+                                        background-size: cover;">
+                                        </div>
+                                    </div>
+                                    <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/website19.jpg') }}');
+                                        background-repeat: no-repeat;
+                                        background-position: left;
+                                        background-size: cover;">
+                                    </div>
+                                    <div class="flex-col-c-c py-3">
+                                        <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="accordion" class="panel-group pb-3">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
                                     <a href="#panelBodySeven" class="text-custom-light-brown font-custom-tiempos-light" data-toggle="collapse" data-parent="accordion">
-                                        Premier Suite E
+                                        2 Bedroom Premier Suites E
                                         <span class="float-r font-custom-avenir-medium">View More &nbsp; <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid"></span>
                                     </a>
                                     <div class="flex-col-c-c py-3">
@@ -245,7 +246,7 @@
                             <div class="panel-heading">
                                 <h4 class="panel-title">
                                     <a href="#panelBodyEight" class="text-custom-light-brown font-custom-tiempos-light" data-toggle="collapse" data-parent="accordion">
-                                        Two Bedroom
+                                        2 Bedroom Suites
                                         <span class="float-r font-custom-avenir-medium">View More &nbsp; <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid"></span>
                                     </a>
                                     <div class="flex-col-c-c py-3">
