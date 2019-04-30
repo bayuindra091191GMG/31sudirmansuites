@@ -197,7 +197,7 @@
                             <div class="panel-heading">
                                 <h4 class="panel-title">
                                     <a href="#panelBodySeven" class="text-custom-light-brown font-custom-tiempos-light" data-toggle="collapse" data-parent="accordion">
-                                        2 Bedroom Premier Suites E
+                                        3 Bedroom Premier Suites E
                                         <span class="float-r font-custom-avenir-medium">View More &nbsp; <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid"></span>
                                     </a>
                                     <div class="flex-col-c-c py-3">

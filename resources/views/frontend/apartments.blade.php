@@ -638,11 +638,11 @@
             }
 
             .img-responsive3{
-            height: 560px;
+            height: 565px;
             }
 
             .img-responsive4{
-            height: 450px;
+            height: 570px;
             }
 
             .img-map-responsive{
