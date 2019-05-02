@@ -14,7 +14,7 @@
     <div class="container-fluid px-0">
         <div class="row no-gutters">
             <div class="col-md-12">
-                <div class="w-100 img-banner-responsive" style="background-image: url('{{ asset('images/31ss/apartments/website1-12.jpg') }}');
+                <div class="w-100 img-banner-responsive" style="background-image: url('{{ asset('images/31ss/gallery/banner-gallery.jpg') }}');
                         background-repeat: no-repeat;
                         background-position: center;
                         background-size: cover;">

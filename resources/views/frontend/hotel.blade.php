@@ -129,7 +129,7 @@
             </div>
         </div>
     </section>
-    <section>
+    {{-- <section>
         <div class="container">
             <div class="row justify-content-center">
                 <div class= "col-12 text-center text-custom-light-brown pb-2 font-custom-tiempos-regular"
@@ -149,10 +149,6 @@
                         onmouseout="this.src='{{ asset('images/31ss/hotel/website36.jpg') }}'">
                 </div>
                 <div class="col-4" >
-                        {{-- <div class="w-100 gallery" style="background-image: url('{{ asset('images/31ss/hotel/website37.jpg') }}');
-                        background-repeat: no-repeat;
-                        background-position: center;
-                        background-size: cover;"></div>      --}}
                         <img class="w-100 gallery" src="{{ asset('images/31ss/hotel/website37.jpg') }}" alt="Main Entrance"  
                         onmouseover="this.src='{{ asset('images/31ss/hotel/website43.jpg') }}'" 
                         onmouseout="this.src='{{ asset('images/31ss/hotel/website37.jpg') }}'">
@@ -181,7 +177,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
 @endsection
 

@@ -61,6 +61,12 @@ class HomeController extends Controller
         return view('frontend.news', compact('news'));
     }
 
+    public function gallery()
+    {
+        return view('frontend.gallery');
+    }
+
+
     public function newsdetail($slug)
     {
         $new = Blog::where('slug', $slug)->first();

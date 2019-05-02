@@ -37,6 +37,10 @@
                             </li>
 
                             <li>
+                                <a class="font-custom-libre-baskerville-regular menu-font-style2 @if(Route::currentRouteName() == 'home') text-white @else text-black @endif" href="{{ route('frontend.gallery') }}">GALLERY</a>
+                            </li>
+
+                            <li>
                                 <a class="font-custom-libre-baskerville-regular menu-font-style2 @if(Route::currentRouteName() == 'home') text-white @else text-black @endif" href="{{ route('frontend.contact_us') }}" >CONTACT US</a>
                             </li>
                         </ul>
@@ -90,6 +94,10 @@
 
                 <li>
                     <a class="font-custom-libre-baskerville-regular text-white" href="{{ route('frontend.news') }}">NEWS</a>
+                </li>
+                
+                <li>
+                    <a class="font-custom-libre-baskerville-regular text-white" href="{{ route('frontend.gallery') }}">GALLERY</a>
                 </li>
 
                 <li>
