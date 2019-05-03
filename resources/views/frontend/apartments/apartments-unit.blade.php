@@ -1,9 +1,9 @@
 @extends('layouts.frontend')
 
 @section('head_and_title')
-    <meta name="description" content="Home Page">
+    <meta name="description" content="31 SUDIRMAN SUITES Apartment Units">
     <meta name="author" content="PT. Generasi Muda Gigih">
-    <meta name="keywords" content="Property, Office, Residence, Apartment, House">
+    <meta name="keywords" content="31 SUDIRMAN SUITES, Property, Office, Residence, Apartment, House">
 
     <title>APARTMENTS - UNIT</title>
 @endsection
@@ -19,7 +19,7 @@
                         background-position: center;
                         background-size: cover;">
                     <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
-                        <span class="t1-b-1 font-custom-libre-baskerville-bold text-black">APARTMENTS</span>
+                        <span class="t1-b-1 font-custom-libre-baskerville-bold text-custom-black">APARTMENTS</span>
                         <hr class="mx-auto banner-line-width" style="border-bottom: 2px solid #000;"/>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
                             </div>
                             <div id="panelBodyFive" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/north-private-suites.png') }}');
+                                    <div class="w-100 img-responsive mb-4" style="background-image: url('{{ asset('images/31ss/apartments/north-private-suites.png') }}');
                                         background-repeat: no-repeat;
                                         background-position: left;
                                         background-size: cover;">
@@ -124,7 +124,7 @@
                             </div>
                             <div id="panelBodySix" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/south-private-suites.png') }}');
+                                    <div class="w-100 img-responsive mb-4" style="background-image: url('{{ asset('images/31ss/apartments/south-private-suites.png') }}');
                                         background-repeat: no-repeat;
                                         background-position: left;
                                         background-size: cover;">
@@ -206,14 +206,14 @@
                             <div class="panel-heading">
                                 <h4 class="panel-title">
                                     <div class="d-md-block d-none">
-                                        <a href="#panelBodyFour" class="text-custom-light-brown font-custom-tiempos-light" data-toggle="collapse" data-parent="accordion">
+                                        <a href="#panelBodySeven" class="text-custom-light-brown font-custom-tiempos-light" data-toggle="collapse" data-parent="accordion">
                                             3 Bedroom Premier Suites E
                                             <span class="font-custom-avenir-medium float-r ">View More &nbsp;
                                             <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid"></span>
                                         </a>
                                     </div>
                                     <div class="d-md-none d-block">
-                                        <a href="#panelBodyFour" class="text-custom-light-brown font-custom-tiempos-light" data-toggle="collapse" data-parent="accordion">
+                                        <a href="#panelBodySeven" class="text-custom-light-brown font-custom-tiempos-light" data-toggle="collapse" data-parent="accordion">
                                             3 Bedroom Premier Suites E
                                             <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid float-r">
                                         </a>

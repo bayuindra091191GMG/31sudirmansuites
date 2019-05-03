@@ -1,9 +1,9 @@
 @extends('layouts.frontend')
 
 @section('head_and_title')
-    <meta name="description" content="Contact Us">
+    <meta name="description" content="31 SUDIRMAN SUITES Contact Us">
     <meta name="author" content="PT. Generasi Muda Gigih">
-    <meta name="keywords" content="Property, Office, Residence, Apartment, House">
+    <meta name="keywords" content="31 SUDIRMAN SUITES, Property, Office, Residence, Apartment, House">
 
     <title>31 SUDIRMAN SUITES - CONTACT US</title>
 @endsection
@@ -21,7 +21,7 @@
                             background-position: center;
                             background-size: cover;">
                         <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
-                            <span class="t1-b-1 font-custom-libre-baskerville-bold text-white">Contact Us</span>
+                            <span class="t1-b-1 font-custom-libre-baskerville-bold text-white">CONTACT US</span>
                             <hr class="mx-auto banner-line-width" style="border-bottom: 2px solid #fff;"/>
                         </div>
                     </div>

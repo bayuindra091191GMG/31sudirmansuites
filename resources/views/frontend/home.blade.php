@@ -1,7 +1,7 @@
 @extends('layouts.frontend')
 
 @section('head_and_title')
-    <meta name="description" content="31 SUDIRMAN SUITES Home Page">
+    <meta name="description" content="31 SUDIRMAN SUITES Home">
     <meta name="author" content="PT. Generasi Muda Gigih">
     <meta name="keywords" content="31 SUDIRMAN SUITES, Property, Office, Residence, Apartment, House">
 
