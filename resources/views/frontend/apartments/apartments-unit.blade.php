@@ -162,10 +162,19 @@
                         <div class="panel panel-primary">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a href="#panelBodyFour" class="text-custom-light-brown font-custom-tiempos-light" data-toggle="collapse" data-parent="accordion">
-                                        3 Bedroom Premier Suites A, B ,C, D
-                                        <span class="float-r font-custom-avenir-medium d-none d-md-block">View More &nbsp; </span><img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid float-r">
-                                    </a>
+                                    <div class="d-md-block d-none">
+                                        <a href="#panelBodyFour" class="text-custom-light-brown font-custom-tiempos-light" data-toggle="collapse" data-parent="accordion">
+                                            3 Bedroom Premier Suites A, B ,C, D
+                                            <span class="font-custom-avenir-medium float-r ">View More &nbsp;
+                                            <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid"></span>
+                                        </a>
+                                    </div>
+                                    <div class="d-md-none d-block">
+                                        <a href="#panelBodyFour" class="text-custom-light-brown font-custom-tiempos-light" data-toggle="collapse" data-parent="accordion">
+                                            3 Bedroom Premier Suites A, B ,C, D
+                                            <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid float-r">
+                                        </a>
+                                    </div>
                                     <div class="flex-col-c-c py-3">
                                         <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
                                     </div>
