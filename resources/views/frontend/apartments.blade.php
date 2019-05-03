@@ -14,7 +14,7 @@
     <div class="container-fluid px-0">
         <div class="row no-gutters">
             <div class="col-md-12">
-                <div class="w-100 img-banner-responsive" style="background-image: url('{{ asset('images/31ss/gallery/banner-gallery.jpg') }}');
+                <div class="w-100 img-banner-responsive" style="background-image: url('{{ asset('images/31ss/apartments/banner-apartments-09.jpg') }}');
                         background-repeat: no-repeat;
                         background-position: center;
                         background-size: cover;">
@@ -343,7 +343,7 @@
                         </div>
                         <div id="panelBodyFive" class="panel-collapse collapse">
                             <div class="panel-body">
-                                <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/denah-pecah-02.png') }}');
+                                <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/north-private-suites.png') }}');
                                     background-repeat: no-repeat;
                                     background-position: left;
                                     background-size: cover;">
@@ -392,7 +392,7 @@
                         </div>
                         <div id="panelBodySix" class="panel-collapse collapse">
                             <div class="panel-body">
-                                <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/denah-pecah-03.png') }}');
+                                <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/south-private-suites.png') }}');
                                     background-repeat: no-repeat;
                                     background-position: left;
                                     background-size: cover;">
@@ -442,7 +442,7 @@
                         <div id="panelBodyFour" class="panel-collapse collapse">
                             <div class="panel-body">
                                 <div>
-                                    <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/denah-pecah-01.png') }}');
+                                    <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/3-bedroom-premier-suites-abcd.png') }}');
                                     background-repeat: no-repeat;
                                     background-position: left;
                                     background-size: cover;">
@@ -475,7 +475,7 @@
                         </div>
                         <div id="panelBodySeven" class="panel-collapse collapse">
                             <div class="panel-body">
-                                <div class="py-5 w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/denah-pecah-04.png') }}');
+                                <div class="py-5 w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/3-bedroom-premier-suites-e.png') }}');
                                     background-repeat: no-repeat;
                                     background-position: left;
                                     background-size: cover;">
@@ -524,7 +524,7 @@
                         </div>
                         <div id="panelBodyEight" class="panel-collapse collapse">
                             <div class="panel-body">
-                                <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/denah-pecah-05.png') }}');
+                                <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/2-bedroom-suites.png') }}');
                                     background-repeat: no-repeat;
                                     background-position: left;
                                     background-size: cover;">
