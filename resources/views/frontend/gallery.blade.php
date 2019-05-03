@@ -71,17 +71,17 @@
         <div class="row no-gutters">
             <div class="col-4" >
                 <img class="w-100 gallery" src="{{ asset('images/31ss/gallery/dayview.jpg') }}" alt="Dayview"  
-                    onmouseover="this.src='{{ asset('images/31ss/gallery/dayview.jpg') }}'" 
+                    onmouseover="this.src='{{ asset('images/31ss/gallery/pop-up-10.jpg') }}'" 
                     onmouseout="this.src='{{ asset('images/31ss/gallery/dayview.jpg') }}'">     
             </div>
             <div class="col-4" >
                 <img class="w-100 gallery" src="{{ asset('images/31ss/gallery/facade.jpg') }}" alt="Facade"  
-                    onmouseover="this.src='{{ asset('images/31ss/gallery/facade.jpg') }}'" 
+                    onmouseover="this.src='{{ asset('images/31ss/gallery/pop-up-11.jpg') }}'" 
                     onmouseout="this.src='{{ asset('images/31ss/gallery/facade.jpg') }}'">     
             </div>
             <div class="col-4" >
                 <img class="w-100 gallery" src="{{ asset('images/31ss/gallery/nightview.jpg') }}" alt="Nightview"  
-                    onmouseover="this.src='{{ asset('images/31ss/gallery/nightview.jpg') }}'" 
+                    onmouseover="this.src='{{ asset('images/31ss/gallery/pop-up-12.jpg') }}'" 
                     onmouseout="this.src='{{ asset('images/31ss/gallery/nightview.jpg') }}'">     
             </div>
         </div>
