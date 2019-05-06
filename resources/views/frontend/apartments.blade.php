@@ -272,12 +272,12 @@
                         </div>
                         <div id="panelBodyThree" class="panel-collapse collapse">
                             <div class="panel-body">
-                                <div class="py-5 mb-5 w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/website18.jpg') }}');
+                                <div class="py-5 mb-5 w-100 img-responsive4" style="background-image: url('{{ asset('images/31ss/apartments/v11_floor-plan_nama.jpg') }}');
                                     background-repeat: no-repeat;
                                     background-position: left;
                                     background-size: cover;">
                                 </div>
-                                <div class="py-5 mb-5 w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/website17.jpg') }}');
+                                <div class="py-5 mb-5 w-100 img-responsive4" style="background-image: url('{{ asset('images/31ss/apartments/v1_floor-plan_nama.jpg') }}');
                                     background-repeat: no-repeat;
                                     background-position: left;
                                     background-size: cover;">
