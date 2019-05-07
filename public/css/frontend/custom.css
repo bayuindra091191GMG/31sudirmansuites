@@ -252,7 +252,9 @@
     font-family: 'AvenirMedium';
     src: local('Avenir Medium'), local('Avenir-Medium'),
     url('../../fonts/Avenir-Medium.woff2') format('woff2'),
-    url('../../fonts/Avenir-Medium.woff') format('woff');
+    url('../../fonts/Avenir-Medium.woff') format('woff'),
+    url('../../fonts/Avenir-Medium.ttf') format('truetype'),
+    url('../../fonts/Avenir-Medium.svg') format('svg');
     font-weight: 500;
     font-style: normal;
 }
@@ -261,7 +263,9 @@
     font-family: 'TiemposHeadlineLight';
     src: local('Tiempos Headline Light'), local('TiemposHeadline-Light'),
     url('../../fonts/TiemposHeadline-Light.woff2') format('woff2'),
-    url('../../fonts/TiemposHeadline-Light.woff') format('woff');
+    url('../../fonts/TiemposHeadline-Light.woff') format('woff'),
+    url('../../fonts/TiemposHeadline-Light.ttf') format('truetype'),
+    url('../../fonts/TiemposHeadline-Light.svg#TiemposHeadline-Light') format('svg');
     font-weight: 300;
     font-style: normal;
 }
@@ -270,7 +274,9 @@
     font-family: 'TiemposHeadlineLightItalic';
     src: local('Tiempos Headline Light Italic'), local('TiemposHeadline-LightItalic'),
     url('../../fonts/TiemposHeadline-LightItalic.woff2') format('woff2'),
-    url('../../fonts/TiemposHeadline-LightItalic.woff') format('woff');
+    url('../../fonts/TiemposHeadline-LightItalic.woff') format('woff'),
+    url('../../fonts/TiemposHeadline-LightItalic.ttf') format('truetype'),
+    url('../../fonts/TiemposHeadline-LightItalic.svg#TiemposHeadline-LightItalic') format('svg');
     font-weight: 300;
     font-style: normal;
 }
@@ -279,7 +285,9 @@
     font-family: 'TiemposHeadlineRegular';
     src: local('Tiempos Headline Regular'), local('TiemposHeadline-Regular'),
     url('../../fonts/TiemposHeadline-Regular.woff2') format('woff2'),
-    url('../../fonts/TiemposHeadline-Regular.woff') format('woff');
+    url('../../fonts/TiemposHeadline-Regular.woff') format('woff'),
+    url('../../fonts/TiemposHeadline-Regular.ttf') format('truetype'),
+    url('../../fonts/TiemposHeadline-Regular.svg#TiemposHeadline-Regular') format('svg');
     font-weight: 500;
     font-style: italic;
 }
@@ -288,7 +296,9 @@
     font-family: 'TiemposHeadlineRegularItalic';
     src: local('Tiempos Headline Regular Italic'), local('TiemposHeadline-RegularItalic'),
     url('../../fonts/TiemposHeadline-RegularItalic.woff2') format('woff2'),
-    url('../../fonts/TiemposHeadline-RegularItalic.woff') format('woff');
+    url('../../fonts/TiemposHeadline-RegularItalic.woff') format('woff'),
+    url('../../fonts/TiemposHeadline-RegularItalic.ttf') format('truetype'),
+    url('../../fonts/TiemposHeadline-RegularItalic.svg#TiemposHeadline-RegularItalic') format('svg');
     font-weight: 500;
     font-style: italic;
 }
@@ -297,7 +307,9 @@
     font-family: 'TiemposHeadlineMedium';
     src: local('Tiempos Headline Medium'), local('TiemposHeadline-Medium'),
     url('../../fonts/TiemposHeadline-Medium.woff2') format('woff2'),
-    url('../../fonts/TiemposHeadline-Medium.woff') format('woff');
+    url('../../fonts/TiemposHeadline-Medium.woff') format('woff'),
+    url('../../fonts/TiemposHeadline-Medium.ttf') format('truetype'),
+    url('../../fonts/TiemposHeadline-Medium.svg#TiemposHeadline-Medium') format('svg');
     font-weight: 500;
     font-style: normal;
 }
@@ -306,7 +318,9 @@
     font-family: 'TiemposHeadlineMediumItalic';
     src: local('Tiempos Headline Medium Italic'), local('TiemposHeadline-MediumItalic'),
     url('../../fonts/TiemposHeadline-MediumItalic.woff2') format('woff2'),
-    url('../../fonts/TiemposHeadline-MediumItalic.woff') format('woff');
+    url('../../fonts/TiemposHeadline-MediumItalic.woff') format('woff'),
+    url('../../fonts/TiemposHeadline-MediumItalic.ttf') format('truetype'),
+    url('../../fonts/TiemposHeadline-MediumItalic.svg#TiemposHeadline-MediumItalic') format('svg');
     font-weight: 500;
     font-style: italic;
 }
@@ -315,7 +329,9 @@
     font-family: 'TiemposHeadlineBold';
     src: local('Tiempos Headline Bold'), local('TiemposHeadline-Bold'),
     url('../../fonts/TiemposHeadline-Bold.woff2') format('woff2'),
-    url('../../fonts/TiemposHeadline-Bold.woff') format('woff');
+    url('../../fonts/TiemposHeadline-Bold.woff') format('woff'),
+    url('../../fonts/TiemposHeadline-Bold.ttf') format('truetype'),
+    url('../../fonts/TiemposHeadline-Bold.svg#TiemposHeadline-Bold') format('svg');
     font-weight: 600;
     font-style: normal;
 }
@@ -324,7 +340,9 @@
     font-family: 'TiemposHeadlineBoldItalic';
     src: local('Tiempos Headline Bold Italic'), local('TiemposHeadline-BoldItalic'),
     url('../../fonts/TiemposHeadline-BoldItalic.woff2') format('woff2'),
-    url('../../fonts/TiemposHeadline-BoldItalic.woff') format('woff');
+    url('../../fonts/TiemposHeadline-BoldItalic.woff') format('woff'),
+    url('../../fonts/TiemposHeadline-BoldItalic.ttf') format('truetype'),
+    url('../../fonts/TiemposHeadline-BoldItalic.svg#TiemposHeadline-BoldItalic') format('svg');
     font-weight: 600;
     font-style: italic;
 }
@@ -333,7 +351,9 @@
     font-family: 'libre_baskervilleregular';
     src: local('libre_baskervilleregular'), local('librebaskerville-regular-webfont'),
     url('../../fonts/librebaskerville-regular-webfont.woff2') format('woff2'),
-    url('../../fonts/librebaskerville-regular-webfont.woff') format('woff');
+    url('../../fonts/librebaskerville-regular-webfont.woff') format('woff'),
+    url('../../fonts/librebaskerville-regular-webfont.ttf') format('truetype'),
+    url('../../fonts/librebaskerville-regular-webfont.svg#libre_baskervilleregular') format('svg');
     font-weight: 600;
     font-style: italic;
 }
@@ -342,7 +362,9 @@
     font-family: 'libre_baskervilleitalic';
     src: local('libre_baskervilleitalic'), local('librebaskerville-italic-webfont'),
     url('../../fonts/librebaskerville-italic-webfont.woff2') format('woff2'),
-    url('../../fonts/librebaskerville-italic-webfont.woff') format('woff');
+    url('../../fonts/librebaskerville-italic-webfont.woff') format('woff'),
+    url('../../fonts/librebaskerville-italic-webfont.ttf') format('truetype'),
+    url('../../fonts/librebaskerville-italic-webfont.svg#libre_baskervilleitalic') format('svg');
     font-weight: 600;
     font-style: italic;
 }
@@ -351,7 +373,9 @@
     font-family: 'libre_baskervillebold';
     src: local('libre_baskervillebold'), local('librebaskerville-bold-webfont'),
     url('../../fonts/librebaskerville-bold-webfont.woff2') format('woff2'),
-    url('../../fonts/librebaskerville-bold-webfont.woff') format('woff');
+    url('../../fonts/librebaskerville-bold-webfont.woff') format('woff'),
+    url('../../fonts/librebaskerville-bold-webfont.ttf') format('truetype'),
+    url('../../fonts/librebaskerville-bold-webfont.svg#libre_baskervillebold') format('svg');
     font-weight: 600;
     font-style: italic;
 }
