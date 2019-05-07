@@ -64,10 +64,19 @@
                         <div class="panel panel-primary">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a href="#panelBodyFive" class="text-custom-light-brown font-custom-tiempos-light" data-toggle="collapse" data-parent="accordion">
-                                        North Private Suites
-                                        <span class="float-r font-custom-avenir-medium">View More &nbsp; <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid"></span>
-                                    </a>
+                                    <div class="d-md-block d-none">
+                                        <a href="#panelBodyFive" class="text-custom-light-brown font-custom-tiempos-light" data-toggle="collapse" data-parent="accordion">
+                                            North Private Suites
+                                            <span class="font-custom-avenir-medium float-r ">View More &nbsp;
+                                            <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid"></span>
+                                        </a>
+                                    </div>
+                                    <div class="d-md-none d-block">
+                                        <a href="#panelBodyFive" class="text-custom-light-brown font-custom-tiempos-light" data-toggle="collapse" data-parent="accordion">
+                                            North Private Suites
+                                            <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid float-r">
+                                        </a>
+                                    </div>
                                     <div class="flex-col-c-c py-3">
                                         <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
                                     </div>
@@ -78,12 +87,12 @@
                                     <div class="w-100 img-responsive mb-4" style="background-image: url('{{ asset('images/31ss/apartments/north-private-suites.png') }}');
                                         background-repeat: no-repeat;
                                         background-position: left;
-                                        background-size: cover;">
+                                        background-size: contain;">
                                     </div>
                                     <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/website22.jpg') }}');
                                         background-repeat: no-repeat;
                                         background-position: left;
-                                        background-size: cover;">
+                                        background-size: contain;">
                                     </div>
                                     <div class="flex-col-c-c py-3">
                                         <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
@@ -113,10 +122,19 @@
                         <div class="panel panel-primary">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a href="#panelBodySix" class="text-custom-light-brown font-custom-tiempos-light" data-toggle="collapse" data-parent="accordion">
-                                        South Private Suites
-                                        <span class="float-r font-custom-avenir-medium">View More &nbsp; <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid"></span>
-                                    </a>
+                                    <div class="d-md-block d-none">
+                                        <a href="#panelBodySix" class="text-custom-light-brown font-custom-tiempos-light" data-toggle="collapse" data-parent="accordion">
+                                            South Private Suites
+                                            <span class="font-custom-avenir-medium float-r ">View More &nbsp;
+                                            <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid"></span>
+                                        </a>
+                                    </div>
+                                    <div class="d-md-none d-block">
+                                        <a href="#panelBodySix" class="text-custom-light-brown font-custom-tiempos-light" data-toggle="collapse" data-parent="accordion">
+                                            South Private Suites
+                                            <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid float-r">
+                                        </a>
+                                    </div>
                                     <div class="flex-col-c-c py-3">
                                         <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
                                     </div>
@@ -127,12 +145,12 @@
                                     <div class="w-100 img-responsive mb-4" style="background-image: url('{{ asset('images/31ss/apartments/south-private-suites.png') }}');
                                         background-repeat: no-repeat;
                                         background-position: left;
-                                        background-size: cover;">
+                                        background-size: contain;">
                                     </div>
                                     <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/website25.jpg') }}');
                                         background-repeat: no-repeat;
                                         background-position: left;
-                                        background-size: cover;">
+                                        background-size: contain;">
                                     </div>
                                     <div class="flex-col-c-c py-3">
                                         <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
@@ -186,13 +204,13 @@
                                         <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/3-bedroom-premier-suites-abcd.png') }}');
                                         background-repeat: no-repeat;
                                         background-position: left;
-                                        background-size: cover;">
+                                        background-size: contain;">
                                         </div>
                                     </div>
                                     <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/website19.jpg') }}');
                                         background-repeat: no-repeat;
                                         background-position: left;
-                                        background-size: cover;">
+                                        background-size: contain;">
                                     </div>
                                     <div class="flex-col-c-c py-3">
                                         <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
@@ -228,12 +246,12 @@
                                     <div class="py-5 w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/3-bedroom-premier-suites-e.png') }}');
                                         background-repeat: no-repeat;
                                         background-position: left;
-                                        background-size: cover;">
+                                        background-size: contain;">
                                     </div>
                                     <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/website28.jpg') }}');
                                         background-repeat: no-repeat;
                                         background-position: left;
-                                        background-size: cover;">
+                                        background-size: contain;">
                                     </div>
                                     <div class="flex-col-c-c py-3">
                                         <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
@@ -263,12 +281,18 @@
                         <div class="panel panel-primary">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a href="#panelBodyEight" class="text-custom-light-brown font-custom-tiempos-light" data-toggle="collapse" data-parent="accordion">
-                                        2 Bedroom Suites
-                                        <span class="float-r font-custom-avenir-medium">View More &nbsp; <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid"></span>
-                                    </a>
-                                    <div class="flex-col-c-c py-3">
-                                        <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
+                                    <div class="d-md-block d-none">
+                                        <a href="#panelBodyEight" class="text-custom-light-brown font-custom-tiempos-light" data-toggle="collapse" data-parent="accordion">
+                                            2 Bedroom Suites
+                                            <span class="font-custom-avenir-medium float-r ">View More &nbsp;
+                                            <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid"></span>
+                                        </a>
+                                    </div>
+                                    <div class="d-md-none d-block">
+                                        <a href="#panelBodyEight" class="text-custom-light-brown font-custom-tiempos-light" data-toggle="collapse" data-parent="accordion">
+                                            2 Bedroom Suites
+                                            <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid float-r">
+                                        </a>
                                     </div>
                                 </h4>                                                                    
                             </div>
@@ -277,7 +301,7 @@
                                     <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/2-bedroom-suites.png') }}');
                                         background-repeat: no-repeat;
                                         background-position: left;
-                                        background-size: cover;">
+                                        background-size: contain;">
                                     </div>
                                     {{-- <div class="w-100 img-banner-responsive" style="background-image: url('{{ asset('images/31ss/apartments/website22.jpg') }}');
                                         background-repeat: no-repeat;

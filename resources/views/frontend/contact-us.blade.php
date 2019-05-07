@@ -21,7 +21,8 @@
                             background-position: center;
                             background-size: cover;">
                         <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
-                            <span class="t1-b-1 font-custom-libre-baskerville-bold text-white">CONTACT US</span>
+                            <span class="t1-b-1 font-custom-libre-baskerville-bold text-white d-none d-md-block">CONTACT US</span>
+                        <span class="t1-m-5 font-custom-libre-baskerville-bold text-white d-block d-md-none">CONTACT US</span>
                             <hr class="mx-auto banner-line-width" style="border-bottom: 2px solid #fff;"/>
                         </div>
                     </div>
@@ -92,6 +93,13 @@
                             <textarea type="text" class="form-control" id="case" name="case" rows="10" placeholder="Case Description..."></textarea>
                         </div>
                     </div>
+                    <div class="row d-block d-md-none">
+                        <div class="row mt-5">
+                            <div class="col-12">
+                                <input type="submit" class="btn btn-default px-4 bg-custom-light-brown t1-s-4 text-white" style="cursor: pointer;" value="SUBMIT" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-1"></div>
                 <div class="col-md-4 col-12">
@@ -124,7 +132,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row mb-5">
+            <div class="row mb-5 d-none d-md-block">
                 <div class="col-12">
                     <input type="submit" class="btn btn-default px-4 bg-custom-light-brown t1-s-4 text-white" style="cursor: pointer;" value="SUBMIT" />
                 </div>

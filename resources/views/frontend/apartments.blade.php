@@ -19,7 +19,8 @@
                         background-position: center;
                         background-size: cover;">
                     <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
-                        <span class="t1-b-1 font-custom-libre-baskerville-bold text-custom-black">APARTMENTS</span>
+                        <span class="t1-b-1 font-custom-libre-baskerville-bold text-custom-black d-none d-md-block">APARTMENTS</span>
+                        <span class="t1-m-5 font-custom-libre-baskerville-bold text-custom-black d-block d-md-none">APARTMENTS</span>
                         <hr class="mx-auto banner-line-width" style="border-bottom: 2px solid #000;"/>
                     </div>
                 </div>
@@ -166,7 +167,7 @@
                                 <div class="mb-3 w-100 img-responsive4" style="background-image: url('{{ asset('images/31ss/apartments/website1-17.jpg') }}');
                                     background-repeat: no-repeat;
                                     background-position: left;
-                                    background-size: cover;">
+                                    background-size: contain;">
                                 </div>
                         <div>
                             <p class="text-custom-light-brown font-custom-tiempos-light">3rd Floor</p><br/>
@@ -203,7 +204,7 @@
                 <div class="mb-3 w-100 img-responsive2" style="background-image: url('{{ asset('images/31ss/apartments/website1-15.jpg') }}');
                     background-repeat: no-repeat;
                     background-position: center;
-                    background-size: cover;">
+                    background-size: contain;">
                 </div>
                 {{-- <p class="text-custom-light-brown">3rd Floor</p><br/>
                     <div class="col-8" style="background-image: url('{{ asset('images/31ss/apartments/website1-17.jpg') }}');
@@ -275,12 +276,12 @@
                                 <div class="py-5 mb-5 w-100 img-responsive4" style="background-image: url('{{ asset('images/31ss/apartments/v11_floor-plan_nama.jpg') }}');
                                     background-repeat: no-repeat;
                                     background-position: left;
-                                    background-size: cover;">
+                                    background-size: contain;">
                                 </div>
                                 <div class="py-5 mb-5 w-100 img-responsive4" style="background-image: url('{{ asset('images/31ss/apartments/v1_floor-plan_nama.jpg') }}');
                                     background-repeat: no-repeat;
                                     background-position: left;
-                                    background-size: cover;">
+                                    background-size: contain;">
                                 </div>
                                 <div class="flex-col-c-c py-3">
                                 <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
@@ -346,12 +347,12 @@
                                 <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/north-private-suites.png') }}');
                                     background-repeat: no-repeat;
                                     background-position: left;
-                                    background-size: cover;">
+                                    background-size: contain;">
                                 </div>
                                 <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/website22.jpg') }}');
                                     background-repeat: no-repeat;
                                     background-position: left;
-                                    background-size: cover;">
+                                    background-size: contain;">
                                 </div>
                                 <div class="flex-col-c-c py-3">
                                     <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
@@ -395,12 +396,12 @@
                                 <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/south-private-suites.png') }}');
                                     background-repeat: no-repeat;
                                     background-position: left;
-                                    background-size: cover;">
+                                    background-size: contain;">
                                 </div>
                                 <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/website25.jpg') }}');
                                     background-repeat: no-repeat;
                                     background-position: left;
-                                    background-size: cover;">
+                                    background-size: contain;">
                                 </div>
                                 <div class="flex-col-c-c py-3">
                                     <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
@@ -445,13 +446,13 @@
                                     <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/3-bedroom-premier-suites-abcd.png') }}');
                                     background-repeat: no-repeat;
                                     background-position: left;
-                                    background-size: cover;">
+                                    background-size: contain;">
                                     </div>
                                 </div>
                                 <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/website19.jpg') }}');
                                     background-repeat: no-repeat;
                                     background-position: left;
-                                    background-size: cover;">
+                                    background-size: contain;">
                                 </div>
                                 <div class="flex-col-c-c py-3">
                                     <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
@@ -478,12 +479,12 @@
                                 <div class="py-5 w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/3-bedroom-premier-suites-e.png') }}');
                                     background-repeat: no-repeat;
                                     background-position: left;
-                                    background-size: cover;">
+                                    background-size: contain;">
                                 </div>
                                 <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/website28.jpg') }}');
                                     background-repeat: no-repeat;
                                     background-position: left;
-                                    background-size: cover;">
+                                    background-size: contain;">
                                 </div>
                                 <div class="flex-col-c-c py-3">
                                     <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
@@ -527,7 +528,7 @@
                                 <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/2-bedroom-suites.png') }}');
                                     background-repeat: no-repeat;
                                     background-position: left;
-                                    background-size: cover;">
+                                    background-size: contain;">
                                 </div>
                                 {{-- <div class="w-100 img-banner-responsive" style="background-image: url('{{ asset('images/31ss/apartments/website22.jpg') }}');
                                     background-repeat: no-repeat;

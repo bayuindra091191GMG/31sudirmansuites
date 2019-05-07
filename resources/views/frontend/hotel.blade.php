@@ -19,7 +19,8 @@
                             background-position: center;
                             background-size: cover;">
                         <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
-                            <span class="t1-b-1 font-custom-libre-baskerville-bold text-white">HOTEL</span>
+                            <span class="t1-b-1 font-custom-libre-baskerville-bold text-white d-none d-md-block">HOTEL</span>
+                            <span class="t1-m-5 font-custom-libre-baskerville-bold text-white d-block d-md-none">HOTEL</span>
                             <hr class="mx-auto banner-line-width" style="border-bottom: 2px solid #fff;"/>
                         </div>
                     </div>
@@ -45,14 +46,26 @@
                     <div class="pt-3 img-fluid img-responsive text-center mb-5 tengah"> 
                         <img src="{{ asset('images/31ss/hotel/website 31ss 2-28.png') }}" style="height:80px"; alt="IMG">
                     </div>
-                    <div style="font-size: 13px;">
+                    <div class="d-none d-md-block" style="font-size: 13px;">
                         <p>The first-ever Hyatt Place Hotel in Indonesia will rise elegantly beside the<br/>
                             captivating 31 Sudirman Suites. The direct and easy access to the Hyatt<br/>
                             Place’s world-class amenities, leads 31 Sudirman Suites into luxurious yet<br/>
                             life-enhancing development.<br/><br/><br/>
                         </p>
                     </div>
-                    <div>
+                    <div class="d-block d-md-none text-center" style="font-size: 13px;">
+                        <p>The first-ever Hyatt Place Hotel in Indonesia will rise elegantly beside the
+                            captivating 31 Sudirman Suites. The direct and easy access to the Hyatt
+                            Place’s world-class amenities, leads 31 Sudirman Suites into luxurious yet
+                            life-enhancing development.<br/><br/><br/>
+                        </p>
+                    </div>
+                    <div class="d-none d-md-block">
+                        <p style="font-family: sans-serif">"We go above and beyond to deliver what<br/>
+                            is best for our residents."
+                        </p>
+                    </div>
+                    <div class="d-block d-md-none text-center">
                         <p style="font-family: sans-serif">"We go above and beyond to deliver what<br/>
                             is best for our residents."
                         </p>
@@ -83,8 +96,10 @@
                             background-position: center;
                             background-size: cover;">
                         <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
-                            <span class="t1-m-1 font-custom-libre-baskerville-bold text-white">RESIDENTIAL</span>
-                            <span class="t1-b-1 font-custom-libre-baskerville-bold text-white">SERVICE</span>
+                            <span class="t1-m-1 font-custom-libre-baskerville-bold text-white d-none d-md-block">RESIDENTIAL</span>
+                            <span class="t1-s-5 font-custom-libre-baskerville-bold text-white d-block d-md-none">RESIDENTIAL</span>
+                            <span class="t1-b-1 font-custom-libre-baskerville-bold text-white d-none d-md-block">SERVICE</span>
+                            <span class="t1-m-5 font-custom-libre-baskerville-bold text-white d-block d-md-none">SERVICE</span>
                             <hr class="mx-auto banner-line-width" style="border-bottom: 2px solid #fff;"/>
                         </div>
                     </div>
@@ -97,7 +112,8 @@
         <div class="container">
             <div class="row px-5">
                 <div class="col-md-4 col-12 text-center text-md-left">
-                    <div class="size-a-2 bg-3 bg-custom-light-brown" style="width: 20%; height: 5px;"></div>
+                    <div class="size-a-2 bg-3 bg-custom-light-brown d-block d-md-none" style="width: 20%; height: 5px; margin: 0 auto;"></div>
+                    <div class="size-a-2 bg-3 bg-custom-light-brown d-none d-md-block" style="width: 20%; height: 5px;"></div>
                     <div class="pt-3">
                         <p>Residential Services include<br/>
                             access to our 24-hour concierge service.<br/>
@@ -106,7 +122,8 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-12 text-center text-md-left">
-                    <div class="size-a-2 bg-3 bg-custom-light-brown" style="width: 20%; height: 5px;"></div>
+                        <div class="size-a-2 bg-3 bg-custom-light-brown d-block d-md-none" style="width: 20%; height: 5px; margin: 0 auto;"></div>
+                        <div class="size-a-2 bg-3 bg-custom-light-brown d-none d-md-block" style="width: 20%; height: 5px;"></div>
                     <div class="pt-3">
                         <p>24-hour concierge<br/>
                             Designated fitness attendants<br/>
@@ -116,7 +133,8 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-12 text-center text-md-left">
-                        <div class="size-a-2 bg-3 bg-custom-light-brown" style="width: 20%; height: 5px;"></div>
+                        <div class="size-a-2 bg-3 bg-custom-light-brown d-block d-md-none" style="width: 20%; height: 5px; margin: 0 auto;"></div>
+                    <div class="size-a-2 bg-3 bg-custom-light-brown d-none d-md-block" style="width: 20%; height: 5px;"></div>
                         <div class="pt-3">
                         <p>24-hour security<br/>
                             24-hour on call emergency repair<br/>

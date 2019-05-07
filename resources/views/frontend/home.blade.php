@@ -204,8 +204,8 @@
                                         background-repeat: no-repeat;
                                         background-position: center;
                                         background-size: contain;
-                                        height: 250px;
-                                        width: 150px;">
+                                        height: 350px;
+                                        width: 250px;">
                                     <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
                                         <span class="t1-m-1 font-custom-tiempos-regular">The</span>
                                         <span class="t1-m-1 font-custom-tiempos-regular">Prime Address</span>
@@ -217,8 +217,8 @@
                                         background-repeat: no-repeat;
                                         background-position: center;
                                         background-size: contain;
-                                        height: 250px;
-                                        width: 150px;">
+                                        height: 350px;
+                                        width: 250px;">
                                     <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
                                         <span class="t1-m-1 font-custom-tiempos-regular">The</span>
                                         <span class="t1-m-1 font-custom-tiempos-regular">Prestige of Service</span>
@@ -230,8 +230,8 @@
                                         background-repeat: no-repeat;
                                         background-position: center;
                                         background-size: contain;
-                                        height: 250px;
-                                        width: 150px;">
+                                        height: 350px;
+                                        width: 250px;">
                                     <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
                                         <span class="t1-m-1 font-custom-tiempos-regular">The</span>
                                         <span class="t1-m-1 font-custom-tiempos-regular">Select Community</span>
@@ -243,8 +243,8 @@
                                         background-repeat: no-repeat;
                                         background-position: center;
                                         background-size: contain;
-                                        height: 250px;
-                                        width: 150px;">
+                                        height: 350px;
+                                        width: 250px;">
                                     <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
                                         <span class="t1-m-1 font-custom-tiempos-regular">The</span>
                                         <span class="t1-m-1 font-custom-tiempos-regular">State of Art</span>
@@ -256,11 +256,12 @@
                                         background-repeat: no-repeat;
                                         background-position: center;
                                         background-size: contain;
-                                        height: 250px;
-                                        width: 150px;">
+                                        height: 350px;
+                                        width: 250px;">
                                     <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
                                         <span class="t1-m-1 font-custom-tiempos-regular">The</span>
-                                        <span class="t1-m-1 font-custom-tiempos-regular">Award Winning Developer</span>
+                                        <span class="t1-m-1 font-custom-tiempos-regular">Award Winning</span> 
+                                        <span class="t1-m-1 font-custom-tiempos-regular">Developer</span>
                                     </div>
                                 </div>
                             </div>
@@ -353,7 +354,7 @@
         </div>    
     </section>
 
-    <section class="mb-3 py-5 bg-custom-dark-blue">
+    <section class="mb-3 py-5 bg-custom-dark-blue d-none d-md-block">
         <div class="container-fluid">
             <div class="row mb-4">
                 <div class="col-12 text-center">
@@ -425,6 +426,73 @@
                     <img src="{{ asset('images/31ss/home/website1-23.png') }}" alt="IMG" class="img-fluid" style="height: 50px;">
                 </div>
                 <div class="col-md-3 "></div>
+            </div>
+        </div>
+    </section>
+
+    {{-- By those mobile --}}
+
+    <section class="mb-3 py-5 bg-custom-dark-blue d-block d-md-none">
+        <div class="container-fluid">
+            <div class="row mb-4">
+                <div class="col-12 text-center">
+                    {{-- <img src="{{ asset('images/31ss/home/bythose.PNG') }}"> --}}
+                    <span class="t1-s-4 text-custom-light-brown font-custom-tiempos-medium-italic">By those who know them best</span>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-12">
+                    <div class="text-center mb-3">
+                        <span class="text-white">Developed by</span>
+                    </div>
+                    <div class="text-center">
+                        <img src="{{ asset('images/31ss/home/website1-16.png') }}" alt="IMG" class="img-fluid pb-5">
+                    </div>
+                    <div class="text-center mb-3">
+                        <span class="text-white">Hotel Management by</span>
+                    </div>
+                    <div class="text-center">
+                        <img src="{{ asset('images/31ss/home/website1-17.png') }}" alt="IMG" class="img-fluid pb-5">
+                    </div>
+                    <div class="text-center mb-3">
+                        <span class="text-white">Designed by</span>
+                    </div>
+                    <div class="text-center">
+                        <img src="{{ asset('images/31ss/home/website1-18.png') }}" alt="IMG" class="img-fluid pb-5">
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12 text-center">
+                    <span class="t1-s-4 text-custom-light-brown font-custom-tiempos-medium-italic">From the award-winning developer who brought you</span>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-1"></div>
+                <div class="col-5 text-center">
+                    <img src="{{ asset('images/31ss/home/website1-19.png') }}" alt="IMG" class="img-fluid">
+                </div>
+                <div class="col-5 text-center">
+                    <img src="{{ asset('images/31ss/home/website1-20.png') }}" alt="IMG" class="img-fluid pt-4">
+                </div>
+                <div class="col-1"></div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-1"></div>
+                <div class="col-5 text-center">
+                    <img src="{{ asset('images/31ss/home/website1-21.png') }}" alt="IMG" class="img-fluid">
+                </div>
+                <div class="col-5 text-center">
+                    <img src="{{ asset('images/31ss/home/website1-23.png') }}" alt="IMG" class="img-fluid pt-4">
+                </div>
+                <div class="col-1"></div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-1"></div>
+                <div class="col-10 text-center">
+                    <img src="{{ asset('images/31ss/home/website1-22.png') }}" alt="IMG" class="img-fluid">
+                </div>
+                <div class="col-1"></div>
             </div>
         </div>
     </section>

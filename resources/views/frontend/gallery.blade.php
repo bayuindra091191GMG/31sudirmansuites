@@ -19,7 +19,8 @@
                         background-position: center;
                         background-size: cover;">
                     <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
-                        <span class="t1-b-1 font-custom-libre-baskerville-bold text-custom-black">GALLERY</span>
+                        <span class="t1-b-1 font-custom-libre-baskerville-bold text-custom-black d-none d-md-block">GALLERY</span>
+                        <span class="t1-m-5 font-custom-libre-baskerville-bold text-custom-black d-block d-md-none">GALLERY</span>
                         <hr class="mx-auto banner-line-width" style="border-bottom: 2px solid #000;"/>
                     </div>
                 </div>
