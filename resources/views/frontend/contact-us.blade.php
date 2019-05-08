@@ -93,11 +93,9 @@
                             <textarea type="text" class="form-control" id="case" name="case" rows="10" placeholder="Case Description..."></textarea>
                         </div>
                     </div>
-                    <div class="row d-block d-md-none">
-                        <div class="row mt-5">
-                            <div class="col-12">
-                                <input type="submit" class="btn btn-default px-4 bg-custom-light-brown t1-s-4 text-white" style="cursor: pointer;" value="SUBMIT" />
-                            </div>
+                    <div class="row d-block d-md-none mt-3 mt-md-0">
+                        <div class="col-12">
+                            <input type="submit" class="btn btn-default px-4 bg-custom-light-brown t1-s-4 text-white" style="cursor: pointer;" value="SUBMIT" />
                         </div>
                     </div>
                 </div>

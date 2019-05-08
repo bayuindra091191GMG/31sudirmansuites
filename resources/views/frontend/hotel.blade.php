@@ -111,7 +111,7 @@
     <section class="m-b-50">
         <div class="container">
             <div class="row px-5">
-                <div class="col-md-4 col-12 text-center text-md-left">
+                <div class="col-md-4 col-12 text-center text-md-left mb-3 mb-md-0">
                     <div class="size-a-2 bg-3 bg-custom-light-brown d-block d-md-none" style="width: 20%; height: 5px; margin: 0 auto;"></div>
                     <div class="size-a-2 bg-3 bg-custom-light-brown d-none d-md-block" style="width: 20%; height: 5px;"></div>
                     <div class="pt-3">
@@ -121,7 +121,7 @@
                             queries you may have.<br/></p>
                     </div>
                 </div>
-                <div class="col-md-4 col-12 text-center text-md-left">
+                <div class="col-md-4 col-12 text-center text-md-left mb-3 mb-md-0">
                         <div class="size-a-2 bg-3 bg-custom-light-brown d-block d-md-none" style="width: 20%; height: 5px; margin: 0 auto;"></div>
                         <div class="size-a-2 bg-3 bg-custom-light-brown d-none d-md-block" style="width: 20%; height: 5px;"></div>
                     <div class="pt-3">

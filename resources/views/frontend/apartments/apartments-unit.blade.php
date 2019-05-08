@@ -343,9 +343,15 @@
 
 @section('styles')
     <style>
-        .slick-prev:before,
-        .slick-next:before {
-            color: sandybrown;
+        .t1-b-1{
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 1px;
+        }
+
+        hr{
+            margin-top: 0.2rem;
+            margin-bottom: 0.2rem;
         }
 
         .slick-dots li.slick-active button:before{
@@ -383,10 +389,6 @@
         }
 
         @media (min-width: 768px) {
-            .home-top-margin{
-                margin-top: -100px;
-            }
-
             .img-banner-responsive{
                 height: 325px;
             }
@@ -399,12 +401,15 @@
                 height: 510px;
             }
 
-            .img-responsive2{
-                height: 350px;
+            .t1-b-1{
+                font-size: 36px;
+                line-height: 1.2;
+                letter-spacing: 1px;
             }
 
-            .img-map-responsive{
-                height: 650px;
+            hr{
+                margin-top: 1rem;
+                margin-bottom: 1rem;
             }
         }
 
