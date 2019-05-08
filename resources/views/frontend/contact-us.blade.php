@@ -145,6 +145,17 @@
 
 @section('styles')
     <style type="text/css">
+
+        .t1-b-1{
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 1px;
+        }
+
+        hr{
+            margin-top: 0.2rem;
+            margin-bottom: 0.2rem;
+        }
         .btn-dark{
             border-radius: 30%;
         }
@@ -190,6 +201,16 @@
 
             .img-banner-responsive{
                 height: 325px;
+            }
+            .t1-b-1{
+                font-size: 36px;
+                line-height: 1.2;
+                letter-spacing: 1px;
+            }
+
+            hr{
+                margin-top: 1rem;
+                margin-bottom: 1rem;
             }
         }
 

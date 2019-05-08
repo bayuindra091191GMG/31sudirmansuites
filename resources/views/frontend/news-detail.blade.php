@@ -149,6 +149,16 @@
 @section('styles')
     <link rel="stylesheet" type="text/css" href="http://www.shieldui.com/shared/components/latest/css/light-bootstrap/all.min.css" />
     <style>
+        .t1-b-1{
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 1px;
+        }
+
+        hr{
+            margin-top: 0.2rem;
+            margin-bottom: 0.2rem;
+        }
         .slick-prev:before,
         .slick-next:before {
             color: sandybrown;
@@ -191,6 +201,16 @@
 
             .img-map-responsive{
                 height: 650px;
+            }
+            .t1-b-1{
+                font-size: 36px;
+                line-height: 1.2;
+                letter-spacing: 1px;
+            }
+
+            hr{
+                margin-top: 1rem;
+                margin-bottom: 1rem;
             }
         }
 
