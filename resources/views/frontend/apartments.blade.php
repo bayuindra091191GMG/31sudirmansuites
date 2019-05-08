@@ -204,7 +204,7 @@
                 <div class="mb-3 w-100 img-responsive2" style="background-image: url('{{ asset('images/31ss/apartments/website1-15.jpg') }}');
                     background-repeat: no-repeat;
                     background-position: center;
-                    background-size: contain;">
+                    background-size: cover;">
                 </div>
                 {{-- <p class="text-custom-light-brown">3rd Floor</p><br/>
                     <div class="col-8" style="background-image: url('{{ asset('images/31ss/apartments/website1-17.jpg') }}');
@@ -293,7 +293,7 @@
                 <div class="mb-5 w-100 img-responsive2" style="background-image: url('{{ asset('images/31ss/apartments/website1-13.jpg') }}');
                     background-repeat: no-repeat;
                     background-position: center;
-                    background-size: contain;">
+                    background-size: cover;">
                 </div>
                 {{-- <p class="text-custom-light-brown">Placement
                         <span class="float-r">View More <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid"></span></p><br/>
