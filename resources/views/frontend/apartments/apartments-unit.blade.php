@@ -84,15 +84,20 @@
                             </div>
                             <div id="panelBodyFive" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    <div class="w-100 img-responsive mb-4" style="background-image: url('{{ asset('images/31ss/apartments/north-private-suites.png') }}');
+                                    <div class="w-100 img-responsive mb-4 d-none d-md-block" style="background-image: url('{{ asset('images/31ss/apartments/north-private-suites.png') }}');
                                         background-repeat: no-repeat;
                                         background-position: left;
+                                        background-size: contain;">
+                                    </div>
+                                    <div class="w-100 img-responsive3 mb-4 d-block d-md-none" style="background-image: url('{{ asset('images/31ss/apartments/north-private-suites-mobile.jpg') }}');
+                                        background-repeat: no-repeat;
+                                        background-position: center;
                                         background-size: contain;">
                                     </div>
                                     <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/website22.jpg') }}');
                                         background-repeat: no-repeat;
                                         background-position: left;
-                                        background-size: contain;">
+                                        background-size: cover;">
                                     </div>
                                     <div class="flex-col-c-c py-3">
                                         <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
@@ -142,7 +147,12 @@
                             </div>
                             <div id="panelBodySix" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    <div class="w-100 img-responsive mb-4" style="background-image: url('{{ asset('images/31ss/apartments/south-private-suites.png') }}');
+                                    <div class="w-100 img-responsive mb-4 d-none d-md-block" style="background-image: url('{{ asset('images/31ss/apartments/south-private-suites.png') }}');
+                                        background-repeat: no-repeat;
+                                        background-position: left;
+                                        background-size: contain;">
+                                    </div>
+                                    <div class="w-100 img-responsive3 mb-4 d-block d-md-none" style="background-image: url('{{ asset('images/31ss/apartments/south-private-suites-mobile.jpg') }}');
                                         background-repeat: no-repeat;
                                         background-position: left;
                                         background-size: contain;">
@@ -150,7 +160,7 @@
                                     <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/website25.jpg') }}');
                                         background-repeat: no-repeat;
                                         background-position: left;
-                                        background-size: contain;">
+                                        background-size: cover;">
                                     </div>
                                     <div class="flex-col-c-c py-3">
                                         <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
@@ -200,17 +210,20 @@
                             </div>
                             <div id="panelBodyFour" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    <div>
-                                        <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/3-bedroom-premier-suites-abcd.png') }}');
+                                    <div class="w-100 img-responsive d-none d-md-block" style="background-image: url('{{ asset('images/31ss/apartments/3-bedroom-premier-suites-abcd.png') }}');
                                         background-repeat: no-repeat;
                                         background-position: left;
                                         background-size: contain;">
-                                        </div>
+                                    </div>
+                                    <div class="w-100 img-responsive4 d-block d-md-none" style="background-image: url('{{ asset('images/31ss/apartments/3-bedroom-premier-suites-abcd-mobile.jpg') }}');
+                                        background-repeat: no-repeat;
+                                        background-position: center;
+                                        background-size: contain;">
                                     </div>
                                     <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/website19.jpg') }}');
                                         background-repeat: no-repeat;
                                         background-position: left;
-                                        background-size: contain;">
+                                        background-size: cover;">
                                     </div>
                                     <div class="flex-col-c-c py-3">
                                         <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
@@ -243,15 +256,20 @@
                             </div>
                             <div id="panelBodySeven" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    <div class="py-5 w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/3-bedroom-premier-suites-e.png') }}');
+                                    <div class="py-5 w-100 img-responsive d-none d-md-block" style="background-image: url('{{ asset('images/31ss/apartments/3-bedroom-premier-suites-e.png') }}');
                                         background-repeat: no-repeat;
                                         background-position: left;
+                                        background-size: contain;">
+                                    </div>
+                                    <div class="py-5 w-100 img-responsive4 d-block d-md-none" style="background-image: url('{{ asset('images/31ss/apartments/3-bedroom-premier-suites-e-mobile.jpg') }}');
+                                        background-repeat: no-repeat;
+                                        background-position: center;
                                         background-size: contain;">
                                     </div>
                                     <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/website28.jpg') }}');
                                         background-repeat: no-repeat;
                                         background-position: left;
-                                        background-size: contain;">
+                                        background-size: cover;">
                                     </div>
                                     <div class="flex-col-c-c py-3">
                                         <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
@@ -298,9 +316,14 @@
                             </div>
                             <div id="panelBodyEight" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    <div class="w-100 img-responsive" style="background-image: url('{{ asset('images/31ss/apartments/2-bedroom-suites.png') }}');
+                                    <div class="w-100 img-responsive d-none d-md-block" style="background-image: url('{{ asset('images/31ss/apartments/2-bedroom-suites.png') }}');
                                         background-repeat: no-repeat;
                                         background-position: left;
+                                        background-size: contain;">
+                                    </div>
+                                    <div class="w-100 img-responsive4 d-block d-md-none" style="background-image: url('{{ asset('images/31ss/apartments/2-bedroom-suites-mobile.jpg') }}');
+                                        background-repeat: no-repeat;
+                                        background-position: center;
                                         background-size: contain;">
                                     </div>
                                     {{-- <div class="w-100 img-banner-responsive" style="background-image: url('{{ asset('images/31ss/apartments/website22.jpg') }}');
@@ -378,6 +401,14 @@
 
         .img-responsive2{
             height: 100px;
+        }
+
+        .img-responsive3{
+            height: 773px;
+        }
+
+        .img-responsive4{
+            height: 723px;
         }
 
         .img-map-responsive{
