@@ -42,6 +42,11 @@ class HomeController extends Controller
         return view('frontend.home', compact('news'));
     }
 
+    public function privilegecard()
+    {
+        return view('frontend.privilegecard');
+    }
+
     public function apartments()
     {
         return view('frontend.apartments');
