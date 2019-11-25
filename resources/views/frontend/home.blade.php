@@ -47,30 +47,30 @@
                         {{--data-responsive_offset="off"--}}
                         {{-->BEGIN YOUR CHAPTER</h2>--}}
 
-                        <p class="tp-caption tp-resizeme caption-2" 
+                        <p class="tp-caption tp-resizeme caption-2"
                         data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"x:right;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
                         data-visibility="['on', 'on', 'on', 'on']"
- 
-                        data-fontsize="['30', '30', '30', '25']" 
+
+                        data-fontsize="['30', '30', '30', '25']"
                         data-lineheight="['39', '39', '39', '39']"
-                        data-color="['#FFF']" 
+                        data-color="['#FFF']"
                         data-textAlign="['center', 'center', 'center', 'center']"
-                     
-                        data-x="['center']" 
-                        data-y="['center']" 
-                        data-hoffset="['0', '0', '0', '0']" 
-                        data-voffset="['-13', '-13', '-13', '-13']" 
-                     
+
+                        data-x="['center']"
+                        data-y="['center']"
+                        data-hoffset="['0', '0', '0', '0']"
+                        data-voffset="['-13', '-13', '-13', '-13']"
+
                         data-width="['1200','992','768','480']"
                         data-height="['auto', 'auto', 'auto', 'auto']"
-                        data-whitespace="['normal']" 
-                     
+                        data-whitespace="['normal']"
+
                         data-paddingtop="[0, 0, 0, 0]"
                         data-paddingright="[15, 15, 15, 15]"
                         data-paddingbottom="[0, 0, 0, 0]"
                         data-paddingleft="[15, 15, 15, 15]"
 
-                        data-basealign="slide" 
+                        data-basealign="slide"
                         data-responsive_offset="off"
                         >
                             <span class="t1-b-1 font-weight-bold"></span><br/>
@@ -78,7 +78,7 @@
                             <span class="t1-b-1 font-weight-bold color-custom-dark-green"></span>
                         </p>
                     </li>
-                </ul>				
+                </ul>
             </div>
         </div>
     </section>
@@ -260,7 +260,7 @@
                                         width: 250px;">
                                     <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
                                         <span class="t1-m-1 font-custom-tiempos-regular">The</span>
-                                        <span class="t1-m-1 font-custom-tiempos-regular">Award Winning</span> 
+                                        <span class="t1-m-1 font-custom-tiempos-regular">Award Winning</span>
                                         <span class="t1-m-1 font-custom-tiempos-regular">Developer</span>
                                     </div>
                                 </div>
@@ -351,7 +351,7 @@
                             background-size: contain;"></div>
                 </div>
             </div>
-        </div>    
+        </div>
     </section>
 
     <section class="mb-3 py-5 bg-custom-dark-blue d-none d-md-block">
@@ -541,12 +541,59 @@
             </div>
         </div>
     </section>
+
+    <div class="modal" id="first_modal">
+        <div class="modal-dialog">
+            <a href="https://www.instagram.com/31sudirmansuites.official" target="_blank">
+                <div class="modal-content bg_popup">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
 @endsection
 
 @section('styles')
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
     <style>
+
+        .modal-open .modal {
+            display: flex!important;
+            align-items: center!important;
+            z-index: 99999999;
+        }
+
+        .modal-dialog {
+            display: flex!important;
+            align-items: center!important;
+            flex-grow: 1;
+            max-width: 320px;
+            margin: 10px auto;
+            overflow: visible;
+        }
+
+        .modal-header{
+            border-bottom: 0 !important;
+        }
+
+        .bg_popup{;
+            background-image: url('{{ asset('images/31ss/popup_special_payment.jpg') }}');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 190px;
+            width: 320px;
+        }
+
         .slick-prev:before,
         .slick-next:before {
             color: sandybrown;
@@ -601,7 +648,17 @@
 
         }
 
-        @media (min-width: 768px) {
+        @media (min-width: 750px) {
+            .modal-dialog {
+                max-width: 800px;
+                margin: 30px auto;
+            }
+
+            .bg_popup{
+                height: 465px;
+                width: 800px;
+            }
+
             .img-fluid{
                 max-width: 80%;
             }
@@ -646,6 +703,10 @@
             slidesToShow: 1,
             slidesToScroll: 1,
             arrows: true,
+        });
+
+        window.addEventListener('DOMContentLoaded', (event) => {
+            $('#first_modal').modal('show');
         });
     </script>
 @endsection
