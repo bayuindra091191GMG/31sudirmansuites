@@ -283,7 +283,8 @@
 
 @font-face {
     font-family: 'TiemposHeadlineRegular';
-    src: local('Tiempos Headline Regular'), local('TiemposHeadline-Regular'),
+    src: url('../../fonts/TiemposHeadline-Regular.eot');
+    src: url('../../fonts/TiemposHeadline-Regular.eot') format('embedded-opentype'),
     url('../../fonts/TiemposHeadline-Regular.woff2') format('woff2'),
     url('../../fonts/TiemposHeadline-Regular.woff') format('woff'),
     url('../../fonts/TiemposHeadline-Regular.ttf') format('truetype'),
