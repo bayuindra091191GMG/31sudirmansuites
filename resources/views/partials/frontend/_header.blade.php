@@ -12,7 +12,7 @@
                     </div>
                 </div>
                 <div class="limiter-menu-desktop container-fluid" style="padding-left: 8rem; padding-right: 8rem; @if(Route::currentRouteName() == 'home') background-color: rgba(0,0,0,0.4) @else background-color: #ffffff @endif">
-                    
+
 
                     <!-- Menu desktop -->
                     <div class="menu-desktop pt-4">
@@ -38,6 +38,10 @@
 
                             <li>
                                 <a class="font-custom-libre-baskerville-regular menu-font-style2 @if(Route::currentRouteName() == 'home') text-white @else text-black @endif" href="{{ route('frontend.gallery') }}">GALLERY</a>
+                            </li>
+
+                            <li>
+                                <a class="font-custom-libre-baskerville-regular menu-font-style2 @if(Route::currentRouteName() == 'home') text-white @else text-black @endif" href="{{ route('frontend.privilegecard') }}" >PRIVILEGE CARD</a>
                             </li>
 
                             <li>
@@ -95,9 +99,13 @@
                 <li>
                     <a class="font-custom-libre-baskerville-regular text-white" href="{{ route('frontend.news') }}">NEWS</a>
                 </li>
-                
+
                 <li>
                     <a class="font-custom-libre-baskerville-regular text-white" href="{{ route('frontend.gallery') }}">GALLERY</a>
+                </li>
+
+                <li>
+                    <a class="font-custom-libre-baskerville-regular text-white" href="{{ route('frontend.privilegecard') }}">PRIVILEGE CARD</a>
                 </li>
 
                 <li>
