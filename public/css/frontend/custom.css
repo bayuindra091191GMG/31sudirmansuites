@@ -212,7 +212,7 @@
 }
 
 .font-custom-tiempos-regular{
-    font-family: 'TiemposHeadlineRegular', sans-serif !important;
+    font-family: 'tiemposheadline-regular', sans-serif !important;
 }
 
 .font-custom-tiempos-regular-italic{
@@ -244,7 +244,7 @@
 }
 
 .font-custom-libre-baskerville-bold{
-    font-family: 'libre_baskervillebold', sans-serif !important;
+    font-family: 'librebaskerville-bold-webfont', sans-serif !important;
 }
 
 
@@ -282,15 +282,15 @@
 }
 
 @font-face {
-    font-family: 'TiemposHeadlineRegular';
-    src: url('../../fonts/TiemposHeadline-Regular.eot');
-    src: url('../../fonts/TiemposHeadline-Regular.eot') format('embedded-opentype'),
-    url('../../fonts/TiemposHeadline-Regular.woff2') format('woff2'),
-    url('../../fonts/TiemposHeadline-Regular.woff') format('woff'),
-    url('../../fonts/TiemposHeadline-Regular.ttf') format('truetype'),
-    url('../../fonts/TiemposHeadline-Regular.svg#TiemposHeadline-Regular') format('svg');
+    font-family: 'tiemposheadline-regular';
+    src: url('../../fonts/tiemposheadline-regular.eot');
+    src: url('../../fonts/tiemposheadline-regular.eot') format('embedded-opentype'),
+    url('../../fonts/tiemposheadline-regular.woff2') format('woff2'),
+    url('../../fonts/tiemposheadline-regular.woff') format('woff'),
+    url('../../fonts/tiemposheadline-regular.ttf') format('truetype'),
+    url('../../fonts/tiemposheadline-regular.svg#tiemposheadline-regular') format('svg');
     font-weight: 500;
-    font-style: italic;
+    font-style: normal;
 }
 
 @font-face {
@@ -371,8 +371,9 @@
 }
 
 @font-face {
-    font-family: 'libre_baskervillebold';
-    src: local('libre_baskervillebold'), local('librebaskerville-bold-webfont'),
+    font-family: 'librebaskerville-bold-webfont';
+    src: url('../../fonts/librebaskerville-bold-webfont.eot');
+    src: url('../../fonts/librebaskerville-bold-webfont.eot') format('embedded-opentype'),
     url('../../fonts/librebaskerville-bold-webfont.woff2') format('woff2'),
     url('../../fonts/librebaskerville-bold-webfont.woff') format('woff'),
     url('../../fonts/librebaskerville-bold-webfont.ttf') format('truetype'),
