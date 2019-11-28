@@ -19,8 +19,8 @@
                         background-position: center;
                         background-size: cover;">
                     <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
-                        <span class="t1-b-1 font-custom-libre-baskerville-bold text-custom-black d-none d-md-block">APARTMENTS</span>
-                        <span class="t1-m-5 font-custom-libre-baskerville-bold text-custom-black d-block d-md-none">APARTMENTS</span>
+                        <span class="t1-b-1 font-custom-tiempos-regular text-custom-black d-none d-md-block">APARTMENTS</span>
+                        <span class="t1-m-5 font-custom-tiempos-regular text-custom-black d-block d-md-none">APARTMENTS</span>
                         <hr class="mx-auto banner-line-width" style="border-bottom: 2px solid #000;"/>
                     </div>
                 </div>
@@ -77,7 +77,7 @@
                                         <span class="float-r font-custom-avenir-medium">View More &nbsp; <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid">
                                         </span>
                                     </a>
-                                </h4>                                                                    
+                                </h4>
                             </div>
                             <div id="panelBodyOne" class="panel-collapse collapse">
                                 <div class="panel-body">
@@ -157,7 +157,7 @@
                                     3rd Floor
                                     <span class="float-r font-custom-avenir-medium">View More &nbsp; <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid"></span>
                                 </a>
-                            </h4>                                                                    
+                            </h4>
                         </div>
                         <div class="flex-col-c-c py-3">
                             <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
@@ -249,7 +249,7 @@
                     </div> --}}
                 <p class="text-custom-light-brown">
                     <span class="t1-m-2 font-custom-tiempos-light-italic">the
-                            <a href="{{ route('frontend.apartments.floor') }}">    
+                            <a href="{{ route('frontend.apartments.floor') }}">
                                     {{-- <img src="{{ asset('images/31ss/apartments/website1-35.png') }}" alt="IMG" style="width:130px;" class="img-fluid float-right mt-2"> --}}
                             </a>
                     </span><br/>
@@ -266,7 +266,7 @@
                                     Placement
                                     <span class="float-r font-custom-avenir-medium">View More &nbsp; <img src="{{ asset('images/31ss/apartments/website1-34.png') }}" alt="IMG" style="width:18px;" class="img-fluid"></span>
                                 </a>
-                            </h4>                                                                    
+                            </h4>
                         </div>
                         <div class="flex-col-c-c py-3">
                             <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
@@ -320,7 +320,7 @@
                     </div> --}}
                 <p class="text-custom-light-brown">
                     <span class="t1-m-2 font-custom-tiempos-light-italic">the
-                            <a href="{{ route('frontend.apartments.unit') }}">    
+                            <a href="{{ route('frontend.apartments.unit') }}">
                                 <img src="{{ asset('images/31ss/apartments/website1-35.png') }}" alt="IMG" style="width:130px;" class="img-fluid float-right mt-2">
                             </a>
                     </span><br/>
@@ -340,7 +340,7 @@
                                 <div class="flex-col-c-c py-3">
                                     <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
                                 </div>
-                            </h4>                                                                    
+                            </h4>
                         </div>
                         <div id="panelBodyFive" class="panel-collapse collapse">
                             <div class="panel-body">
@@ -394,7 +394,7 @@
                                 <div class="flex-col-c-c py-3">
                                     <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
                                 </div>
-                            </h4>                                                                    
+                            </h4>
                         </div>
                         <div id="panelBodySix" class="panel-collapse collapse">
                             <div class="panel-body">
@@ -448,7 +448,7 @@
                                 <div class="flex-col-c-c py-3">
                                     <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
                                 </div>
-                            </h4>                                                                    
+                            </h4>
                         </div>
                         <div id="panelBodyFour" class="panel-collapse collapse">
                             <div class="panel-body">
@@ -485,7 +485,7 @@
                                 <div class="flex-col-c-c py-3">
                                     <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
                                 </div>
-                            </h4>                                                                    
+                            </h4>
                         </div>
                         <div id="panelBodySeven" class="panel-collapse collapse">
                             <div class="panel-body">
@@ -539,7 +539,7 @@
                                 <div class="flex-col-c-c py-3">
                                     <div class="size-a-1 bg-3 bg-custom-light-brown" style="width: 100%; height: 1px;"></div>
                                 </div>
-                            </h4>                                                                    
+                            </h4>
                         </div>
                         <div id="panelBodyEight" class="panel-collapse collapse">
                             <div class="panel-body">
@@ -583,7 +583,7 @@
                     </div>
             </div>
             <div class="col-1"></div>
-        </div>      
+        </div>
     </div>
 </section>
 
@@ -640,7 +640,7 @@
         .img-responsive3{
             height: 281px;
         }
-        
+
         .img-responsive4{
             height: 165px;
         }

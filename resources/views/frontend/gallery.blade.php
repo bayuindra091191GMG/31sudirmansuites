@@ -19,8 +19,8 @@
                         background-position: center;
                         background-size: cover;">
                     <div class="box h-100 d-flex justify-content-center flex-column text-center px-3">
-                        <span class="t1-b-1 font-custom-libre-baskerville-bold text-custom-black d-none d-md-block">GALLERY</span>
-                        <span class="t1-m-5 font-custom-libre-baskerville-bold text-custom-black d-block d-md-none">GALLERY</span>
+                        <span class="t1-b-1 font-custom-tiempos-regular text-custom-black d-none d-md-block">GALLERY</span>
+                        <span class="t1-m-5 font-custom-tiempos-regular text-custom-black d-block d-md-none">GALLERY</span>
                         <hr class="mx-auto banner-line-width" style="border-bottom: 2px solid #000;"/>
                     </div>
                 </div>
@@ -33,8 +33,8 @@
     <div class="container">
         <div class="row no-gutters">
             <div class="col-4" >
-                    <img class="w-100 gallery" src="{{ asset('images/31ss/hotel/website36.jpg') }}" alt="Drop Off"  
-                    onmouseover="this.src='{{ asset('images/31ss/hotel/website42.jpg') }}'" 
+                    <img class="w-100 gallery" src="{{ asset('images/31ss/hotel/website36.jpg') }}" alt="Drop Off"
+                    onmouseover="this.src='{{ asset('images/31ss/hotel/website42.jpg') }}'"
                     onmouseout="this.src='{{ asset('images/31ss/hotel/website36.jpg') }}'">
             </div>
             <div class="col-4" >
@@ -42,48 +42,48 @@
                     background-repeat: no-repeat;
                     background-position: center;
                     background-size: cover;"></div>      --}}
-                    <img class="w-100 gallery" src="{{ asset('images/31ss/hotel/website37.jpg') }}" alt="Main Entrance"  
-                    onmouseover="this.src='{{ asset('images/31ss/hotel/website43.jpg') }}'" 
+                    <img class="w-100 gallery" src="{{ asset('images/31ss/hotel/website37.jpg') }}" alt="Main Entrance"
+                    onmouseover="this.src='{{ asset('images/31ss/hotel/website43.jpg') }}'"
                     onmouseout="this.src='{{ asset('images/31ss/hotel/website37.jpg') }}'">
                 </div>
             <div class="col-4" >
-                <img class="w-100 gallery" src="{{ asset('images/31ss/hotel/website38.jpg') }}" alt="Hotel Lobby"  
-                    onmouseover="this.src='{{ asset('images/31ss/hotel/website44.jpg') }}'" 
-                    onmouseout="this.src='{{ asset('images/31ss/hotel/website38.jpg') }}'">     
+                <img class="w-100 gallery" src="{{ asset('images/31ss/hotel/website38.jpg') }}" alt="Hotel Lobby"
+                    onmouseover="this.src='{{ asset('images/31ss/hotel/website44.jpg') }}'"
+                    onmouseout="this.src='{{ asset('images/31ss/hotel/website38.jpg') }}'">
             </div>
         </div>
         <div class="row no-gutters">
             <div class="col-4" >
-                <img class="w-100 gallery" src="{{ asset('images/31ss/hotel/website39.jpg') }}" alt="Apartment Lobby"  
-                    onmouseover="this.src='{{ asset('images/31ss/hotel/website45.jpg') }}'" 
-                    onmouseout="this.src='{{ asset('images/31ss/hotel/website39.jpg') }}'">     
+                <img class="w-100 gallery" src="{{ asset('images/31ss/hotel/website39.jpg') }}" alt="Apartment Lobby"
+                    onmouseover="this.src='{{ asset('images/31ss/hotel/website45.jpg') }}'"
+                    onmouseout="this.src='{{ asset('images/31ss/hotel/website39.jpg') }}'">
             </div>
             <div class="col-4" >
-                <img class="w-100 gallery" src="{{ asset('images/31ss/hotel/website40.jpg') }}" alt="Unit Interior"  
-                    onmouseover="this.src='{{ asset('images/31ss/hotel/website46.jpg') }}'" 
-                    onmouseout="this.src='{{ asset('images/31ss/hotel/website40.jpg') }}'">     
+                <img class="w-100 gallery" src="{{ asset('images/31ss/hotel/website40.jpg') }}" alt="Unit Interior"
+                    onmouseover="this.src='{{ asset('images/31ss/hotel/website46.jpg') }}'"
+                    onmouseout="this.src='{{ asset('images/31ss/hotel/website40.jpg') }}'">
             </div>
             <div class="col-4" >
-                <img class="w-100 gallery" src="{{ asset('images/31ss/hotel/website41.jpg') }}" alt="Swimming Pool"  
-                    onmouseover="this.src='{{ asset('images/31ss/hotel/website47.jpg') }}'" 
-                    onmouseout="this.src='{{ asset('images/31ss/hotel/website41.jpg') }}'">     
+                <img class="w-100 gallery" src="{{ asset('images/31ss/hotel/website41.jpg') }}" alt="Swimming Pool"
+                    onmouseover="this.src='{{ asset('images/31ss/hotel/website47.jpg') }}'"
+                    onmouseout="this.src='{{ asset('images/31ss/hotel/website41.jpg') }}'">
             </div>
         </div>
         <div class="row no-gutters">
             <div class="col-4" >
-                <img class="w-100 gallery" src="{{ asset('images/31ss/gallery/dayview.jpg') }}" alt="Dayview"  
-                    onmouseover="this.src='{{ asset('images/31ss/gallery/pop-up-10.jpg') }}'" 
-                    onmouseout="this.src='{{ asset('images/31ss/gallery/dayview.jpg') }}'">     
+                <img class="w-100 gallery" src="{{ asset('images/31ss/gallery/dayview.jpg') }}" alt="Dayview"
+                    onmouseover="this.src='{{ asset('images/31ss/gallery/pop-up-10.jpg') }}'"
+                    onmouseout="this.src='{{ asset('images/31ss/gallery/dayview.jpg') }}'">
             </div>
             <div class="col-4" >
-                <img class="w-100 gallery" src="{{ asset('images/31ss/gallery/facade.jpg') }}" alt="Facade"  
-                    onmouseover="this.src='{{ asset('images/31ss/gallery/pop-up-11.jpg') }}'" 
-                    onmouseout="this.src='{{ asset('images/31ss/gallery/facade.jpg') }}'">     
+                <img class="w-100 gallery" src="{{ asset('images/31ss/gallery/facade.jpg') }}" alt="Facade"
+                    onmouseover="this.src='{{ asset('images/31ss/gallery/pop-up-11.jpg') }}'"
+                    onmouseout="this.src='{{ asset('images/31ss/gallery/facade.jpg') }}'">
             </div>
             <div class="col-4" >
-                <img class="w-100 gallery" src="{{ asset('images/31ss/gallery/nightview.jpg') }}" alt="Nightview"  
-                    onmouseover="this.src='{{ asset('images/31ss/gallery/pop-up-12.jpg') }}'" 
-                    onmouseout="this.src='{{ asset('images/31ss/gallery/nightview.jpg') }}'">     
+                <img class="w-100 gallery" src="{{ asset('images/31ss/gallery/nightview.jpg') }}" alt="Nightview"
+                    onmouseover="this.src='{{ asset('images/31ss/gallery/pop-up-12.jpg') }}'"
+                    onmouseout="this.src='{{ asset('images/31ss/gallery/nightview.jpg') }}'">
             </div>
         </div>
     </div>
@@ -142,7 +142,7 @@
         .img-responsive3{
             height: 281px;
         }
-        
+
         .img-responsive4{
             height: 165px;
         }
