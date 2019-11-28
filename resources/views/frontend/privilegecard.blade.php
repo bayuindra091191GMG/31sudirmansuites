@@ -50,7 +50,8 @@
 
                             <li class="nav-item col-6 p-0 tab-nav">
                                 <a class="nav-link nav-custom-box font-custom-tiempos-regular" data-toggle="tab" href="#about" role="tab">
-                                    ABOUT PRIVILEGE CARD
+                                    <span class="d-none d-md-block">ABOUT PRIVILEGE CARD</span>
+                                    <span class="d-block d-md-none">ABOUT<br/>PRIVILEGE CARD</span>
                                 </a>
                             </li>
                         </ul>
