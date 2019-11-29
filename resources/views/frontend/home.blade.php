@@ -586,11 +586,11 @@
         }
 
         .bg_popup{;
-            background-image: url('{{ asset('images/31ss/popup_home_2.jpg') }}');
+            background-image: url('{{ asset('images/31ss/popup_special_payment.jpg') }}');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
-            height: 570px;
+            height: 188px;
             width: 320px;
         }
 
@@ -650,13 +650,13 @@
 
         @media (min-width: 750px) {
             .modal-dialog {
-                max-width: 400px;
+                max-width: 700px;
                 margin: 30px auto;
             }
 
             .bg_popup{
-                height: 710px;
-                width: 400px;
+                height: 410px;
+                width: 700px;
             }
 
             .img-fluid{
