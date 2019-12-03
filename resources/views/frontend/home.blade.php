@@ -99,7 +99,7 @@
     </section> --}}
 
     <!-- DEAR FOUNDERS Section -->
-    <section class="my-5 py-5">
+    <section class="my-5 py-md-5 py-0 pt-5 pt-md-0">
         <div class="container">
             <!--  -->
             <div class="row justify-content-center">
@@ -114,6 +114,50 @@
                         to design the life of luxury you deserve in this city that you love.</span>
                 </div>
                 <div class="col-md-2"></div>
+            </div>
+        </div>
+    </section>
+    <section class="py-3 px-3 mb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-4 col-12 mb-3 mb-md-0">
+                    <div class="row mb-5">
+                        <div class="col-12 text-center text-md-left">
+                            <div class="pb-1">
+                                <span class="text-custom-light-brown font-italic t1-m-1" style="font-size: 30px;">Latest News</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-4 pl-5" id="list_latest_new">
+                        <ul>
+                            @foreach($news as $new)
+                                <li>
+                                    <div style="margin-top: -25px;">
+                                        <span class="pb-1 text-custom-light-brown font-custom-tiempos-medium">{{$new->created_at_front_end_formatted}}</span><br/>
+                                        <span>{{ $new->title }}</span><br/>
+                                        <a href="{{ route('frontend.news_detail', ['slug' => $new->slug]) }}" class="text-custom-light-brown font-custom-avenir-medium" style="text-decoration: underline;">
+                                            READ MORE
+                                        </a>
+                                    </div>
+                                </li>
+                            @endforeach
+                        </ul>
+                    </div>
+
+
+                </div>
+                <div class="col-md-6 col-12 text-center">
+                    {{--                    <div class="w-100" style="background-image: url('{{ asset('images/31ss/video.png') }}');--}}
+                    {{--                            background-repeat: no-repeat;--}}
+                    {{--                            background-position: center;--}}
+                    {{--                            background-size: contain;--}}
+                    {{--                            height: 200px;">--}}
+                    {{--                    </div>--}}
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="{{url('https://www.youtube.com/embed/zqlliAq4bmY')}}" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -354,7 +398,7 @@
         </div>
     </section>
 
-    <section class="mb-3 py-5 bg-custom-dark-blue d-none d-md-block">
+    <section class=" py-5 bg-custom-dark-blue d-none d-md-block">
         <div class="container-fluid">
             <div class="row mb-4">
                 <div class="col-12 text-center">
@@ -432,7 +476,7 @@
 
     {{-- By those mobile --}}
 
-    <section class="mb-3 py-5 bg-custom-dark-blue d-block d-md-none">
+    <section class=" py-5 bg-custom-dark-blue d-block d-md-none">
         <div class="container-fluid">
             <div class="row mb-4">
                 <div class="col-12 text-center">
@@ -497,50 +541,7 @@
         </div>
     </section>
 
-    <section class="py-3 px-3 mb-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-4 col-12 mb-3 mb-md-0">
-                    <div class="row mb-5">
-                        <div class="col-12 text-center text-md-left">
-                            <div class="pb-1">
-                                <span class="text-custom-light-brown font-italic t1-m-1" style="font-size: 30px;">Latest News</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mb-4 pl-5" id="list_latest_new">
-                        <ul>
-                            @foreach($news as $new)
-                                <li>
-                                    <div style="margin-top: -25px;">
-                                        <span class="pb-1 text-custom-light-brown font-custom-tiempos-medium">{{$new->created_at_front_end_formatted}}</span><br/>
-                                        <span>{{ $new->title }}</span><br/>
-                                        <a href="{{ route('frontend.news_detail', ['slug' => $new->slug]) }}" class="text-custom-light-brown font-custom-avenir-medium" style="text-decoration: underline;">
-                                            READ MORE
-                                        </a>
-                                    </div>
-                                </li>
-                            @endforeach
-                        </ul>
-                    </div>
 
-
-                </div>
-                <div class="col-md-6 col-12 text-center">
-{{--                    <div class="w-100" style="background-image: url('{{ asset('images/31ss/video.png') }}');--}}
-{{--                            background-repeat: no-repeat;--}}
-{{--                            background-position: center;--}}
-{{--                            background-size: contain;--}}
-{{--                            height: 200px;">--}}
-{{--                    </div>--}}
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="{{url('https://www.youtube.com/embed/zqlliAq4bmY')}}" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <div class="modal" id="first_modal">
         <div class="modal-dialog">
