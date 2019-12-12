@@ -32,6 +32,12 @@
     <!-- Content -->
     <section class="mb-5">
         <div class="container">
+{{--            <div class="row">--}}
+{{--                <div class="col-12">--}}
+{{--                    <iframe height="350px" width="100%" allowfullscreen="true"--}}
+{{--                            src="https://momento360.com/e/u/ab4dd23627394750aecb19901fc39076?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75"> </iframe>--}}
+{{--                </div>--}}
+{{--            </div>--}}
             <div class="row">
                 <div class="col-md-1 col-12">
 
@@ -616,98 +622,16 @@
 @section('scripts')
     <script type="text/javascript" src="https://www.youtube.com/iframe_api"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+{{--    <script src="http://storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>--}}
     <script>
 
-        $(document).ready(function() {
-            $(".slider-youtube iframe").each(function (idx) {
-                $(this).addClass("data-idx-" + idx).data("idx", idx);
-            });
+        {{--window.addEventListener('load', onVrViewLoad);--}}
 
-            function getPlayer (iframe, onPlayerReady, clonned) {
-                var $iframe = $(iframe);
-                if ($iframe.data((clonned ? "clonned-" : "") + "player")) {
-                    var isReady = $iframe.data((clonned ? "clonned-" : "") + "player-ready");
-                    if (isReady) {
-                        onPlayerReady && onPlayerReady($iframe.data((clonned ? "clonned-" : "") + "player"));
-                    }
-                    return player;
-                }
-                else {
-                    var player = new YT.Player($iframe.get(0), {
-                        events: {
-                            'onReady': function () {
-                                $iframe.data((clonned ? "clonned-" : "") + "player-ready", true);
-                                onPlayerReady && onPlayerReady(player);
-                            }
-                        }
-                    });
-                    $iframe.data((clonned ? "clonned-" : "") + "player", player);
-                    return player;
-                }
-            }
-
-            //on first load, play the video
-            $(".slider-youtube").on('init', function(event, slick, currentSlide) {
-                var currentSlide, player, command;
-                currentSlide = $(slick.$slider).find(".slick-current");
-                getPlayer(currentSlide.find("iframe"), function (player) {
-                    player.playVideo();
-                });
-            });
-
-            //when new slide displays, play the video
-            $(".slider-youtube").on("afterChange", function(event, slick) {
-                var currentSlide;
-                currentSlide = $(slick.$slider).find(".slick-current");
-                getPlayer(currentSlide.find("iframe"), function (player) {
-                    player.playVideo();
-                });
-            });
-
-            function updateClonnedFrames () {
-                frames = $(".slider-youtube").find(".slick-slide").not(".slick-cloned").find("iframe");
-                frames.each(function () {
-                    var frame = $(this);
-                    var idx = frame.data("idx");
-                    clonedFrames = $(".slider-youtube").find(".slick-cloned .data-idx-" + idx);
-                    console.log("clonedFrames", frame, idx, clonedFrames);
-                    clonedFrames.each(function () {
-                        var clonnedFrame = this;
-                        getPlayer(frame[0], function (player) {
-                            getPlayer(clonnedFrame, function (clonedPlayer) {
-                                console.log("clonnedPlayer", clonedPlayer);
-                                clonedPlayer.playVideo();
-                                clonedPlayer.seekTo(player.getCurrentTime(), true);
-                                setTimeout(function () {
-                                    clonedPlayer.pauseVideo();
-                                }, 0);
-                            }, true);
-                        });
-                    });
-                });
-            }
-
-            //reset iframe of non current slide
-            $(".slider-youtube").on('beforeChange', function(event, slick, currentSlide) {
-                var currentSlide, iframe, clonedFrame;
-                currentSlide = $(slick.$slider).find(".slick-current");
-                iframe = currentSlide.find("iframe");
-                getPlayer(iframe, function (player) {
-                    player.pauseVideo();
-                    updateClonnedFrames();
-                });
-            });
-
-            //start the slider
-            $('.slider-youtube').slick({
-                slidesToShow: 1,
-                arrows: false,
-                centerMode: true,
-                centerPadding: '50px',
-                infinite: true,
-                variableWidth: true
-            });
-        });
+        {{--function onVrViewLoad() {--}}
+        {{--    var vrView = new VRView.Player('#vrview', {--}}
+        {{--        image: '{{ asset('images/31ss/360/360_bathroom.jpg') }}'--}}
+        {{--    });--}}
+        {{--}--}}
 
         @for($i = 1; $i <= 16; $i++)
             $('#tenant{{ $i }}').on('show.bs.collapse', function () {
