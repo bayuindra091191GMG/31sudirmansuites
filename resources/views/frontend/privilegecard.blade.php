@@ -434,6 +434,27 @@
                         </div>
                         <div class="col-md-1 col-12"></div>
                     </div>
+                    <div class="row mt-5 mb-3 text-center">
+                        <div class="col-md-1 col-12"></div>
+                        <div class="col-md-10 col-12">
+                            <span class="font-custom-tiempos-regular" style="font-size: 18px; color: #c38b63;">TERMS & CONDITIONS</span><br/>
+                            <hr style="border-bottom: 1px solid #000; margin-top: 0.8rem;"/>
+                        </div>
+                        <div class="col-md-1 col-12"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10 col-12 text-center">
+                            <p class="font-custom-avenir-medium" style="line-height: 1.8rem;">
+                                Discount room valid on Deluxe rates based on availability — cash basis.<br/>
+                                Discount at Sunachi Harbour valid for min. transaction Rp 350.000 | max. Rp 1.500.000.<br/>
+                                Discount at Lontar Dining valid for F&B except alcohol.<br/>
+                                Card redemption only for 1 transaction of 1 name per day — No split bill.<br/>
+                                This program cannot be combined with other discounts & not valid on special events.<br/>
+                            </p>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
                 </div>
                 <div class="tab-pane fade show" id="about" role="tabpanel">
                     <div class="row">
