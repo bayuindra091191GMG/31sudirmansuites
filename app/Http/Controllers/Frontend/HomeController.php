@@ -47,6 +47,7 @@ class HomeController extends Controller
             '6281244923507',
             '6281807407308',
         ]);
+
         $randIndex = rand(0, 10);
         $randomNumber = $whatsappNoArr[$randIndex];
 
