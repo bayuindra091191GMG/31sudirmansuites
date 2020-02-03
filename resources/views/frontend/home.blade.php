@@ -542,6 +542,12 @@
     </section>
 
 
+{{--    <div>--}}
+{{--    <a href="#" class="float">--}}
+{{--            <img src="{{ asset('images/31ss/wa-logo-thumb.png') }}" alt="IMG" class="fa my-float w-100">--}}
+{{--    </a>--}}
+{{--    </div>--}}
+
 
     <div class="modal" id="first_modal">
         <div class="modal-dialog">
@@ -567,6 +573,23 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
     <style>
+        /*.float{*/
+        /*    position:fixed;*/
+        /*    width:60px;*/
+        /*    height:60px;*/
+        /*    bottom:40px;*/
+        /*    right:40px;*/
+        /*    !*background-color:#38b91e;*!*/
+        /*    color:#000;*/
+        /*    border-radius:50px;*/
+        /*    text-align:center;*/
+        /*    !*box-shadow: 2px 2px 3px #999;*!*/
+        /*    !*z-index: 99999999;*!*/
+        /*}*/
+
+        /*.my-float{*/
+        /*    margin-top:0 px;*/
+        /*}*/
 
         .modal-open .modal {
             display: flex!important;
