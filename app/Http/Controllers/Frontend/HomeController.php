@@ -34,29 +34,12 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $whatsappNoArr = ([
-            '628111737031',
-            '6281299414088',
-            '6281275683180',
-            '6281281944770',
-            '6285255323280',
-            '6285360926500',
-            '6281343982215',
-            '6282329777759',
-            '6281343854525',
-            '6281244923507',
-            '6281807407308',
-        ]);
-
-        $randIndex = rand(0, 10);
-        $randomNumber = $whatsappNoArr[$randIndex];
-
         $news = Blog::where('status_id', 4)
             ->orderBy('created_at', 'desc')
             ->take(2)
             ->get();
 
-        return view('frontend.home', compact('news', 'randomNumber'));
+        return view('frontend.home', compact('news'));
     }
 
     public function privilegecard()

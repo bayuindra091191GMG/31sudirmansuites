@@ -116,7 +116,8 @@
     </nav>
 
     <div>
-        <a href="#" class="float">
+{{--        <a href="#" class="float">--}}
+        <a href="https://wa.me/{{$randomNumber}}?text=Halo%2031Sudirman%20Suites%20Saya%20ingin%20bertanya." target="_blank" class="float">
             <img src="{{ asset('images/31ss/wa-logo-thumb.png') }}" alt="IMG" class="fa my-float w-100">
         </a>
     </div>

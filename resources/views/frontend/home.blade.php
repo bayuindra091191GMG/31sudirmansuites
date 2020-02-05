@@ -551,8 +551,8 @@
 
     <div class="modal" id="first_modal">
         <div class="modal-dialog">
-            {{--<a href="https://www.instagram.com/31sudirmansuites.official" target="_blank">--}}
-            <a href="https://wa.me/{{$randomNumber}}?text=Selamat%20Datang%20di%2031%20Sudirman%20Suites" target="_blank">
+            <a href="https://www.instagram.com/31sudirmansuites.official" target="_blank">
+{{--            <a href="https://wa.me/{{$randomNumber}}?text=Selamat%20Datang%20di%2031%20Sudirman%20Suites" target="_blank">--}}
                 <div class="modal-content bg_popup">
 
                     <!-- Modal Header -->
