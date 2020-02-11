@@ -47,6 +47,10 @@
                             <li>
                                 <a class="font-custom-tiempos-regular menu-font-style2 @if(Route::currentRouteName() == 'home') text-white @else text-black @endif" href="{{ route('frontend.contact_us') }}" >CONTACT US</a>
                             </li>
+
+                            <li>
+                                <a class="font-custom-tiempos-regular menu-font-style2 @if(Route::currentRouteName() == 'home') text-white @else text-black @endif" href="https://360.kunkun3dvr.com/sudirmansuites/" >VR UNIT TOUR </a>
+                            </li>
                         </ul>
 
                         <ul class="main-menu respon-sub-menu right" style="position: absolute; right: 8rem;">
@@ -110,6 +114,10 @@
 
                 <li>
                     <a class="font-custom-tiempos-regular text-white" href="{{ route('frontend.contact_us') }}">CONTACT US</a>
+                </li>
+
+                <li>
+                    <a class="font-custom-tiempos-regular text-white" href="https://360.kunkun3dvr.com/sudirmansuites/" >VR UNIT TOUR</a>
                 </li>
             </ul>
         </div>
