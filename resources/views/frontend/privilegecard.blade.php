@@ -316,6 +316,25 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="col-md-4">
+                                    <div class="d-flex w-100 tenant-image-container justify-content-center align-items-center">
+                                        <img src="{{ asset('images/31ss/privilegecard/31ss_tenant_kopi_soe.png') }}" class="tenant-responsive" style="height: 100px; width: auto;">
+                                    </div>
+                                    <div class="w-100 mb-3">
+                                        <a id="tenant_accordion_17" class="tenant-box font-custom-avenir-medium" data-toggle="collapse" href="#tenant17" role="button" aria-expanded="false" aria-controls="tenant1">
+                                            <span>See Privileges</span>
+                                            <img src="{{ asset('images/31ss/privilegecard/31ss_close.png') }}" style="display: none; margin: 0 auto;">
+                                        </a>
+                                    </div>
+                                    <div class="w-100">
+                                        <div class="collapse multi-collapse" id="tenant17">
+                                            <div class="text-dark">
+                                                10% Discount<br/>
+                                                Minimum purchase Rp 50.000,-
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-1 col-12"></div>
@@ -426,6 +445,60 @@
                                             <div class="text-dark">
                                                 10% Discount<br/>
                                                 For room rates from corporate rates (Rp 900.000,- | Cash Basis).
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-1 col-12"></div>
+                    </div>
+                    <div class="row mt-5 mb-3 text-center">
+                        <div class="col-md-1 col-12"></div>
+                        <div class="col-md-10 col-12">
+                            <span class="font-custom-tiempos-regular" style="font-size: 18px; color: #c38b63;">MISCELLANEOUS</span><br/>
+                            <hr style="border-bottom: 1px solid #000; margin-top: 0.8rem;"/>
+                        </div>
+                        <div class="col-md-1 col-12"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1 col-12"></div>
+                        <div class="col-md-10 col-12">
+                            <div class="row text-center">
+                                <div class="col-md-4">
+                                    <div class="d-flex w-100 tenant-image-container justify-content-center align-items-center">
+                                        <img src="{{ asset('images/31ss/privilegecard/31ss_tenant_polygon.png') }}" class="tenant-responsive" style="height: 100px; width: auto;">
+                                    </div>
+                                    <div class="w-100 mb-3">
+                                        <a id="tenant_accordion_18" class="tenant-box font-custom-avenir-medium" data-toggle="collapse" href="#tenant18" role="button" aria-expanded="false" aria-controls="tenant1">
+                                            <span>See Privileges</span>
+                                            <img src="{{ asset('images/31ss/privilegecard/31ss_close.png') }}" style="display: none; margin: 0 auto;">
+                                        </a>
+                                    </div>
+                                    <div class="w-100">
+                                        <div class="collapse multi-collapse" id="tenant18">
+                                            <div class="text-dark">
+                                                Get a voucher worth Rp 150.000,-<br/>
+                                                for minimum purchase of Rp 5.000.000,-
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="d-flex w-100 tenant-image-container justify-content-center align-items-center">
+                                        <img src="{{ asset('images/31ss/privilegecard/31ss_tenant_dunia_sepeda.png') }}" class="tenant-responsive" style="height: 100px; width: auto;">
+                                    </div>
+                                    <div class="w-100 mb-3">
+                                        <a id="tenant_accordion_19" class="tenant-box font-custom-avenir-medium" data-toggle="collapse" href="#tenant19" role="button" aria-expanded="false" aria-controls="tenant1">
+                                            <span>See Privileges</span>
+                                            <img src="{{ asset('images/31ss/privilegecard/31ss_close.png') }}" style="display: none; margin: 0 auto;">
+                                        </a>
+                                    </div>
+                                    <div class="w-100">
+                                        <div class="collapse multi-collapse" id="tenant19">
+                                            <div class="text-dark">
+                                                Get a voucher worth Rp 150.000,-<br/>
+                                                for minimum purchase of Rp 5.000.000,-
                                             </div>
                                         </div>
                                     </div>
