@@ -611,7 +611,7 @@
         }
 
         .bg_popup{;
-            background-image: url('{{ asset('images/31ss/popup_special_payment.jpg') }}');
+            background-image: url('{{ asset('images/31ss/popup_special_payment-2.jpg') }}');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -680,7 +680,7 @@
             }
 
             .bg_popup{
-                height: 410px;
+                height: 440px;
                 width: 700px;
             }
 
