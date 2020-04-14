@@ -601,7 +601,7 @@
             display: flex!important;
             align-items: center!important;
             flex-grow: 1;
-            max-width: 320px;
+            max-width: 220px;
             margin: 10px auto;
             overflow: visible;
         }
@@ -611,12 +611,12 @@
         }
 
         .bg_popup{;
-            background-image: url('{{ asset('images/31ss/popup_special_payment-2.jpg') }}');
+            background-image: url('{{ asset('images/31ss/popup_home_3.jpg') }}');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
-            height: 188px;
-            width: 320px;
+            height: 340px;
+            width: 215px;
         }
 
         .slick-prev:before,
@@ -675,13 +675,13 @@
 
         @media (min-width: 750px) {
             .modal-dialog {
-                max-width: 700px;
+                max-width: 380px;
                 margin: 30px auto;
             }
 
             .bg_popup{
-                height: 440px;
-                width: 700px;
+                height: 600px;
+                width: 380px;
             }
 
             .img-fluid{
