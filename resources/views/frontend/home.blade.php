@@ -611,7 +611,7 @@
         }
 
         .bg_popup{;
-            background-image: url('{{ asset('images/31ss/popup_home_3.jpg') }}');
+            background-image: url('{{ asset('images/31ss/popup_home_3_compressed.jpg') }}');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
