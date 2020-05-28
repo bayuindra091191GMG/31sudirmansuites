@@ -22,12 +22,12 @@
                             </li>
                             <li>
                                 <a class="font-custom-tiempos-regular menu-font-style2 @if(Route::currentRouteName() == 'home') text-white @else text-black @endif" href="{{ route('frontend.apartments') }}">APARTMENTS</a>
-                                {{-- <i class="fa fa-chevron-down"></i></a>
-                                <ul class="sub-menu" style="z-index:9999;">
-                                    <li><a href="{{ route('frontend.apartments.site') }}" class="font-custom-tiempos-light">Site Plan</a></li>
-                                    <li><a href="{{ route('frontend.apartments.floor') }}" class="font-custom-tiempos-light">Floor Plan</a></li>
-                                    <li><a href="{{ route('frontend.apartments.unit') }}" class="font-custom-tiempos-light">Unit Plan</a></li>
-                                </ul> --}}
+{{--                                 <i class="fa fa-chevron-down"></i></a>--}}
+{{--                                <ul class="sub-menu" style="z-index:9999;">--}}
+{{--                                    <li><a href="{{ route('frontend.apartments.site') }}" class="font-custom-tiempos-light">Site Plan</a></li>--}}
+{{--                                    <li><a href="{{ route('frontend.apartments.floor') }}" class="font-custom-tiempos-light">Floor Plan</a></li>--}}
+{{--                                    <li><a href="{{ route('frontend.apartments.unit') }}" class="font-custom-tiempos-light">Unit Plan</a></li>--}}
+{{--                                </ul> --}}
                             </li>
                             <li>
                                 <a class="font-custom-tiempos-regular menu-font-style2 @if(Route::currentRouteName() == 'home') text-white @else text-black @endif" href="{{ route('frontend.hotel') }}">HOTEL</a>
@@ -49,7 +49,12 @@
                             </li>
 
                             <li>
-                                <a class="font-custom-tiempos-regular menu-font-style2 @if(Route::currentRouteName() == 'home') text-white @else text-black @endif" href="https://360.kunkun3dvr.com/sudirmansuites/" >VR UNIT TOUR </a>
+                                <a class="font-custom-tiempos-regular menu-font-style2 @if(Route::currentRouteName() == 'home') text-white @else text-black @endif" href="https://360.kunkun3dvr.com/sudirmansuites/" >VR UNIT TOUR
+                                <i class="fa fa-chevron-down"></i></a>
+                                <ul class="sub-menu" style="z-index:9999;">
+                                    <li><a href="https://360.kunkun3dvr.com/sudirmansuites_privat_lift/" class="font-custom-tiempos-light">3 Bedroom Private Suites</a></li>
+                                    <li><a href="https://360.kunkun3dvr.com/sudirmansuites_paradisee/" class="font-custom-tiempos-light">2 Bedroom Suites</a></li>
+                                </ul>
                             </li>
                         </ul>
 
@@ -152,7 +157,7 @@
 
     @if(Route::currentRouteName() == 'home')
         .menu-desktop .main-menu .sub-menu li{
-            background-color: #000;
+            background-color: rgba(0,0,0,0.4);
         }
 
         .menu-desktop .main-menu .sub-menu li a {
@@ -165,6 +170,10 @@
 
         .menu-desktop .main-menu > li:hover > a {
             color: #fff;
+        }
+
+        .menu-desktop .sub-menu{
+            background-color: initial !important;
         }
     @else
         .menu-desktop .main-menu .sub-menu li{
