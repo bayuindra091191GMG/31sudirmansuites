@@ -49,9 +49,10 @@
                             </li>
 
                             <li>
-                                <a class="font-custom-tiempos-regular menu-font-style2 @if(Route::currentRouteName() == 'home') text-white @else text-black @endif" href="https://360.kunkun3dvr.com/sudirmansuites/" >VR UNIT TOUR
+                                <a class="font-custom-tiempos-regular menu-font-style2 @if(Route::currentRouteName() == 'home') text-white @else text-black @endif" href="#" >VR UNIT TOUR
                                 <i class="fa fa-chevron-down"></i></a>
                                 <ul class="sub-menu" style="z-index:9999;">
+                                    <li><a href="https://360.kunkun3dvr.com/sudirmansuites/" class="font-custom-tiempos-light">Family Suites</a></li>
                                     <li><a href="https://360.kunkun3dvr.com/sudirmansuites_privat_lift/" class="font-custom-tiempos-light">3 Bedroom Private Suites</a></li>
                                     <li><a href="https://360.kunkun3dvr.com/sudirmansuites_paradisee/" class="font-custom-tiempos-light">2 Bedroom Suites</a></li>
                                 </ul>
@@ -122,7 +123,12 @@
                 </li>
 
                 <li>
-                    <a class="font-custom-tiempos-regular text-white" href="https://360.kunkun3dvr.com/sudirmansuites/" >VR UNIT TOUR</a>
+                    <a class="font-custom-tiempos-regular text-white" href="#" >VR UNIT TOUR</a>
+                    <ul class="sub-menu" style="z-index:9999;">
+                        <li><a href="https://360.kunkun3dvr.com/sudirmansuites/" class="font-custom-tiempos-light">Family Suites</a></li>
+                        <li><a href="https://360.kunkun3dvr.com/sudirmansuites_privat_lift/" class="font-custom-tiempos-light">3 Bedroom Private Suites</a></li>
+                        <li><a href="https://360.kunkun3dvr.com/sudirmansuites_paradisee/" class="font-custom-tiempos-light">2 Bedroom Suites</a></li>
+                    </ul>
                 </li>
             </ul>
         </div>
