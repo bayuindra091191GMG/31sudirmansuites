@@ -611,12 +611,12 @@
         }
 
         .bg_popup{;
-            background-image: url('{{ asset('images/31ss/popup_home_3_compressed.jpg') }}');
+            background-image: url('{{ asset('images/31ss/popup_home_3.jpg') }}');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
-            height: 340px;
-            width: 215px;
+            height: 420px;
+            width: 360px;
         }
 
         .slick-prev:before,
@@ -680,8 +680,8 @@
             }
 
             .bg_popup{
-                height: 600px;
-                width: 380px;
+                height: 720px;
+                width: 480px;
             }
 
             .img-fluid{

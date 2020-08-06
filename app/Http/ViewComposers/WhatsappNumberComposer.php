@@ -43,7 +43,7 @@ class WhatsappNumberComposer
             '6281807407308',
         ]);
 
-        $randIndex = rand(0, 10);
+        $randIndex = rand(0, 8);
         $this->randomNumber = $whatsappNoArr[$randIndex];
     }
 
